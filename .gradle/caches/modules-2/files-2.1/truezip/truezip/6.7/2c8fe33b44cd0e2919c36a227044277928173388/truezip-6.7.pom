@@ -1,0 +1,8 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>truezip</groupId>
+	<artifactId>truezip</artifactId>
+	<version>6.7</version>
+
+	<!-- https://truezip.dev.java.net/servlets/ProjectDocumentList -->
+</project>
