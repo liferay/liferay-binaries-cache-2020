@@ -1,0 +1,1 @@
+# liferay-binaries-cache-2020
