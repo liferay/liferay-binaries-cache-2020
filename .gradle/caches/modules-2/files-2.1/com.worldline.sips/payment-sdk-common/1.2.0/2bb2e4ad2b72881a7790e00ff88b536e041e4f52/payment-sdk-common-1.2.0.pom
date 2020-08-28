@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.worldline.sips</groupId>
+  <artifactId>payment-sdk-common</artifactId>
+  <version>1.2.0</version>
+  <name>SIPS Payment SDK</name>
+  <description>This library simplifies the use of SIPS 2.0, the Worldline e-payments API</description>
+  <url>https://github.com/worldline/sips-sdk-java/</url>
+  <organization>
+    <name>Worldline</name>
+    <url>https://worldline.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Support SIPS Benelux</name>
+      <email>supportsips-benelux@wordline.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/worldline/sips-sdk-java.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:worldline/sips-sdk-java.git</developerConnection>
+    <url>https://github.com/worldline/sips-sdk-java</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/worldline/sips-sdk-java/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.13</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.9.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <version>2.9.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
