@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jodd",
+    "module": "jodd-json",
+    "version": "6.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "zn73k7gzpfdvhnewq5hrul7fhe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jodd",
+          "module": "jodd-util",
+          "version": {
+            "requires": "6.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jodd-json-6.0.3.jar",
+          "url": "jodd-json-6.0.3.jar",
+          "size": 91493,
+          "sha512": "f23dca098ef2a86e86f9c1f7c87532256f27605d90292487213c95b4c7368d766e3215c3d0366c11be3305e00dda35ac37006e10864ccfd93b88690d3c3c04e0",
+          "sha256": "1352f45dd7e9ed9e7f52a176245c2876cc1879ebee25cabf601b7695f0b90ab9",
+          "sha1": "b4dbb6d16ff6f640e6f21df5d8c488263763294b",
+          "md5": "2aa0e5b90e4e2aa27f0ed5091e6bce96"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jodd",
+          "module": "jodd-util",
+          "version": {
+            "requires": "6.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jodd-json-6.0.3.jar",
+          "url": "jodd-json-6.0.3.jar",
+          "size": 91493,
+          "sha512": "f23dca098ef2a86e86f9c1f7c87532256f27605d90292487213c95b4c7368d766e3215c3d0366c11be3305e00dda35ac37006e10864ccfd93b88690d3c3c04e0",
+          "sha256": "1352f45dd7e9ed9e7f52a176245c2876cc1879ebee25cabf601b7695f0b90ab9",
+          "sha1": "b4dbb6d16ff6f640e6f21df5d8c488263763294b",
+          "md5": "2aa0e5b90e4e2aa27f0ed5091e6bce96"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jodd-json-6.0.3-sources.jar",
+          "url": "jodd-json-6.0.3-sources.jar",
+          "size": 99462,
+          "sha512": "8ffd13a0d813fa4a49dc83a5866440ecca4394c7d6ef30baa0eb547afbb8027b8567fb3ed23665d5a88b7014d38dbf298a58de3c01b7f5e1bf7860c9a093fc62",
+          "sha256": "4c6e7b3ea77c82b74ae770c3370d6ac28ee00216c3a0f6368f7fd71c7123d405",
+          "sha1": "9cc7347fa2a663bfb1c3dc761093bd5b60548f37",
+          "md5": "65ef76c162c54b7bdea0f12a3079786d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jodd-json-6.0.3-javadoc.jar",
+          "url": "jodd-json-6.0.3-javadoc.jar",
+          "size": 611881,
+          "sha512": "ac5c61e7e41b0172b1ea2a2d38ba0c8f99e18e090a8d1d3c00ce42e1fca6f7ef35667d4d21752bf87c564419fd06150f27b62b1f609f1f4771179505225ab0a3",
+          "sha256": "f1560883b92908406f7c456a29602468fde9e5488eb47ff9355460049d1ec4ae",
+          "sha1": "5d0cbdce963053a7f5fe7ac54fe341dfdc7b9d80",
+          "md5": "167a9c4ada6087bbf149abd41f522af0"
+        }
+      ]
+    }
+  ]
+}

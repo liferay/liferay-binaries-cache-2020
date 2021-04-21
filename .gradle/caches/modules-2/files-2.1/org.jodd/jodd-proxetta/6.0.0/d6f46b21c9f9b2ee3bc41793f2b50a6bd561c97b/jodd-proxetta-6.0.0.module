@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jodd",
+    "module": "jodd-proxetta",
+    "version": "6.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.2",
+      "buildId": "sps6upv3ordi7pbjd5sibxdmyi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jodd",
+          "module": "jodd-util",
+          "version": {
+            "requires": "6.0.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jodd-proxetta-6.0.0.jar",
+          "url": "jodd-proxetta-6.0.0.jar",
+          "size": 250437,
+          "sha512": "656b22f66935cb26a3146a993700ee9abc9641475239fc20cb7e66e1f39ec3c9347a3cd0df52186b07563899f7e48ea75c43436ca13c8ea76d7083b99eb6e26f",
+          "sha256": "97f14dbc2aa3f3b9302582e48e0b7c3a4d453f00e011564378507b13f039896e",
+          "sha1": "964fffe515dc0de53f3a3ef41cc4f86871b0ff78",
+          "md5": "21d7ed491f342d9c8342f1cf7a14a58b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jodd",
+          "module": "jodd-util",
+          "version": {
+            "requires": "6.0.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jodd-proxetta-6.0.0.jar",
+          "url": "jodd-proxetta-6.0.0.jar",
+          "size": 250437,
+          "sha512": "656b22f66935cb26a3146a993700ee9abc9641475239fc20cb7e66e1f39ec3c9347a3cd0df52186b07563899f7e48ea75c43436ca13c8ea76d7083b99eb6e26f",
+          "sha256": "97f14dbc2aa3f3b9302582e48e0b7c3a4d453f00e011564378507b13f039896e",
+          "sha1": "964fffe515dc0de53f3a3ef41cc4f86871b0ff78",
+          "md5": "21d7ed491f342d9c8342f1cf7a14a58b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jodd-proxetta-6.0.0-sources.jar",
+          "url": "jodd-proxetta-6.0.0-sources.jar",
+          "size": 314380,
+          "sha512": "4c8ef6cffb82bef1bdaaa8c7e3d1a6b05c029ff7f956b07e373f565e49a06ffe5f7fb72f47fb84bf97b06e7b9f08a74d73f7228fbb502610425133bf9535efc4",
+          "sha256": "da892f2e51ea21d1cad8176aa158b3b71b8d1d0c19c6054825c95acc529ffa20",
+          "sha1": "957c21381c40b0cdeb62aad676ba350b7cd3e739",
+          "md5": "44bebcc6e5e44116b0e64ed5c23c559d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jodd-proxetta-6.0.0-javadoc.jar",
+          "url": "jodd-proxetta-6.0.0-javadoc.jar",
+          "size": 851709,
+          "sha512": "0aeac587ed4059b975b7298c4e0093f34743145341678e7a2e724c24133bbbecf7b293415e8f43923419fd04c82a02736739bbf6729a745349f471461ac7ba43",
+          "sha256": "f9c9de70c63a2a7389804d7fde1228108a64705f1731b285469fcc1704119ff3",
+          "sha1": "789c39fb6b6d7c4f9f02fe82928be90f6b4f0fa1",
+          "md5": "fa899f31a5f9deb550ef395162b8acf5"
+        }
+      ]
+    }
+  ]
+}

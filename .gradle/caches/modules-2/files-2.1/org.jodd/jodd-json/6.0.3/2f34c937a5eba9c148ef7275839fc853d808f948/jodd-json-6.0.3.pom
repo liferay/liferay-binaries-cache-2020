@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jodd</groupId>
+  <artifactId>jodd-json</artifactId>
+  <version>6.0.3</version>
+  <name>Jodd JSON</name>
+  <description>Jodd JSON</description>
+  <url>https://json.jodd.org</url>
+  <licenses>
+    <license>
+      <name>BSD-2-Clause</name>
+      <url>https://github.com/oblac/jodd-json/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>igor</id>
+      <name>Igor Spasić</name>
+      <email>igor@jodd.org</email>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/oblac/jodd-json.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/oblac/jodd-json.git</developerConnection>
+    <url>https://github.com/oblac/jodd-json.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jodd</groupId>
+      <artifactId>jodd-util</artifactId>
+      <version>6.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
