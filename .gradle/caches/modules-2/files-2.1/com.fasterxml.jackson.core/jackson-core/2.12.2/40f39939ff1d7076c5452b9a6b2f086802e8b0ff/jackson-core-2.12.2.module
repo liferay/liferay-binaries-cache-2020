@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.core",
+    "module": "jackson-core",
+    "version": "2.12.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.12.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-core-2.12.2.jar",
+          "url": "jackson-core-2.12.2.jar",
+          "size": 365219,
+          "sha512": "4815cd65a44ac49e486c0aef639c3ee55b7d939b78bf6409a762f9d476279d9015d4b89b4a9d3a906b5e2cf512c9094c6450b7e1f03404e94d36fe2db287ea2c",
+          "sha256": "7883331763729b72735fdd8a117f32eb7d22695babfb37cc99df8392c196efc3",
+          "sha1": "8df50138521d05561a308ec2799cc8dda20c06df",
+          "md5": "d9c1faa07f50abade5c796de00c4b23c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.12.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-core-2.12.2.jar",
+          "url": "jackson-core-2.12.2.jar",
+          "size": 365219,
+          "sha512": "4815cd65a44ac49e486c0aef639c3ee55b7d939b78bf6409a762f9d476279d9015d4b89b4a9d3a906b5e2cf512c9094c6450b7e1f03404e94d36fe2db287ea2c",
+          "sha256": "7883331763729b72735fdd8a117f32eb7d22695babfb37cc99df8392c196efc3",
+          "sha1": "8df50138521d05561a308ec2799cc8dda20c06df",
+          "md5": "d9c1faa07f50abade5c796de00c4b23c"
+        }
+      ]
+    }
+  ]
+}
