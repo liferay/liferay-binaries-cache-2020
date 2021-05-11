@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.worldline.sips",
+    "module": "payment-sdk-common",
+    "version": "1.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "64yc44p3hfemtga3qu6zgub24y"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.12.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.12.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "payment-sdk-common-1.4.1.jar",
+          "url": "payment-sdk-common-1.4.1.jar",
+          "size": 56247,
+          "sha512": "afe4ada02e0017ceceff593e5fe1c82c7543d6e04be44a3362f71cf9892f92ad928456b5f84415fff1596b02d5b02811493c61a97c88e05a49133d2631421344",
+          "sha256": "9cf5cb8452b540258cc38ce1d2c8563165fb3ce6219a3dc3d8503205d26fb23c",
+          "sha1": "3986af15384f58ad007583928df8edf56a6232b0",
+          "md5": "cd16fbe29faa1f39226671c4627dc51b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.12.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.12.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "payment-sdk-common-1.4.1.jar",
+          "url": "payment-sdk-common-1.4.1.jar",
+          "size": 56247,
+          "sha512": "afe4ada02e0017ceceff593e5fe1c82c7543d6e04be44a3362f71cf9892f92ad928456b5f84415fff1596b02d5b02811493c61a97c88e05a49133d2631421344",
+          "sha256": "9cf5cb8452b540258cc38ce1d2c8563165fb3ce6219a3dc3d8503205d26fb23c",
+          "sha1": "3986af15384f58ad007583928df8edf56a6232b0",
+          "md5": "cd16fbe29faa1f39226671c4627dc51b"
+        }
+      ]
+    }
+  ]
+}

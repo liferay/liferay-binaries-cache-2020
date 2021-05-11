@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.worldline.sips</groupId>
+  <artifactId>payment-sdk-common</artifactId>
+  <version>1.4.1</version>
+  <name>SIPS Payment SDK</name>
+  <description>This library simplifies the use of SIPS 2.0, the Worldline e-payments API</description>
+  <url>https://github.com/worldline/sips-sdk-java/</url>
+  <organization>
+    <name>Worldline</name>
+    <url>https://worldline.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Support SIPS Benelux</name>
+      <email>supportsips-benelux@wordline.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/worldline/sips-sdk-java.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:worldline/sips-sdk-java.git</developerConnection>
+    <url>https://github.com/worldline/sips-sdk-java</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/worldline/sips-sdk-java/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.15</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.12.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <version>2.12.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.11</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
