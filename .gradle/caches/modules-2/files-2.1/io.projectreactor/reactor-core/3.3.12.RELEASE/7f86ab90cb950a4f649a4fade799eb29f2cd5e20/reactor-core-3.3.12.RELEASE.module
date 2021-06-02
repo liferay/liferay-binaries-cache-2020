@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.projectreactor",
+    "module": "reactor-core",
+    "version": "3.3.12.RELEASE",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "jhyghdv655cezdo6ikwn6uabzq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.reactivestreams",
+          "module": "reactive-streams",
+          "version": {
+            "requires": "1.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reactor-core-3.3.12.RELEASE.jar",
+          "url": "reactor-core-3.3.12.RELEASE.jar",
+          "size": 1568771,
+          "sha512": "7f2a039a709f61b874290d4215a72f871cea9c185c35adcf68b3ebaaa5867a4d6a6023d6649999318c3fb0daadfa0122666c269ae93b65fd843165110e644991",
+          "sha256": "a07e38f69d85b1cffccbfeef236bf1d42376d56c03914d23265c28bfdfe4c041",
+          "sha1": "2d47ac718129a3c400dd8cc33d0a6ffc940712fb",
+          "md5": "dde3bfc5bdf30c79a409b477e608eeba"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.reactivestreams",
+          "module": "reactive-streams",
+          "version": {
+            "requires": "1.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reactor-core-3.3.12.RELEASE.jar",
+          "url": "reactor-core-3.3.12.RELEASE.jar",
+          "size": 1568771,
+          "sha512": "7f2a039a709f61b874290d4215a72f871cea9c185c35adcf68b3ebaaa5867a4d6a6023d6649999318c3fb0daadfa0122666c269ae93b65fd843165110e644991",
+          "sha256": "a07e38f69d85b1cffccbfeef236bf1d42376d56c03914d23265c28bfdfe4c041",
+          "sha1": "2d47ac718129a3c400dd8cc33d0a6ffc940712fb",
+          "md5": "dde3bfc5bdf30c79a409b477e608eeba"
+        }
+      ]
+    }
+  ]
+}
