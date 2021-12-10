@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>net.sf.okapi</groupId>
+    <artifactId>build-okapi</artifactId>
+    <version>1.42.0</version>
+  </parent>
+  <groupId>net.sf.okapi.lib</groupId>
+  <artifactId>build-libraries</artifactId>
+  <packaging>pom</packaging>
+  <name>Okapi Libraries Build</name>
+  <modules>
+    <module>lib-segmentation</module>
+    <module>lib-translation</module>
+    <module>lib-search</module>
+    <module>lib-verification</module>
+    <module>lib-terminology</module>
+    <module>lib-preprocessing</module>
+    <module>lib-reporting</module>
+    <module>lib-transifex</module>
+    <module>lib-merge</module>
+    <module>lib-xliff2</module>
+  </modules>
+</project>

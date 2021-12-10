@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>net.sf.okapi</groupId>
+    <artifactId>build-okapi-superpom</artifactId>
+    <version>1.42.0</version>
+    <relativePath>../superpom/pom.xml</relativePath>
+  </parent>
+
+  <artifactId>build-okapi</artifactId>
+  <packaging>pom</packaging>
+  <name>Okapi Build</name>
+
+  <modules>
+    <module>deployment/logbind-logback</module>
+    <module>core</module>
+    <module>filters</module>
+    <module>libraries</module>
+    <module>tm</module>
+    <module>connectors</module>
+    <module>steps</module>
+    <module>deployment/okapi-framework-sdk</module>
+    <module>examples/java</module>
+  </modules>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.tngtech.java</groupId>
+      <artifactId>junit-dataprovider</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.okapi.logbind</groupId>
+      <artifactId>build-logback</artifactId>
+      <version>${project.version}</version>
+      <scope>test</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.helger.maven</groupId>
+        <artifactId>ph-javacc-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>
