@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.datatype",
+    "module": "jackson-datatype-jsr310",
+    "version": "2.13.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.13.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-datatype-jsr310-2.13.2.jar",
+          "url": "jackson-datatype-jsr310-2.13.2.jar",
+          "size": 119765,
+          "sha512": "9acb6344c17c02dcc94cde7dc3658f379f744dd38005c723fac5b8f045270b6907568328672a0fad3c54fac075df322196088dfdf55b972995884298ad7b324f",
+          "sha256": "b517e7818c03f3015825112e3e96c929cc1cdffad3b6adb9999993050634ece8",
+          "sha1": "1ed1fc334c9ae32a773772cb69282ff44d457f90",
+          "md5": "5820e455160c00f14eaea699fd85ee0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.13.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-datatype-jsr310-2.13.2.jar",
+          "url": "jackson-datatype-jsr310-2.13.2.jar",
+          "size": 119765,
+          "sha512": "9acb6344c17c02dcc94cde7dc3658f379f744dd38005c723fac5b8f045270b6907568328672a0fad3c54fac075df322196088dfdf55b972995884298ad7b324f",
+          "sha256": "b517e7818c03f3015825112e3e96c929cc1cdffad3b6adb9999993050634ece8",
+          "sha1": "1ed1fc334c9ae32a773772cb69282ff44d457f90",
+          "md5": "5820e455160c00f14eaea699fd85ee0"
+        }
+      ]
+    }
+  ]
+}

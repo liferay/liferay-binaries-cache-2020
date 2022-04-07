@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.core",
+    "module": "jackson-annotations",
+    "version": "2.13.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.13.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-annotations-2.13.2.jar",
+          "url": "jackson-annotations-2.13.2.jar",
+          "size": 75717,
+          "sha512": "8da374687872fe37a0948e6f1b506ae7ad05c75006105c944182b3db8ce676f32794517953eb28beeba100e1ad8a059fd00164b43a19b026d3bf1b9743b5968b",
+          "sha256": "7d3df5aafa2dc61ad1dbad30f411548c0184ed92d94628c63168721f08237cd4",
+          "sha1": "ec18851f1976d5b810ae1a5fcc32520d2d38f77a",
+          "md5": "2352a291fc39d23cfe5c100728de1ea7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.13.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-annotations-2.13.2.jar",
+          "url": "jackson-annotations-2.13.2.jar",
+          "size": 75717,
+          "sha512": "8da374687872fe37a0948e6f1b506ae7ad05c75006105c944182b3db8ce676f32794517953eb28beeba100e1ad8a059fd00164b43a19b026d3bf1b9743b5968b",
+          "sha256": "7d3df5aafa2dc61ad1dbad30f411548c0184ed92d94628c63168721f08237cd4",
+          "sha1": "ec18851f1976d5b810ae1a5fcc32520d2d38f77a",
+          "md5": "2352a291fc39d23cfe5c100728de1ea7"
+        }
+      ]
+    }
+  ]
+}
