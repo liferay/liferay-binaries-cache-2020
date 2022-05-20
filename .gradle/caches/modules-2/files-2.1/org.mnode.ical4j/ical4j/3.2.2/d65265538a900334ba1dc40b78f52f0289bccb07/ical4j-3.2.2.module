@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.mnode.ical4j",
+    "module": "ical4j",
+    "version": "3.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "wmnevjghnncgfcpyyavqgnvple"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.4"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "javax.mail",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ical4j-3.2.2.jar",
+          "url": "ical4j-3.2.2.jar",
+          "size": 1602439,
+          "sha512": "487ec7e4d9a6b0fe4e75a6c89d51bda26ec01535ab4d0e65724364f205ba9700d4bed1e5848d7e820238ba400e7b574690715c1b64ceddb1af7244ff8c6c68d7",
+          "sha256": "77f26a2ac99cd8b59430b4284cee7ade518e5d9ba8edf5cef379394dc776df02",
+          "sha1": "e0c90d4610246cfa30e2caa661d26e0a3acba92a",
+          "md5": "a5e712b7d86b1b4924842a06e8c58767"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.cache",
+          "module": "cache-api",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threeten-extra",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jparsec",
+          "module": "jparsec",
+          "version": {
+            "requires": "3.1"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.10"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-dateutil",
+          "version": {
+            "requires": "3.0.10"
+          }
+        },
+        {
+          "group": "com.github.erosb",
+          "module": "everit-json-schema",
+          "version": {
+            "requires": "1.14.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.4"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "javax.mail",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ical4j-3.2.2.jar",
+          "url": "ical4j-3.2.2.jar",
+          "size": 1602439,
+          "sha512": "487ec7e4d9a6b0fe4e75a6c89d51bda26ec01535ab4d0e65724364f205ba9700d4bed1e5848d7e820238ba400e7b574690715c1b64ceddb1af7244ff8c6c68d7",
+          "sha256": "77f26a2ac99cd8b59430b4284cee7ade518e5d9ba8edf5cef379394dc776df02",
+          "sha1": "e0c90d4610246cfa30e2caa661d26e0a3acba92a",
+          "md5": "a5e712b7d86b1b4924842a06e8c58767"
+        }
+      ]
+    }
+  ]
+}
