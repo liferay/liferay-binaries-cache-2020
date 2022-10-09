@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.graphql-java",
+    "module": "graphql-java-annotations",
+    "version": "9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "su5hi2zrgjb7tlhqe3kr5bc2dq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "javax.validation",
+          "module": "validation-api",
+          "version": {
+            "requires": "1.1.0.Final"
+          }
+        },
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java",
+          "version": {
+            "requires": "17.2"
+          }
+        },
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java-extended-scalars",
+          "version": {
+            "requires": "17.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphql-java-annotations-9.1.jar",
+          "url": "graphql-java-annotations-9.1.jar",
+          "size": 177758,
+          "sha512": "6b0079d27039507dcc96a1146ee3964173292a5ec62ce20dccd9bab8c0bad0ff1bf656fe8e2906910f39c5af25a8c00eb3a66a281125712c08342f78f2858d16",
+          "sha256": "d1ce378de06ff9cd7e4d27b5a40061a21700a393e893c01b700d510ebb7ebe8a",
+          "sha1": "5ff0dfa4b06bde32dc9933ec049b9cddd5dd37b9",
+          "md5": "65bab3cfa00f19a6ddda049bb1afc62c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.validation",
+          "module": "validation-api",
+          "version": {
+            "requires": "1.1.0.Final"
+          }
+        },
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java",
+          "version": {
+            "requires": "17.2"
+          }
+        },
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java-extended-scalars",
+          "version": {
+            "requires": "17.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphql-java-annotations-9.1.jar",
+          "url": "graphql-java-annotations-9.1.jar",
+          "size": 177758,
+          "sha512": "6b0079d27039507dcc96a1146ee3964173292a5ec62ce20dccd9bab8c0bad0ff1bf656fe8e2906910f39c5af25a8c00eb3a66a281125712c08342f78f2858d16",
+          "sha256": "d1ce378de06ff9cd7e4d27b5a40061a21700a393e893c01b700d510ebb7ebe8a",
+          "sha1": "5ff0dfa4b06bde32dc9933ec049b9cddd5dd37b9",
+          "md5": "65bab3cfa00f19a6ddda049bb1afc62c"
+        }
+      ]
+    }
+  ]
+}

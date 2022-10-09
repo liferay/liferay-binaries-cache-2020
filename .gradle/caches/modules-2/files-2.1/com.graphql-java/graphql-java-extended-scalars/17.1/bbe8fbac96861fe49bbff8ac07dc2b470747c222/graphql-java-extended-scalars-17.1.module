@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.graphql-java",
+    "module": "graphql-java-extended-scalars",
+    "version": "17.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ufiueb4au5acfl43m3kdytqdiq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java",
+          "version": {
+            "requires": "17.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphql-java-extended-scalars-17.1.jar",
+          "url": "graphql-java-extended-scalars-17.1.jar",
+          "size": 55631,
+          "sha512": "dbda21267fec4c9361e514d9e9af15b0c6dd652bf82553286b612d28e1728d2607ce1c3cf755f397f3fdcc18b47e5e2ba48e31569c37c2f48125784be4e9bf1f",
+          "sha256": "59a9ce905328cfdb2e914eb5b1f7f6d5b709fdce27a71e99feb794b52bb134c2",
+          "sha1": "605da2d5a99c0f7bd4696d048fe475cd1a4c74b0",
+          "md5": "997e24c7e2bf2efb8bdf25f90c44865e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java",
+          "version": {
+            "requires": "17.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphql-java-extended-scalars-17.1.jar",
+          "url": "graphql-java-extended-scalars-17.1.jar",
+          "size": 55631,
+          "sha512": "dbda21267fec4c9361e514d9e9af15b0c6dd652bf82553286b612d28e1728d2607ce1c3cf755f397f3fdcc18b47e5e2ba48e31569c37c2f48125784be4e9bf1f",
+          "sha256": "59a9ce905328cfdb2e914eb5b1f7f6d5b709fdce27a71e99feb794b52bb134c2",
+          "sha1": "605da2d5a99c0f7bd4696d048fe475cd1a4c74b0",
+          "md5": "997e24c7e2bf2efb8bdf25f90c44865e"
+        }
+      ]
+    }
+  ]
+}

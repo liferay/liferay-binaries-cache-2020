@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.graphql-java",
+    "module": "graphql-java",
+    "version": "17.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.graphql-java",
+          "module": "java-dataloader",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.reactivestreams",
+          "module": "reactive-streams",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphql-java-17.4.jar",
+          "url": "graphql-java-17.4.jar",
+          "size": 2783103,
+          "sha512": "83151c8b2f0b884a4f748e51bceec60d3f207d06c467a89156afa4988112cbbb4daff4e7222aadeb9628880a97c654093589786d20fd9e0b83774001e0034ce1",
+          "sha256": "b78046640fcaa31ce6ed9c4cdc22ab4253524b126ebdba0c307179d3321dd2a6",
+          "sha1": "297609dcb6043cccf95fa29234c1d8a18c332081",
+          "md5": "d9a94f773ed52beb65403050db8297c8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.antlr",
+          "module": "antlr4-runtime",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.0-jre"
+          }
+        },
+        {
+          "group": "com.graphql-java",
+          "module": "java-dataloader",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.reactivestreams",
+          "module": "reactive-streams",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphql-java-17.4.jar",
+          "url": "graphql-java-17.4.jar",
+          "size": 2783103,
+          "sha512": "83151c8b2f0b884a4f748e51bceec60d3f207d06c467a89156afa4988112cbbb4daff4e7222aadeb9628880a97c654093589786d20fd9e0b83774001e0034ce1",
+          "sha256": "b78046640fcaa31ce6ed9c4cdc22ab4253524b126ebdba0c307179d3321dd2a6",
+          "sha1": "297609dcb6043cccf95fa29234c1d8a18c332081",
+          "md5": "d9a94f773ed52beb65403050db8297c8"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphql-java-17.4.jar",
+          "url": "graphql-java-17.4.jar",
+          "size": 2783103,
+          "sha512": "83151c8b2f0b884a4f748e51bceec60d3f207d06c467a89156afa4988112cbbb4daff4e7222aadeb9628880a97c654093589786d20fd9e0b83774001e0034ce1",
+          "sha256": "b78046640fcaa31ce6ed9c4cdc22ab4253524b126ebdba0c307179d3321dd2a6",
+          "sha1": "297609dcb6043cccf95fa29234c1d8a18c332081",
+          "md5": "d9a94f773ed52beb65403050db8297c8"
+        }
+      ]
+    }
+  ]
+}

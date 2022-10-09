@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.graphql-java-kickstart",
+    "module": "graphql-java-kickstart",
+    "version": "12.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java",
+          "version": {
+            "requires": "17.3"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.12.5"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.12.5"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.12.5"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jdk8",
+          "version": {
+            "requires": "2.12.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphql-java-kickstart-12.0.0.jar",
+          "url": "graphql-java-kickstart-12.0.0.jar",
+          "size": 110306,
+          "sha512": "f49b7627a6798cdd2dd708eafb5ac427dcc57ec6bc782838473c7e8fcf4e6fdeed42fac9782b14a8728141135c936d3d31401f984ed1c59a36c0dc83d7d4d954",
+          "sha256": "b2f0c628f1c7bee3d6df6bf449555d8763b86e5465d9b586a9bf9e1e477f871f",
+          "sha1": "3ec36100ee5703ed978a0844e397abe4a5f61e8c",
+          "md5": "549d2bae41ca62cb2ab7e0ff84c29a02"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java",
+          "version": {
+            "requires": "17.3"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.12.5"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.12.5"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.12.5"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jdk8",
+          "version": {
+            "requires": "2.12.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphql-java-kickstart-12.0.0.jar",
+          "url": "graphql-java-kickstart-12.0.0.jar",
+          "size": 110306,
+          "sha512": "f49b7627a6798cdd2dd708eafb5ac427dcc57ec6bc782838473c7e8fcf4e6fdeed42fac9782b14a8728141135c936d3d31401f984ed1c59a36c0dc83d7d4d954",
+          "sha256": "b2f0c628f1c7bee3d6df6bf449555d8763b86e5465d9b586a9bf9e1e477f871f",
+          "sha1": "3ec36100ee5703ed978a0844e397abe4a5f61e8c",
+          "md5": "549d2bae41ca62cb2ab7e0ff84c29a02"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphql-java-kickstart-12.0.0-sources.jar",
+          "url": "graphql-java-kickstart-12.0.0-sources.jar",
+          "size": 55311,
+          "sha512": "a002489a9016c389f77bd4d1d4350c1b98e028f53885286ada663c788c5d06bbfc80e49e5a4e3acb165e87254ac788677d1cb0cab435d89941b11da83d73b453",
+          "sha256": "914970faf31f5d0c9ed3587c9666c583981c9f576198fc1a6e24e91188d7043a",
+          "sha1": "e76755fc609ab61265ade1f30908611b9159e983",
+          "md5": "5f47791694ca2b2e62c331c8c578c287"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphql-java-kickstart-12.0.0-javadoc.jar",
+          "url": "graphql-java-kickstart-12.0.0-javadoc.jar",
+          "size": 238671,
+          "sha512": "b10038a49649ca6867dde25ba22df1d1ba31457c1da8e88d8bd1c4c9bb4cae494b20d4505e1b64e1228bf1f7500f1e3f7fda7604bfec34d8d2ecee0cbb369ae2",
+          "sha256": "89114f966be6b46c92f6e120f1193b7f5c08a31d3821bc3a988064b724785dc3",
+          "sha1": "3b15b088945ad4c4eba2724b135136adafdc98be",
+          "md5": "823f9dd0a21bd56f2ace08ec1e72ddbe"
+        }
+      ]
+    }
+  ]
+}
