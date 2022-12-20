@@ -1,0 +1,316 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.api",
+    "module": "gax-httpjson",
+    "version": "0.104.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.api",
+          "module": "gax",
+          "version": {
+            "requires": "2.19.5"
+          }
+        },
+        {
+          "group": "com.google.api",
+          "module": "api-common",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "com.google.api.grpc",
+          "module": "proto-google-common-protos",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.google.auth",
+          "module": "google-auth-library-credentials",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          }
+        },
+        {
+          "group": "com.google.http-client",
+          "module": "google-http-client",
+          "version": {
+            "requires": "1.42.3"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.21.9"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gax-httpjson-0.104.5.jar",
+          "url": "gax-httpjson-0.104.5.jar",
+          "size": 150271,
+          "sha512": "f65c9893e5eb6bee6b062f0657a3f4292c2a42d70b27cebd61a42416342855cbb9aa3250d59edc86a76ee25f23cb6ff51a8c16b53d4efefe1783f57cc62dc029",
+          "sha256": "dd9a76e86ec6dd42491dd85652d93b946d709bec73a4e2da634f862cfbdd8e23",
+          "sha1": "b058013d68216d4937d7de6f02b7ee44bcf8d6bd",
+          "md5": "8e8c50661b74767e1c74000a60b02582"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.auth",
+          "module": "google-auth-library-oauth2-http",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.http-client",
+          "module": "google-http-client-gson",
+          "version": {
+            "requires": "1.42.3"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java-util",
+          "version": {
+            "requires": "3.21.9"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.api",
+          "module": "gax",
+          "version": {
+            "requires": "2.19.5"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.api",
+          "module": "api-common",
+          "version": {
+            "requires": "2.2.2"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.api.grpc",
+          "module": "proto-google-common-protos",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.auth",
+          "module": "google-auth-library-credentials",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.http-client",
+          "module": "google-http-client",
+          "version": {
+            "requires": "1.42.3"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.21.9"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava-jdk5"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "gax-httpjson-0.104.5.jar",
+          "url": "gax-httpjson-0.104.5.jar",
+          "size": 150271,
+          "sha512": "f65c9893e5eb6bee6b062f0657a3f4292c2a42d70b27cebd61a42416342855cbb9aa3250d59edc86a76ee25f23cb6ff51a8c16b53d4efefe1783f57cc62dc029",
+          "sha256": "dd9a76e86ec6dd42491dd85652d93b946d709bec73a4e2da634f862cfbdd8e23",
+          "sha1": "b058013d68216d4937d7de6f02b7ee44bcf8d6bd",
+          "md5": "8e8c50661b74767e1c74000a60b02582"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gax-httpjson-0.104.5-guavashaded.jar",
+          "url": "gax-httpjson-0.104.5-guavashaded.jar",
+          "size": 3510976,
+          "sha512": "f63bf33a97343faae7bf8b0914285a30df094ff92aa84385f2dab25ea830513b2c802380712a0fc4073c29bb4f1bd38224f2aa487c1b86c2283fa5da3f38f8a1",
+          "sha256": "aab9a59783b7ac7adfbbf0874ae132b0aa959aa2109efed10d1b84f3e2f5abd1",
+          "sha1": "8e4dea6ba8a552c5b6221441c3fc11c7b6d304ce",
+          "md5": "06c043090520f97140775afa50baf07a"
+        }
+      ]
+    }
+  ]
+}
