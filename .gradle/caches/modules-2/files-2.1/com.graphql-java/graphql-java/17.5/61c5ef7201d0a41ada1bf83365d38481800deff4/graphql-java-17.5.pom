@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.graphql-java</groupId>
+  <artifactId>graphql-java</artifactId>
+  <version>17.5</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.graphql-java</groupId>
+      <artifactId>java-dataloader</artifactId>
+      <version>3.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.reactivestreams</groupId>
+      <artifactId>reactive-streams</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.antlr</groupId>
+      <artifactId>antlr4-runtime</artifactId>
+      <version>4.9.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.30</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>graphql-java</name>
+  <description>GraphqL Java</description>
+  <url>https://github.com/graphql-java/graphql-java</url>
+  <scm>
+    <url>https://github.com/graphql-java/graphql-java</url>
+    <connection>https://github.com/graphql-java/graphql-java</connection>
+    <developerConnection>https://github.com/graphql-java/graphql-java</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/graphql-java/graphql-java/blob/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>andimarek</id>
+      <name>Andreas Marek</name>
+    </developer>
+  </developers>
+</project>
