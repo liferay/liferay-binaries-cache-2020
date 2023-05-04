@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-semconv",
+    "version": "1.19.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.19.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-semconv-1.19.0-alpha.jar",
+          "url": "opentelemetry-semconv-1.19.0-alpha.jar",
+          "size": 32067,
+          "sha512": "1d6964af032b4bf8ac324a010c31d2dedca339a9043ca69985f958ae15a5d5e85eb68c5d892ae2ea917990216f476656b5ca735423b4922fc2b672c3461c89a7",
+          "sha256": "2219a5478855d6e8aa3fe203dec01cbe8c34a5928ddd2c15e58e4b47b7ff5909",
+          "sha1": "82f96bb99718c204a7775de298aabde2f6bffd2e",
+          "md5": "8afd981c338e8ffc448f7d58b5c9f6d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.19.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-semconv-1.19.0-alpha.jar",
+          "url": "opentelemetry-semconv-1.19.0-alpha.jar",
+          "size": 32067,
+          "sha512": "1d6964af032b4bf8ac324a010c31d2dedca339a9043ca69985f958ae15a5d5e85eb68c5d892ae2ea917990216f476656b5ca735423b4922fc2b672c3461c89a7",
+          "sha256": "2219a5478855d6e8aa3fe203dec01cbe8c34a5928ddd2c15e58e4b47b7ff5909",
+          "sha1": "82f96bb99718c204a7775de298aabde2f6bffd2e",
+          "md5": "8afd981c338e8ffc448f7d58b5c9f6d0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-semconv-1.19.0-alpha-javadoc.jar",
+          "url": "opentelemetry-semconv-1.19.0-alpha-javadoc.jar",
+          "size": 251818,
+          "sha512": "be329eebc2cfa35b4674f84fbe92d40a0d27fa74841653d548aaf7152c1032b2780c0c7fb77beed1380e3868a0468ad4db52a0f2c287749347279d4b50c475f4",
+          "sha256": "088f45c74d97f30e29235c09c33199ef5bee8c32ed3f6dd25fdfc0de74036d54",
+          "sha1": "a6ca8c9375d4765764662301e9ff2c7f3658811a",
+          "md5": "0d0593d104f9fdce6466a725f5c90a64"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-semconv-1.19.0-alpha-sources.jar",
+          "url": "opentelemetry-semconv-1.19.0-alpha-sources.jar",
+          "size": 24580,
+          "sha512": "924bcb8144c2d977719e8d42a3c4490b4aa653454edde3c06d56830a26ef72bc05620856f8c1b982fdcd333dd80feeb438a5972b480a35a029b3ee277c488b95",
+          "sha256": "732c440339853264d1a358b70d7240d2d3ecef854a37b8eb047a374dc62cb496",
+          "sha1": "70634af044a4fd5fcc2affc15e932158420ce0bf",
+          "md5": "ae8bab14062b168aa476f81375f74a82"
+        }
+      ]
+    }
+  ]
+}

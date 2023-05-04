@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-extension-autoconfigure",
+    "version": "1.19.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-metrics",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-logs",
+          "version": {
+            "requires": "1.19.0-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-extension-autoconfigure-spi",
+          "version": {
+            "requires": "1.19.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar",
+          "url": "opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar",
+          "size": 51937,
+          "sha512": "131d9cc147caf336a31a1d1bc15872580dae1857cac58ad531d0a66f71cb87192b74528fdf646af8be2c31d11aa7dcfec2ca35f633369922bfea37ad6ee14dd5",
+          "sha256": "437c5c1685f7b4324e140251adaf45332be7c773183a717dc1869c48274c22a9",
+          "sha1": "be91893255e90e0214dea41e830ad94d063f3e3a",
+          "md5": "027fa5d11356f7944ccd428756416812"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-semconv",
+          "version": {
+            "requires": "1.19.0-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-exporter-common",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-metrics",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-logs",
+          "version": {
+            "requires": "1.19.0-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-extension-autoconfigure-spi",
+          "version": {
+            "requires": "1.19.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar",
+          "url": "opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar",
+          "size": 51937,
+          "sha512": "131d9cc147caf336a31a1d1bc15872580dae1857cac58ad531d0a66f71cb87192b74528fdf646af8be2c31d11aa7dcfec2ca35f633369922bfea37ad6ee14dd5",
+          "sha256": "437c5c1685f7b4324e140251adaf45332be7c773183a717dc1869c48274c22a9",
+          "sha1": "be91893255e90e0214dea41e830ad94d063f3e3a",
+          "md5": "027fa5d11356f7944ccd428756416812"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha-javadoc.jar",
+          "url": "opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha-javadoc.jar",
+          "size": 124450,
+          "sha512": "80ad7ab67ae43fd9d91350911f9037ccc3ba475d989f74b2508f1eb36e280eb43128fe98099f2c4dc7c12223dd7b7a051fb04d359d59f3e03224f161fa455a60",
+          "sha256": "2c0b2243bee0b1a48da47f4973faaea0153b0a417a2a9594c068489c75d09f99",
+          "sha1": "3db593c611ad79fcadda6e38f0ef40a1492fd122",
+          "md5": "6e6c86b7635df4178787abecf4a12855"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha-sources.jar",
+          "url": "opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha-sources.jar",
+          "size": 24507,
+          "sha512": "cf436481b6649ebe5ac8320ff6a6d08c6292b5a2846c2c366de0aff6543f2c985ea6a4c0b85bda6b57d8d28173c7512722e6e9dd45050c00a6dda9153845a56c",
+          "sha256": "4ebe61cbd4d1710c656fb9706de94202f023719159790aeb8255b83babb921b9",
+          "sha1": "e27b1fc06f04bf9203ee76b4a484e9bcc94a15d1",
+          "md5": "e82c8ddf828f5cfee08744c32f631bbb"
+        }
+      ]
+    }
+  ]
+}
