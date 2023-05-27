@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.paypal.sdk</groupId>
+  <artifactId>checkout-sdk</artifactId>
+  <version>2.0.0</version>
+  <name>checkout-sdk</name>
+  <description>PayPal SDK for integrating with the Checkout REST APIs</description>
+  <url>https://github.com/paypal/Checkout-Java-SDK.git</url>
+  <licenses>
+    <license>
+      <name>PayPal SDK License</name>
+      <url>https://github.com/paypal/Checkout-Java-SDK/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>DL-PP-JAVA-SDK</id>
+      <name>DL-PP-JAVA-SDK</name>
+      <email>dl-paypal-checkout-api@paypal.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/paypal/Checkout-Java-SDK.git</connection>
+    <url>https://github.com/paypal/Checkout-Java-SDK.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.paypal</groupId>
+      <artifactId>paypalhttp</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.9.13.6</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.tomakehurst</groupId>
+      <artifactId>wiremock</artifactId>
+      <version>2.4.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
