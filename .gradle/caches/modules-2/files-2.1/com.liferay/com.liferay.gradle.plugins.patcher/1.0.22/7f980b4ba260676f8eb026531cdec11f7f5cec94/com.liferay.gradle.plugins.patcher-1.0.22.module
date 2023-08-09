@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.patcher",
+    "version": "1.0.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.patcher-1.0.22.jar",
+          "url": "com.liferay.gradle.plugins.patcher-1.0.22.jar",
+          "size": 26641,
+          "sha512": "fff3ed8d08281a00e303f373505fbe8caec86e0b5072b9490f2327a33eb3db0351832eae4ff30ea6ee3b3531729342eb21d8ffde57dd1545c72661e276de08a2",
+          "sha256": "25c094b285208f855672903fe3459b48730af2e402db55657dc93d82396a047f",
+          "sha1": "b3666c9294fbe2760208a6592d45151afd819054",
+          "md5": "2438b489efc15378f9f7dc1c6c52ae1d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.patcher-1.0.22.jar",
+          "url": "com.liferay.gradle.plugins.patcher-1.0.22.jar",
+          "size": 26641,
+          "sha512": "fff3ed8d08281a00e303f373505fbe8caec86e0b5072b9490f2327a33eb3db0351832eae4ff30ea6ee3b3531729342eb21d8ffde57dd1545c72661e276de08a2",
+          "sha256": "25c094b285208f855672903fe3459b48730af2e402db55657dc93d82396a047f",
+          "sha1": "b3666c9294fbe2760208a6592d45151afd819054",
+          "md5": "2438b489efc15378f9f7dc1c6c52ae1d"
+        }
+      ]
+    }
+  ]
+}

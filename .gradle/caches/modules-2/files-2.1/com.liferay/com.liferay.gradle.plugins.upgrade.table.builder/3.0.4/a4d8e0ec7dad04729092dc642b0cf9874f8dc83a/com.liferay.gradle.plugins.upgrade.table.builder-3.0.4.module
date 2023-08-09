@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.upgrade.table.builder",
+    "version": "3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.upgrade.table.builder-3.0.4.jar",
+          "url": "com.liferay.gradle.plugins.upgrade.table.builder-3.0.4.jar",
+          "size": 11402,
+          "sha512": "61f469373a5b5f187322b54edae5986be2637b5b6b4fa17fc6bcce0f3bb1f8f6f4ff0b412f55a9046420d33b0f311f94da3d129dc276b22cf4264c9817993017",
+          "sha256": "aa607e877ecce55b461b1e37623e5bbca08137283990eabc7ade454b9e86afe9",
+          "sha1": "dfc292ccd213996c8217b5cd46b667a16868544d",
+          "md5": "1fe8d6529729759913e8a6c0d17fc64b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.upgrade.table.builder-3.0.4.jar",
+          "url": "com.liferay.gradle.plugins.upgrade.table.builder-3.0.4.jar",
+          "size": 11402,
+          "sha512": "61f469373a5b5f187322b54edae5986be2637b5b6b4fa17fc6bcce0f3bb1f8f6f4ff0b412f55a9046420d33b0f311f94da3d129dc276b22cf4264c9817993017",
+          "sha256": "aa607e877ecce55b461b1e37623e5bbca08137283990eabc7ade454b9e86afe9",
+          "sha1": "dfc292ccd213996c8217b5cd46b667a16868544d",
+          "md5": "1fe8d6529729759913e8a6c0d17fc64b"
+        }
+      ]
+    }
+  ]
+}

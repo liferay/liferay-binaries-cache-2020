@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.change.log.builder",
+    "version": "1.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "4.1.1.201511131810-r"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.change.log.builder-1.1.6.jar",
+          "url": "com.liferay.gradle.plugins.change.log.builder-1.1.6.jar",
+          "size": 19558,
+          "sha512": "75e4e47599d45b6ef981b63723d44113ed0a77cef320004eb7540b45efeeaaa4d3c7ec04cd04779b2218b202afd49ae3be58ba8fa7f546f82d0a10d06f8a292c",
+          "sha256": "76695b62c3a0deb704c38cfd04107c247445bcfcda171cbe514212cd60d615ef",
+          "sha1": "ee4afa20af625071b191b5737abf8c864de7d87a",
+          "md5": "0a2c4dc6997b9ec9e6be2c3c3f7ef5d5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "4.1.1.201511131810-r"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.change.log.builder-1.1.6.jar",
+          "url": "com.liferay.gradle.plugins.change.log.builder-1.1.6.jar",
+          "size": 19558,
+          "sha512": "75e4e47599d45b6ef981b63723d44113ed0a77cef320004eb7540b45efeeaaa4d3c7ec04cd04779b2218b202afd49ae3be58ba8fa7f546f82d0a10d06f8a292c",
+          "sha256": "76695b62c3a0deb704c38cfd04107c247445bcfcda171cbe514212cd60d615ef",
+          "sha1": "ee4afa20af625071b191b5737abf8c864de7d87a",
+          "md5": "0a2c4dc6997b9ec9e6be2c3c3f7ef5d5"
+        }
+      ]
+    }
+  ]
+}

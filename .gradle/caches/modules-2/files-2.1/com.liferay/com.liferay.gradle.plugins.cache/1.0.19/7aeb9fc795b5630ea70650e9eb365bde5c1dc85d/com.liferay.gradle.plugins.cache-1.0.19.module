@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.cache",
+    "version": "1.0.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.cache-1.0.19.jar",
+          "url": "com.liferay.gradle.plugins.cache-1.0.19.jar",
+          "size": 27624,
+          "sha512": "c9d86a9f97e55aab6efb4864b7a551091a82b0c4c7d6113b7467c4d9d5a71a5c43646fe365a569d67e4d7e50645643f33f5bdfef1d7ee57f7a64afd3aeb7064d",
+          "sha256": "675652cd47e1d4be32459c93d4bbe107ba0364800aec08e2d77c953fcc298010",
+          "sha1": "84034599e05173e8e811ef3f195ab0c65bb6b76f",
+          "md5": "02834bf8e79cb2104cc9e2df4d7f4708"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.cache-1.0.19.jar",
+          "url": "com.liferay.gradle.plugins.cache-1.0.19.jar",
+          "size": 27624,
+          "sha512": "c9d86a9f97e55aab6efb4864b7a551091a82b0c4c7d6113b7467c4d9d5a71a5c43646fe365a569d67e4d7e50645643f33f5bdfef1d7ee57f7a64afd3aeb7064d",
+          "sha256": "675652cd47e1d4be32459c93d4bbe107ba0364800aec08e2d77c953fcc298010",
+          "sha1": "84034599e05173e8e811ef3f195ab0c65bb6b76f",
+          "md5": "02834bf8e79cb2104cc9e2df4d7f4708"
+        }
+      ]
+    }
+  ]
+}

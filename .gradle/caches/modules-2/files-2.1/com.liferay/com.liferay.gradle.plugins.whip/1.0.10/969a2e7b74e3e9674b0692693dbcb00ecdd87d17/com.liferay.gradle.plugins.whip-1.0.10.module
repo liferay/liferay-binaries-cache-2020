@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.whip",
+    "version": "1.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.whip-1.0.10.jar",
+          "url": "com.liferay.gradle.plugins.whip-1.0.10.jar",
+          "size": 13361,
+          "sha512": "5ae55e8760d13ed7dd1c0a4bb3788ff0fd4fd01b22ec52dae89d446a63c9a9e32e6f7e2ce53149d41cdca42252c7091ae3b0e851ef983b7703ecfb73e081afbe",
+          "sha256": "d9c92ddb80d6f76c81a1aa86cace0dc0a9ce408d784ec2d793df0fb402e11be2",
+          "sha1": "e5984f9ff36900311676c61b9d583171295a45d3",
+          "md5": "044160fbb86a728fc4d6b109a7f8bfdf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.whip-1.0.10.jar",
+          "url": "com.liferay.gradle.plugins.whip-1.0.10.jar",
+          "size": 13361,
+          "sha512": "5ae55e8760d13ed7dd1c0a4bb3788ff0fd4fd01b22ec52dae89d446a63c9a9e32e6f7e2ce53149d41cdca42252c7091ae3b0e851ef983b7703ecfb73e081afbe",
+          "sha256": "d9c92ddb80d6f76c81a1aa86cace0dc0a9ce408d784ec2d793df0fb402e11be2",
+          "sha1": "e5984f9ff36900311676c61b9d583171295a45d3",
+          "md5": "044160fbb86a728fc4d6b109a7f8bfdf"
+        }
+      ]
+    }
+  ]
+}

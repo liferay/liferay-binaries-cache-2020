@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.alloy.taglib",
+    "version": "2.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.alloy.taglib-2.0.6.jar",
+          "url": "com.liferay.gradle.plugins.alloy.taglib-2.0.6.jar",
+          "size": 12839,
+          "sha512": "15ed26c2d69e78ee53ec466eb26111fe4d960b1b89df1346af96b1c1cd97f945c968de3fc9d696e2f92faef9b588ac550bc9bf7588ddf12c6361322caa2ef47a",
+          "sha256": "1d116c40dc3858fa2b76b85d93cb2b580102b8b6dfee53fe496d47812330cdb0",
+          "sha1": "808eec5fb9405eaa9cbe4ca1e99a4400f515e720",
+          "md5": "8ec802f93818b10d182e91b2ca88ff46"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.alloy.taglib-2.0.6.jar",
+          "url": "com.liferay.gradle.plugins.alloy.taglib-2.0.6.jar",
+          "size": 12839,
+          "sha512": "15ed26c2d69e78ee53ec466eb26111fe4d960b1b89df1346af96b1c1cd97f945c968de3fc9d696e2f92faef9b588ac550bc9bf7588ddf12c6361322caa2ef47a",
+          "sha256": "1d116c40dc3858fa2b76b85d93cb2b580102b8b6dfee53fe496d47812330cdb0",
+          "sha1": "808eec5fb9405eaa9cbe4ca1e99a4400f515e720",
+          "md5": "8ec802f93818b10d182e91b2ca88ff46"
+        }
+      ]
+    }
+  ]
+}

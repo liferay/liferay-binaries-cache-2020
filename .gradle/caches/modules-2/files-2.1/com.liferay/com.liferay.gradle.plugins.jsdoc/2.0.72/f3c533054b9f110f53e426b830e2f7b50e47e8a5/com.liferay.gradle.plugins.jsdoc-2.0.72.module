@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.jsdoc",
+    "version": "2.0.72",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.node",
+          "version": {
+            "requires": "8.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.jsdoc-2.0.72.jar",
+          "url": "com.liferay.gradle.plugins.jsdoc-2.0.72.jar",
+          "size": 21229,
+          "sha512": "4d3309ba859dcdf10c520fec745ba8e276f76947142de9280c4524cecdc832c1e62d7d7ae5a70099517ba034d3486dcdf23feb9a0f847805cda21b24edc725cf",
+          "sha256": "0056d4523fcf62660f371462730819e1966cf13a9d6dac9256013ff57caf0730",
+          "sha1": "49543198993c36c633eafe7a5871c76759d5a50e",
+          "md5": "394b2edd699d0a50a904bcc2739d8f0c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.node",
+          "version": {
+            "requires": "8.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.jsdoc-2.0.72.jar",
+          "url": "com.liferay.gradle.plugins.jsdoc-2.0.72.jar",
+          "size": 21229,
+          "sha512": "4d3309ba859dcdf10c520fec745ba8e276f76947142de9280c4524cecdc832c1e62d7d7ae5a70099517ba034d3486dcdf23feb9a0f847805cda21b24edc725cf",
+          "sha256": "0056d4523fcf62660f371462730819e1966cf13a9d6dac9256013ff57caf0730",
+          "sha1": "49543198993c36c633eafe7a5871c76759d5a50e",
+          "md5": "394b2edd699d0a50a904bcc2739d8f0c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ysb33r.gradle</groupId>
+  <artifactId>grolifant40</artifactId>
+  <version>1.2.0</version>
+  <name>grolifant40</name>
+  <description>Building blocks which are key to writing various kinds of Gradle plugins, but which are not easily obtainable from Gradle core itself</description>
+  <url>https://ysb33rorg.gilab.io/grolifant</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ysb33r</id>
+      <name>Schalk Cronjé</name>
+      <email>ysb33r@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://gitlab.com/ysb33rOrg/grolifant.git</connection>
+    <developerConnection>scm:git:ssh://gitlab.com/ysb33rOrg/grolifant.git</developerConnection>
+    <url>https://gitlab.com/ysb33rOrg/grolifant</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.ysb33r.gradle</groupId>
+      <artifactId>grolifant-core</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.tukaani</groupId>
+      <artifactId>xz</artifactId>
+      <version>1.6</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

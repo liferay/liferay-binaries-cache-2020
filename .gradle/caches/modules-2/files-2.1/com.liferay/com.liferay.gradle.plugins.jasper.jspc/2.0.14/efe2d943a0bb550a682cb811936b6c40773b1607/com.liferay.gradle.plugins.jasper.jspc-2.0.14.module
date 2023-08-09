@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.jasper.jspc",
+    "version": "2.0.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.portal.servlet.jsp.compiler",
+          "version": {
+            "requires": "1.0.5"
+          },
+          "excludes": [
+            {
+              "group": "javax.servlet.jsp",
+              "module": "jsp-api"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "*"
+            },
+            {
+              "group": "com.liferay.portal",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.jasper.jspc-2.0.14.jar",
+          "url": "com.liferay.gradle.plugins.jasper.jspc-2.0.14.jar",
+          "size": 13510,
+          "sha512": "af1234049381bf5c6cc637818d386c30359e7194afc41c8d8724ef8c6a3172f1e8d205ad008bb0a431c54b77b51d4d572d5c03c0dede4d261aff8f2619d26e94",
+          "sha256": "ea50a9c5dbca1ee1343e2619abbe4bb5c682f4514092d426efc6209104f295f1",
+          "sha1": "5a6739ba908370adadfa9ceefc571de9e826fd93",
+          "md5": "0ccf6366827ca7ca742343c9af48d678"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.portal.servlet.jsp.compiler",
+          "version": {
+            "requires": "1.0.5"
+          },
+          "excludes": [
+            {
+              "group": "javax.servlet.jsp",
+              "module": "jsp-api"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "*"
+            },
+            {
+              "group": "com.liferay.portal",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.jasper.jspc-2.0.14.jar",
+          "url": "com.liferay.gradle.plugins.jasper.jspc-2.0.14.jar",
+          "size": 13510,
+          "sha512": "af1234049381bf5c6cc637818d386c30359e7194afc41c8d8724ef8c6a3172f1e8d205ad008bb0a431c54b77b51d4d572d5c03c0dede4d261aff8f2619d26e94",
+          "sha256": "ea50a9c5dbca1ee1343e2619abbe4bb5c682f4514092d426efc6209104f295f1",
+          "sha1": "5a6739ba908370adadfa9ceefc571de9e826fd93",
+          "md5": "0ccf6366827ca7ca742343c9af48d678"
+        }
+      ]
+    }
+  ]
+}

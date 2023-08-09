@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.undercouch",
+    "module": "gradle-download-task",
+    "version": "5.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-download-task-5.4.0.jar",
+          "url": "gradle-download-task-5.4.0.jar",
+          "size": 2172896,
+          "sha512": "30592d3b560343a8027e33b65ae3549cea515aabec27ab6bcdeb7c2ed61aab7e57f398498aecbb1e06c0c16540cfb8a12aed9b864c088a29d0c5cf200c199b58",
+          "sha256": "26c54dbb3c0b9ef2134a9a9a9ce702eaaca36ec1549c1dcd255bf94a246a8e54",
+          "sha1": "3187bf3900dd15991de20b47bd3041106016595b",
+          "md5": "207756586f7413aa59995e6ab156ed73"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-download-task-5.4.0-javadoc.jar",
+          "url": "gradle-download-task-5.4.0-javadoc.jar",
+          "size": 128005,
+          "sha512": "34e555fcb29c9acbc4b750f231330f37a0cae59f837e563aa217256ab8660a0ecc4ec7905b7e847dba9016c71aea40bdce30817e1d4c1add8676f2b46838b01f",
+          "sha256": "e6e6b8a74018fa5f65176ab656a8751eb85f3eefd79a7b48766f23acb3eaca0d",
+          "sha1": "f22b1f7825e4682207f670ac85b7d28d21e6eccc",
+          "md5": "8cb0429ee6df19389d1aa6dc24b16e15"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-download-task-5.4.0-sources.jar",
+          "url": "gradle-download-task-5.4.0-sources.jar",
+          "size": 41349,
+          "sha512": "3c1496595a0a3336aed44d12be5c9a1595d8d310fd5289aa7a9d0b2c0369636f0f88baf22e898b4e1369b8e9e1d0c50593a786116920d8f0b255fc096c9c6deb",
+          "sha256": "71adb434d3c10505f2ef903d98950b0ac2985b1daae1707a22df804ee47d887a",
+          "sha1": "6bec118858d7842c592a796360c89d70d7718b3c",
+          "md5": "1d3ce89e5b34dd18fa7af4a503ac671b"
+        }
+      ]
+    }
+  ]
+}

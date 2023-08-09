@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.app.javadoc.builder",
+    "version": "1.2.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.app.javadoc.builder-1.2.5.jar",
+          "url": "com.liferay.gradle.plugins.app.javadoc.builder-1.2.5.jar",
+          "size": 15934,
+          "sha512": "f0185540938222cab3bf40f9432a1bd4849e55df14cb78a8d60e7b24492cbd0bf1f0d130f918c9b32524b90ee728e40ffe13110f49b20220c0e6059dd3fdd05d",
+          "sha256": "fd7f8337ef255d43e30289520be30fd4564965e0312b0360f5ffd42e66085780",
+          "sha1": "3c30bf4c86eb12ef70a8958fb7ca266ab67cd018",
+          "md5": "619f7628dd838a05913dbce893e38e45"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.app.javadoc.builder-1.2.5.jar",
+          "url": "com.liferay.gradle.plugins.app.javadoc.builder-1.2.5.jar",
+          "size": 15934,
+          "sha512": "f0185540938222cab3bf40f9432a1bd4849e55df14cb78a8d60e7b24492cbd0bf1f0d130f918c9b32524b90ee728e40ffe13110f49b20220c0e6059dd3fdd05d",
+          "sha256": "fd7f8337ef255d43e30289520be30fd4564965e0312b0360f5ffd42e66085780",
+          "sha1": "3c30bf4c86eb12ef70a8958fb7ca266ab67cd018",
+          "md5": "619f7628dd838a05913dbce893e38e45"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.python",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        },
+        {
+          "group": "com.pswidersk",
+          "module": "python-gradle-plugin",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.python-1.0.2.jar",
+          "url": "com.liferay.gradle.plugins.python-1.0.2.jar",
+          "size": 8874,
+          "sha512": "902cb772bcbd6b730e92433c44c6c95a81b717e1e748ad862b4a57a0de8ca31fb45b6d05e3e6e9c8b81ae2ad30678fcbe108f4ad504c4699981222ece1641d89",
+          "sha256": "5d5d4906684d5a1515b5a21ad4ed62c253f1f7440c79be82ec56c51af132d754",
+          "sha1": "f2772f0e79e71c6946a4dac8aeb25fabe3e459d9",
+          "md5": "6a6f08408ba0df3d115fc96fd7f300c9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        },
+        {
+          "group": "com.pswidersk",
+          "module": "python-gradle-plugin",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.python-1.0.2.jar",
+          "url": "com.liferay.gradle.plugins.python-1.0.2.jar",
+          "size": 8874,
+          "sha512": "902cb772bcbd6b730e92433c44c6c95a81b717e1e748ad862b4a57a0de8ca31fb45b6d05e3e6e9c8b81ae2ad30678fcbe108f4ad504c4699981222ece1641d89",
+          "sha256": "5d5d4906684d5a1515b5a21ad4ed62c253f1f7440c79be82ec56c51af132d754",
+          "sha1": "f2772f0e79e71c6946a4dac8aeb25fabe3e459d9",
+          "md5": "6a6f08408ba0df3d115fc96fd7f300c9"
+        }
+      ]
+    }
+  ]
+}
