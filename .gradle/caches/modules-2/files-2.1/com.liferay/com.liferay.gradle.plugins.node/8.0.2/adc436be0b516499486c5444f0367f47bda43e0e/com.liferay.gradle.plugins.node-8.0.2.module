@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.node",
+    "version": "8.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.node-8.0.2.jar",
+          "url": "com.liferay.gradle.plugins.node-8.0.2.jar",
+          "size": 117932,
+          "sha512": "bd131687c95e1b6117743fca81d544e6092c3d0a74cd817a65315f221c88a7e2c83eada3a5987e9e3db096627b571737305de4a6089b15e26f80e5cac5b342b1",
+          "sha256": "12e383124c5164d013830c879a9966bbb067993e2adee9cd95348f6396a4ad21",
+          "sha1": "a1908034d9f8b9643986fc7d88363e0bb88dc3d6",
+          "md5": "5b0b8ce1fa09ef0fdc2a3ebc10e48a13"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.node-8.0.2.jar",
+          "url": "com.liferay.gradle.plugins.node-8.0.2.jar",
+          "size": 117932,
+          "sha512": "bd131687c95e1b6117743fca81d544e6092c3d0a74cd817a65315f221c88a7e2c83eada3a5987e9e3db096627b571737305de4a6089b15e26f80e5cac5b342b1",
+          "sha256": "12e383124c5164d013830c879a9966bbb067993e2adee9cd95348f6396a4ad21",
+          "sha1": "a1908034d9f8b9643986fc7d88363e0bb88dc3d6",
+          "md5": "5b0b8ce1fa09ef0fdc2a3ebc10e48a13"
+        }
+      ]
+    }
+  ]
+}
