@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.github.librepdf</groupId>
+        <artifactId>openpdf-parent</artifactId>
+        <version>1.3.11</version>
+    </parent>
+
+    <artifactId>openpdf</artifactId>
+
+    <properties>
+        <java-module-name>com.github.librepdf.openpdf</java-module-name>
+        <bouncycastle.version>1.63</bouncycastle.version>
+        <juniversalchardet.version>2.3.0</juniversalchardet.version>
+        <imageio-tiff.version>3.4.2</imageio-tiff.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.albfernandez</groupId>
+            <artifactId>juniversalchardet</artifactId>
+            <version>${juniversalchardet.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcpkix-jdk15on</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs</artifactId>
+            <version>${spotbugs.version}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>com.twelvemonkeys.imageio</groupId>
+            <artifactId>imageio-tiff</artifactId>
+            <version>${imageio-tiff.version}</version>
+            <optional>true</optional>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <resource>
+                <directory>src/main/resources-filtered</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <configuration>
+                    <!-- unpack bundle, so humans can see the manifest without unpacking the jar -->
+                    <unpackBundle>true</unpackBundle>
+                    <instructions>
+                        <!-- All com.lowagie.text.* packages are 'public' -->
+                        <Export-Package>com.lowagie.text.*;version="${project.version}"</Export-Package>
+                        <!-- Declare the Bouncycastle dependencies as optional -->
+                        <Import-Package>org.bouncycastle.*;resolution:=optional,!com.lowagie.*,*</Import-Package>
+                    </instructions>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
