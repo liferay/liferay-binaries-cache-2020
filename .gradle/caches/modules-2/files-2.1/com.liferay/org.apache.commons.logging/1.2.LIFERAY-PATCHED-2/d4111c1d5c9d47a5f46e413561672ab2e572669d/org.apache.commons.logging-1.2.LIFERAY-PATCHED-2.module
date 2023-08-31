@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.apache.commons.logging",
+    "version": "1.2.LIFERAY-PATCHED-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-2.jar",
+          "url": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-2.jar",
+          "size": 63770,
+          "sha512": "f04d15d0abc7d6dfb01f4a6ca65f3b6387788e5facbd56eb5452188177c620688032f8eca66a25cc46833c88c7f137a953531030355d8aa2111dc98bca76cbbb",
+          "sha256": "171f61deec01d718924eb2122e56f1f74a68ee7bcd0ab1835ecd43aca4da80c5",
+          "sha1": "741702ac474e904078f5c138fcd207ba51d563ae",
+          "md5": "200f457d2ad58e59e6b4c36d10b6493b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-2.jar",
+          "url": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-2.jar",
+          "size": 63770,
+          "sha512": "f04d15d0abc7d6dfb01f4a6ca65f3b6387788e5facbd56eb5452188177c620688032f8eca66a25cc46833c88c7f137a953531030355d8aa2111dc98bca76cbbb",
+          "sha256": "171f61deec01d718924eb2122e56f1f74a68ee7bcd0ab1835ecd43aca4da80c5",
+          "sha1": "741702ac474e904078f5c138fcd207ba51d563ae",
+          "md5": "200f457d2ad58e59e6b4c36d10b6493b"
+        }
+      ]
+    }
+  ]
+}
