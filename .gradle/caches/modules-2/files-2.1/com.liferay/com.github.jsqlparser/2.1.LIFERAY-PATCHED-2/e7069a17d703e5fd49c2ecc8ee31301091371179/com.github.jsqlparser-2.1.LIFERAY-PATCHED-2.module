@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.github.jsqlparser",
+    "version": "2.1.LIFERAY-PATCHED-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "com.github.jsqlparser-2.1.LIFERAY-PATCHED-2.jar",
+          "url": "com.github.jsqlparser-2.1.LIFERAY-PATCHED-2.jar",
+          "size": 465998,
+          "sha512": "76c35212f278e1cc189dc019d3c754e13a0826beaf32dfa9f0afc551140265dd38a056e12949d060dae3a56baa79b0a34a305e53f3458563d17fe7262d86d5db",
+          "sha256": "eff073f1c57f8a53e94d3771a889b1effb78fe9dac4fd60f291bca77bb36ec22",
+          "sha1": "d5e5d88d327202f6c6fe101825047ee5810aa58d",
+          "md5": "3284ed6c227bfd118fc9c044fc881953"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "com.github.jsqlparser-2.1.LIFERAY-PATCHED-2.jar",
+          "url": "com.github.jsqlparser-2.1.LIFERAY-PATCHED-2.jar",
+          "size": 465998,
+          "sha512": "76c35212f278e1cc189dc019d3c754e13a0826beaf32dfa9f0afc551140265dd38a056e12949d060dae3a56baa79b0a34a305e53f3458563d17fe7262d86d5db",
+          "sha256": "eff073f1c57f8a53e94d3771a889b1effb78fe9dac4fd60f291bca77bb36ec22",
+          "sha1": "d5e5d88d327202f6c6fe101825047ee5810aa58d",
+          "md5": "3284ed6c227bfd118fc9c044fc881953"
+        }
+      ]
+    }
+  ]
+}
