@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.poshi.runner",
+    "version": "4.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.jayway.jsonpath",
+          "module": "json-path",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.poshi.runner-4.0.6.jar",
+          "url": "com.liferay.gradle.plugins.poshi.runner-4.0.6.jar",
+          "size": 51499,
+          "sha512": "8568e479d356e92867c67c26fc67bde89ad509577eba521e3e1d57d270551fa33311dff97817323f19f5a35e10417134cfea6495d7c8b66a3cf77f36de02d804",
+          "sha256": "b4e78462d50cc661421a2a96eec1599ec573193c36676acca579e65ed100e340",
+          "sha1": "0a6449e11ae424dbfccdc27ff6f97f1caae3a574",
+          "md5": "2c5b6cdb8a644b37ac8f1227d900d37e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.jayway.jsonpath",
+          "module": "json-path",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.48"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.poshi.runner-4.0.6.jar",
+          "url": "com.liferay.gradle.plugins.poshi.runner-4.0.6.jar",
+          "size": 51499,
+          "sha512": "8568e479d356e92867c67c26fc67bde89ad509577eba521e3e1d57d270551fa33311dff97817323f19f5a35e10417134cfea6495d7c8b66a3cf77f36de02d804",
+          "sha256": "b4e78462d50cc661421a2a96eec1599ec573193c36676acca579e65ed100e340",
+          "sha1": "0a6449e11ae424dbfccdc27ff6f97f1caae3a574",
+          "md5": "2c5b6cdb8a644b37ac8f1227d900d37e"
+        }
+      ]
+    }
+  ]
+}
