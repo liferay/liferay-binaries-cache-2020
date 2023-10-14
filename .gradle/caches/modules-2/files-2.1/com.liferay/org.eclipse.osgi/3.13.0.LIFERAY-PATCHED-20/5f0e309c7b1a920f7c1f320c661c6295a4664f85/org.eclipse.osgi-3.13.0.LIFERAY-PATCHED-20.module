@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.osgi",
+    "version": "3.13.0.LIFERAY-PATCHED-20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-20.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-20.jar",
+          "size": 1397964,
+          "sha512": "0f271c8e4b357111bb8e68ce7f5c2bec26978de1230d2a06cc8ac7b774f8b07433a21dfa08040c3ab1501451fb46865bf7353a0c1a4c103595710e823eb83de2",
+          "sha256": "c662b72d4a2dc62dee3758a24df334aa6fcd7a638d5ca53fc3f6c0fa9a57a0d9",
+          "sha1": "a793779c704083826bb27e29501c783ea4ffaa9a",
+          "md5": "a29c0fbbdc5e38c20a854cd7979a943c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-20.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-20.jar",
+          "size": 1397964,
+          "sha512": "0f271c8e4b357111bb8e68ce7f5c2bec26978de1230d2a06cc8ac7b774f8b07433a21dfa08040c3ab1501451fb46865bf7353a0c1a4c103595710e823eb83de2",
+          "sha256": "c662b72d4a2dc62dee3758a24df334aa6fcd7a638d5ca53fc3f6c0fa9a57a0d9",
+          "sha1": "a793779c704083826bb27e29501c783ea4ffaa9a",
+          "md5": "a29c0fbbdc5e38c20a854cd7979a943c"
+        }
+      ]
+    }
+  ]
+}
