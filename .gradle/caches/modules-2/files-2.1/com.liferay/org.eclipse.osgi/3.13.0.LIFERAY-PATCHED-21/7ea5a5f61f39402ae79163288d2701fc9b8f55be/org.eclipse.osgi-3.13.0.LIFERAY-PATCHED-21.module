@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.osgi",
+    "version": "3.13.0.LIFERAY-PATCHED-21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-21.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-21.jar",
+          "size": 1399325,
+          "sha512": "591482bb3f6db3a10be9b7e38171121911a8e83a3648c98489f231193fc60f8975011522b866ad1a3347d5833f79b5139e67004fd58af0a4e1a438442c5038df",
+          "sha256": "574e14793a3784baee95bc8c56813d93804d7e7d088ac1af3874b50e3dc5a030",
+          "sha1": "67a5abdf5cac852bc7c480419d6dfcebe2f3e3a2",
+          "md5": "a7ef956f69f5b04a845d53e81bbeaf81"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-21.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-21.jar",
+          "size": 1399325,
+          "sha512": "591482bb3f6db3a10be9b7e38171121911a8e83a3648c98489f231193fc60f8975011522b866ad1a3347d5833f79b5139e67004fd58af0a4e1a438442c5038df",
+          "sha256": "574e14793a3784baee95bc8c56813d93804d7e7d088ac1af3874b50e3dc5a030",
+          "sha1": "67a5abdf5cac852bc7c480419d6dfcebe2f3e3a2",
+          "md5": "a7ef956f69f5b04a845d53e81bbeaf81"
+        }
+      ]
+    }
+  ]
+}
