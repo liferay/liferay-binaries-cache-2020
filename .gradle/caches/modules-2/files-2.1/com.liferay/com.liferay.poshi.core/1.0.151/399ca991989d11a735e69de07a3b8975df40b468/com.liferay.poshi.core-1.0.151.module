@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.poshi.core",
+    "version": "1.0.151",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.0"
+          }
+        },
+        {
+          "group": "org.dom4j",
+          "module": "dom4j",
+          "version": {
+            "requires": "2.1.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20231013"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.poshi.core-1.0.151.jar",
+          "url": "com.liferay.poshi.core-1.0.151.jar",
+          "size": 275687,
+          "sha512": "2b4f7052df2ec407ef1d8e39c3fcc032aca328ce2662c8acc4a7ad8afbb476f47113b2476a9072af54a09d394c05cb05d8aeb674bbded808393f4a2a4ee2bcbc",
+          "sha256": "1a099194b54922ba9166803c5f70f7137d6e985b6388a44d5ed26ba846d62a03",
+          "sha1": "77b42163108da043205e6b5c84b9844567e21793",
+          "md5": "7b3fe71b36ba04793101be1f74fbb76c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.0"
+          }
+        },
+        {
+          "group": "org.dom4j",
+          "module": "dom4j",
+          "version": {
+            "requires": "2.1.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20231013"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.poshi.core-1.0.151.jar",
+          "url": "com.liferay.poshi.core-1.0.151.jar",
+          "size": 275687,
+          "sha512": "2b4f7052df2ec407ef1d8e39c3fcc032aca328ce2662c8acc4a7ad8afbb476f47113b2476a9072af54a09d394c05cb05d8aeb674bbded808393f4a2a4ee2bcbc",
+          "sha256": "1a099194b54922ba9166803c5f70f7137d6e985b6388a44d5ed26ba846d62a03",
+          "sha1": "77b42163108da043205e6b5c84b9844567e21793",
+          "md5": "7b3fe71b36ba04793101be1f74fbb76c"
+        }
+      ]
+    }
+  ]
+}
