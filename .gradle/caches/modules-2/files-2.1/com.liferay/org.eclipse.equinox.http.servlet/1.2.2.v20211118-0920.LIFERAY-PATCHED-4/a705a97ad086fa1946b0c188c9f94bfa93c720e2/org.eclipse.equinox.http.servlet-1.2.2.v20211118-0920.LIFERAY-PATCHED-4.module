@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.equinox.http.servlet",
+    "version": "1.2.2.v20211118-0920.LIFERAY-PATCHED-4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar",
+          "url": "org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar",
+          "size": 178198,
+          "sha512": "c50ba2389a9811d297820392b717563ba44cfa560d47961d35b38f9454d9123580da6e3aee37ba7ceeb9831ed3bbd1d6216301979468bdc4ba467885c3594d15",
+          "sha256": "1545204bdfbc3bc1f257e533a27912165282bcb1d2d55d97d3177e6ad530df12",
+          "sha1": "2c32487163b3d3d224e6e5d215984a9727f3774c",
+          "md5": "4ba2e6a0767a73ed27849b2d75dec17b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar",
+          "url": "org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar",
+          "size": 178198,
+          "sha512": "c50ba2389a9811d297820392b717563ba44cfa560d47961d35b38f9454d9123580da6e3aee37ba7ceeb9831ed3bbd1d6216301979468bdc4ba467885c3594d15",
+          "sha256": "1545204bdfbc3bc1f257e533a27912165282bcb1d2d55d97d3177e6ad530df12",
+          "sha1": "2c32487163b3d3d224e6e5d215984a9727f3774c",
+          "md5": "4ba2e6a0767a73ed27849b2d75dec17b"
+        }
+      ]
+    }
+  ]
+}
