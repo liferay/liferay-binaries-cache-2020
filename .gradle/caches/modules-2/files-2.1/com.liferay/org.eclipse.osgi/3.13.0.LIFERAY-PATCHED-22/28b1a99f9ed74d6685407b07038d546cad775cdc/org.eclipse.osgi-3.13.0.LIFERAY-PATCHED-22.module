@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.osgi",
+    "version": "3.13.0.LIFERAY-PATCHED-22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-22.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-22.jar",
+          "size": 1400158,
+          "sha512": "ee0d4dc157758a064780eb999806e4954b5500979ef3f975fa9d429c6cf2d58302eaeef72da60bd5b3bc686a888c4ca02ebe9cdfba72398524ed58649861b25a",
+          "sha256": "d110960cc9ee5104acf40cbc8f317a88202f36097d7cc28f77d018d810cd0e92",
+          "sha1": "4f067666932e29730127df05e19ba36c48c75b36",
+          "md5": "241933b6442c14b27c3c6aa12243c3aa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-22.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-22.jar",
+          "size": 1400158,
+          "sha512": "ee0d4dc157758a064780eb999806e4954b5500979ef3f975fa9d429c6cf2d58302eaeef72da60bd5b3bc686a888c4ca02ebe9cdfba72398524ed58649861b25a",
+          "sha256": "d110960cc9ee5104acf40cbc8f317a88202f36097d7cc28f77d018d810cd0e92",
+          "sha1": "4f067666932e29730127df05e19ba36c48c75b36",
+          "md5": "241933b6442c14b27c3c6aa12243c3aa"
+        }
+      ]
+    }
+  ]
+}
