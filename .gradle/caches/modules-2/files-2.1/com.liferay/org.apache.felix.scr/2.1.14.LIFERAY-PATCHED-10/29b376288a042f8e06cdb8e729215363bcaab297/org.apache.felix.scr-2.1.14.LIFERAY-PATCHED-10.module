@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.apache.felix.scr",
+    "version": "2.1.14.LIFERAY-PATCHED-10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.apache.felix.scr-2.1.14.LIFERAY-PATCHED-10.jar",
+          "url": "org.apache.felix.scr-2.1.14.LIFERAY-PATCHED-10.jar",
+          "size": 425451,
+          "sha512": "295d28cf2fe24b172bdbf1b06835386eee5c1f1e4da2c55885e6e1c67170eafd5696c76d2297a8c9c4378808480f5826214c29d39d35fe1a1829530e023636cc",
+          "sha256": "e1f5c1964647651e3da0a672c063b02ec41f47a88e44f8d519e34ff0e571c48a",
+          "sha1": "2ee02d208bc541373e0f8017265db903182a76bd",
+          "md5": "0f51b5367db122e59ff42a1d286bdb15"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.apache.felix.scr-2.1.14.LIFERAY-PATCHED-10.jar",
+          "url": "org.apache.felix.scr-2.1.14.LIFERAY-PATCHED-10.jar",
+          "size": 425451,
+          "sha512": "295d28cf2fe24b172bdbf1b06835386eee5c1f1e4da2c55885e6e1c67170eafd5696c76d2297a8c9c4378808480f5826214c29d39d35fe1a1829530e023636cc",
+          "sha256": "e1f5c1964647651e3da0a672c063b02ec41f47a88e44f8d519e34ff0e571c48a",
+          "sha1": "2ee02d208bc541373e0f8017265db903182a76bd",
+          "md5": "0f51b5367db122e59ff42a1d286bdb15"
+        }
+      ]
+    }
+  ]
+}
