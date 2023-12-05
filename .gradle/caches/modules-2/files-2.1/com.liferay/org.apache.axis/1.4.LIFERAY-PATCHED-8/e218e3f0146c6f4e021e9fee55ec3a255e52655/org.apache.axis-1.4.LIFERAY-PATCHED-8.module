@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.apache.axis",
+    "version": "1.4.LIFERAY-PATCHED-8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "wsdl4j",
+          "module": "wsdl4j",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.apache.axis-1.4.LIFERAY-PATCHED-8.jar",
+          "url": "org.apache.axis-1.4.LIFERAY-PATCHED-8.jar",
+          "size": 1630666,
+          "sha512": "5ece37f8d41f8e288af872c751b3418755efafc7517fd392171efa3c4d990c75d6f70a9553085cc82ead15ab832ae1d70bb39f0f3bddf7250d6395380be9f47a",
+          "sha256": "bc7b2cc6b0c0014fa6f48ac6c0e0ca482d8f2422b177d3fff27eac2fabe4a05f",
+          "sha1": "e9649b8b11eb896ae22525547cb005ae9879cb5b",
+          "md5": "c5281b53d4a4b3c7486d9a099a64873b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "wsdl4j",
+          "module": "wsdl4j",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.apache.axis-1.4.LIFERAY-PATCHED-8.jar",
+          "url": "org.apache.axis-1.4.LIFERAY-PATCHED-8.jar",
+          "size": 1630666,
+          "sha512": "5ece37f8d41f8e288af872c751b3418755efafc7517fd392171efa3c4d990c75d6f70a9553085cc82ead15ab832ae1d70bb39f0f3bddf7250d6395380be9f47a",
+          "sha256": "bc7b2cc6b0c0014fa6f48ac6c0e0ca482d8f2422b177d3fff27eac2fabe4a05f",
+          "sha1": "e9649b8b11eb896ae22525547cb005ae9879cb5b",
+          "md5": "c5281b53d4a4b3c7486d9a099a64873b"
+        }
+      ]
+    }
+  ]
+}
