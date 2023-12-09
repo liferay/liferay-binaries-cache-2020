@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.css.builder",
+    "version": "3.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.plexus",
+          "module": "plexus-utils",
+          "version": {
+            "requires": "3.0.24"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.sonatype.plexus",
+          "module": "plexus-build-api",
+          "version": {
+            "requires": "0.0.7"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.css.builder-3.1.5.jar",
+          "url": "com.liferay.css.builder-3.1.5.jar",
+          "size": 57663756,
+          "sha512": "3b99954e618eb20892c8bc208d5f13d824ac69bdc942ccb87cc8d89ed338474fbb36a28a4faae953056aa9e7aa3f8625115f246b5c08464b1e05c61ca07765a8",
+          "sha256": "203fd8f316ee51322eca85782a9820722ba307a1a665077ebdc5966fe5be3f7e",
+          "sha1": "81e9e49e9ef7cd2be4a98e66c2117c42135c7635",
+          "md5": "03fb6c856f1efebb63686844d66dcae6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.plexus",
+          "module": "plexus-utils",
+          "version": {
+            "requires": "3.0.24"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.sonatype.plexus",
+          "module": "plexus-build-api",
+          "version": {
+            "requires": "0.0.7"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.css.builder-3.1.5.jar",
+          "url": "com.liferay.css.builder-3.1.5.jar",
+          "size": 57663756,
+          "sha512": "3b99954e618eb20892c8bc208d5f13d824ac69bdc942ccb87cc8d89ed338474fbb36a28a4faae953056aa9e7aa3f8625115f246b5c08464b1e05c61ca07765a8",
+          "sha256": "203fd8f316ee51322eca85782a9820722ba307a1a665077ebdc5966fe5be3f7e",
+          "sha1": "81e9e49e9ef7cd2be4a98e66c2117c42135c7635",
+          "md5": "03fb6c856f1efebb63686844d66dcae6"
+        }
+      ]
+    }
+  ]
+}
