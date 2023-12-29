@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.apache.velocity",
+    "version": "1.6.4.LIFERAY-PATCHED-3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j.core",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          }
+        },
+        {
+          "group": "org.apache.velocity",
+          "module": "velocity",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.apache.velocity-1.6.4.LIFERAY-PATCHED-3.jar",
+          "url": "org.apache.velocity-1.6.4.LIFERAY-PATCHED-3.jar",
+          "size": 430228,
+          "sha512": "5ce436077e208e7246d4af03eaaa783e93ff9f4e61bfe3322ac18ecff1551fbba645588d7dd958c8493a53cf10ba81b3414ebcf802ad705a9e7c35b616b8e155",
+          "sha256": "6ab7b2e144b98e39e90fe26fd1b55238b1b2a6b95d01d95e720b9a5c153d6791",
+          "sha1": "0af19f6323ecc89fa0ecb441b6b8d4f37e3c0f94",
+          "md5": "1547da24ff61fb5720f58e118d6cb366"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j.core",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          }
+        },
+        {
+          "group": "org.apache.velocity",
+          "module": "velocity",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.apache.velocity-1.6.4.LIFERAY-PATCHED-3.jar",
+          "url": "org.apache.velocity-1.6.4.LIFERAY-PATCHED-3.jar",
+          "size": 430228,
+          "sha512": "5ce436077e208e7246d4af03eaaa783e93ff9f4e61bfe3322ac18ecff1551fbba645588d7dd958c8493a53cf10ba81b3414ebcf802ad705a9e7c35b616b8e155",
+          "sha256": "6ab7b2e144b98e39e90fe26fd1b55238b1b2a6b95d01d95e720b9a5c153d6791",
+          "sha1": "0af19f6323ecc89fa0ecb441b6b8d4f37e3c0f94",
+          "md5": "1547da24ff61fb5720f58e118d6cb366"
+        }
+      ]
+    }
+  ]
+}
