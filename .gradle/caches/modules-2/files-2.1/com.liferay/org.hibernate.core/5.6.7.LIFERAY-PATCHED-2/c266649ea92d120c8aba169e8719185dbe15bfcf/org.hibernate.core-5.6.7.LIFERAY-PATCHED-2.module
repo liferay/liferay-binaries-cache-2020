@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.hibernate.core",
+    "version": "5.6.7.LIFERAY-PATCHED-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.hibernate.core-5.6.7.LIFERAY-PATCHED-2.jar",
+          "url": "org.hibernate.core-5.6.7.LIFERAY-PATCHED-2.jar",
+          "size": 7558410,
+          "sha512": "3c7eec94ad0b9f20ef7cd692621ff92a627e4c67176a011ddeb0e772ac670ef37f5ae196d9549e75fa5604194b87b4cb13da125dcd64cdedb7fbfe46e643acff",
+          "sha256": "75bc64dd922152b98dcb42f97e89590b9486677a04e531614e2232b2d52cb442",
+          "sha1": "be220b7d5ede9de324544e37ba59c2ba895ceb00",
+          "md5": "ea8ae02a3378b430f1a495d203efdff8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.hibernate.core-5.6.7.LIFERAY-PATCHED-2.jar",
+          "url": "org.hibernate.core-5.6.7.LIFERAY-PATCHED-2.jar",
+          "size": 7558410,
+          "sha512": "3c7eec94ad0b9f20ef7cd692621ff92a627e4c67176a011ddeb0e772ac670ef37f5ae196d9549e75fa5604194b87b4cb13da125dcd64cdedb7fbfe46e643acff",
+          "sha256": "75bc64dd922152b98dcb42f97e89590b9486677a04e531614e2232b2d52cb442",
+          "sha1": "be220b7d5ede9de324544e37ba59c2ba895ceb00",
+          "md5": "ea8ae02a3378b430f1a495d203efdff8"
+        }
+      ]
+    }
+  ]
+}
