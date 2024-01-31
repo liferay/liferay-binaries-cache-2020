@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.dataformat",
+    "module": "jackson-dataformat-smile",
+    "version": "2.16.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.9.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.16.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-dataformat-smile-2.16.1.jar",
+          "url": "jackson-dataformat-smile-2.16.1.jar",
+          "size": 95005,
+          "sha512": "f55d8322a2455bee646c333f1b4ed33486646f386d691c03c7f66c74fd7e64176fc2b64ca5e462d71aa78b073350e29ed2fc58e4a6723eb92a06a8db0bec5a42",
+          "sha256": "325b4b937f8a7221017239c01b64c4659c53313f4d05505e01b0e39b90d2790e",
+          "sha1": "d1dde7cea39973b92d82e932fed8af46f30847ea",
+          "md5": "438aec9f383666d65c0b16cd0e600309"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.16.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-dataformat-smile-2.16.1.jar",
+          "url": "jackson-dataformat-smile-2.16.1.jar",
+          "size": 95005,
+          "sha512": "f55d8322a2455bee646c333f1b4ed33486646f386d691c03c7f66c74fd7e64176fc2b64ca5e462d71aa78b073350e29ed2fc58e4a6723eb92a06a8db0bec5a42",
+          "sha256": "325b4b937f8a7221017239c01b64c4659c53313f4d05505e01b0e39b90d2790e",
+          "sha1": "d1dde7cea39973b92d82e932fed8af46f30847ea",
+          "md5": "438aec9f383666d65c0b16cd0e600309"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.dataformat",
+    "module": "jackson-dataformat-xml",
+    "version": "2.16.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.9.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "org.codehaus.woodstox",
+          "module": "stax2-api",
+          "version": {
+            "requires": "4.2.1"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.stream",
+              "module": "stax-api"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.woodstox",
+          "module": "woodstox-core",
+          "version": {
+            "requires": "6.5.1"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.stream",
+              "module": "stax-api"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.16.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-dataformat-xml-2.16.1.jar",
+          "url": "jackson-dataformat-xml-2.16.1.jar",
+          "size": 126721,
+          "sha512": "18a6e2d0ba7a102331015ec2d471d4565a7eb6d9ce4f339e7cf9f8919c4eb556617b3fa4de703cb7cc438997c7d35b77d100844b14dc1f797292937455c073a",
+          "sha256": "b8e73fa171d1276832abbf20ebb4df597e377405f875ed39808cee9acca3d3ac",
+          "sha1": "d952ad30d3f2d1220f39db175618414b56d14638",
+          "md5": "ab3c4a4dcd1928d05f206c5d0e9fe36f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "org.codehaus.woodstox",
+          "module": "stax2-api",
+          "version": {
+            "requires": "4.2.1"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.stream",
+              "module": "stax-api"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.woodstox",
+          "module": "woodstox-core",
+          "version": {
+            "requires": "6.5.1"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.stream",
+              "module": "stax-api"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.16.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-dataformat-xml-2.16.1.jar",
+          "url": "jackson-dataformat-xml-2.16.1.jar",
+          "size": 126721,
+          "sha512": "18a6e2d0ba7a102331015ec2d471d4565a7eb6d9ce4f339e7cf9f8919c4eb556617b3fa4de703cb7cc438997c7d35b77d100844b14dc1f797292937455c073a",
+          "sha256": "b8e73fa171d1276832abbf20ebb4df597e377405f875ed39808cee9acca3d3ac",
+          "sha1": "d952ad30d3f2d1220f39db175618414b56d14638",
+          "md5": "ab3c4a4dcd1928d05f206c5d0e9fe36f"
+        }
+      ]
+    }
+  ]
+}
