@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "jodd.util",
+    "version": "6.0.1.LIFERAY-PATCHED-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jodd.util-6.0.1.LIFERAY-PATCHED-2.jar",
+          "url": "jodd.util-6.0.1.LIFERAY-PATCHED-2.jar",
+          "size": 349188,
+          "sha512": "7b6ff63ce4fa434e75d5fe81dddeeab0eba2bc03f02d7a24005cfc92f6f47831c85abf40de72870b5a50eeea549704722aebdc04ea6825b486c3fe513484b3f2",
+          "sha256": "d152c6a2625fcbf3fef36dc2768bd2713ee8d3d0e08eb6bada685362596b41c6",
+          "sha1": "a17f1944bae5e2f5366b417434279bb52b9b4094",
+          "md5": "ca4744f420bb644e91dfc8d3835f7207"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jodd.util-6.0.1.LIFERAY-PATCHED-2.jar",
+          "url": "jodd.util-6.0.1.LIFERAY-PATCHED-2.jar",
+          "size": 349188,
+          "sha512": "7b6ff63ce4fa434e75d5fe81dddeeab0eba2bc03f02d7a24005cfc92f6f47831c85abf40de72870b5a50eeea549704722aebdc04ea6825b486c3fe513484b3f2",
+          "sha256": "d152c6a2625fcbf3fef36dc2768bd2713ee8d3d0e08eb6bada685362596b41c6",
+          "sha1": "a17f1944bae5e2f5366b417434279bb52b9b4094",
+          "md5": "ca4744f420bb644e91dfc8d3835f7207"
+        }
+      ]
+    }
+  ]
+}
