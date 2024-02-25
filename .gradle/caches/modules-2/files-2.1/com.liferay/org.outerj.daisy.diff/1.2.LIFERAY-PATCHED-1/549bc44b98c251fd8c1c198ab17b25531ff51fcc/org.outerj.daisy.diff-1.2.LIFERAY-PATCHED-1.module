@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.outerj.daisy.diff",
+    "version": "1.2.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "org.outerj.daisy.daisydiff",
+          "version": {
+            "requires": "1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.outerj.daisy.diff-1.2.LIFERAY-PATCHED-1.jar",
+          "url": "org.outerj.daisy.diff-1.2.LIFERAY-PATCHED-1.jar",
+          "size": 111376,
+          "sha512": "ffb65c0f057dc5f824efc4729510c7171242d21737ec4ea167b1b994ebc44ba7d9a2579b5205b369128a8ae0b21df0116ae53f3e9642d3aa6e89732b55bd9b12",
+          "sha256": "371292f02ec86cc0e711314ca65809f92fac2eeb8497ae84a7d61978e543f9bc",
+          "sha1": "365a0d1a1dbb74e25367d747a45c5c58a41a8dc2",
+          "md5": "d7fd1db049b5bd11049e82bd9b2ec5b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "org.outerj.daisy.daisydiff",
+          "version": {
+            "requires": "1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.outerj.daisy.diff-1.2.LIFERAY-PATCHED-1.jar",
+          "url": "org.outerj.daisy.diff-1.2.LIFERAY-PATCHED-1.jar",
+          "size": 111376,
+          "sha512": "ffb65c0f057dc5f824efc4729510c7171242d21737ec4ea167b1b994ebc44ba7d9a2579b5205b369128a8ae0b21df0116ae53f3e9642d3aa6e89732b55bd9b12",
+          "sha256": "371292f02ec86cc0e711314ca65809f92fac2eeb8497ae84a7d61978e543f9bc",
+          "sha1": "365a0d1a1dbb74e25367d747a45c5c58a41a8dc2",
+          "md5": "d7fd1db049b5bd11049e82bd9b2ec5b1"
+        }
+      ]
+    }
+  ]
+}
