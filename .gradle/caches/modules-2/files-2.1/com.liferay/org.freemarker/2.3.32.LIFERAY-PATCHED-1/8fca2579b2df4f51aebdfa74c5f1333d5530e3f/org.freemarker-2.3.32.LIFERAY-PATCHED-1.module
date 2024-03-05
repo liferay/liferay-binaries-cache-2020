@@ -1,0 +1,194 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.freemarker",
+    "version": "2.3.32.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j.core",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "javax.servlet.jsp",
+          "module": "javax.servlet.jsp-api",
+          "version": {
+            "requires": "2.3.2-b01"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.32"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.26"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "org.freemarker-2.3.32.LIFERAY-PATCHED-1.jar",
+          "url": "org.freemarker-2.3.32.LIFERAY-PATCHED-1.jar",
+          "size": 1739898,
+          "sha512": "b73b8578b8a19b74c75863464f343496d930b235848b0f7b10b81e63270085d3eb56b0d08c5219b41c5b14b3ffe38331dfe5e48c10687a3c32d86bbf3f269836",
+          "sha256": "9464e3aa589328c5fe89e9bae1ca625435917d01a98b58bd513e1963c0eea636",
+          "sha1": "6b7527bd9fc87fbea0b79bedd2b769b51bdc3830",
+          "md5": "e90e3f25e3bc81a79d36979898f9fa04"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j.core",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "javax.servlet.jsp",
+          "module": "javax.servlet.jsp-api",
+          "version": {
+            "requires": "2.3.2-b01"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.32"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.26"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "org.freemarker-2.3.32.LIFERAY-PATCHED-1.jar",
+          "url": "org.freemarker-2.3.32.LIFERAY-PATCHED-1.jar",
+          "size": 1739898,
+          "sha512": "b73b8578b8a19b74c75863464f343496d930b235848b0f7b10b81e63270085d3eb56b0d08c5219b41c5b14b3ffe38331dfe5e48c10687a3c32d86bbf3f269836",
+          "sha256": "9464e3aa589328c5fe89e9bae1ca625435917d01a98b58bd513e1963c0eea636",
+          "sha1": "6b7527bd9fc87fbea0b79bedd2b769b51bdc3830",
+          "md5": "e90e3f25e3bc81a79d36979898f9fa04"
+        }
+      ]
+    }
+  ]
+}
