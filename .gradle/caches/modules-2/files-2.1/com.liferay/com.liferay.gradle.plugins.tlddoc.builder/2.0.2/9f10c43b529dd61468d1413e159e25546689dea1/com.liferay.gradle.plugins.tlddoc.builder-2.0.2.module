@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.tlddoc.builder",
+    "version": "2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.tlddoc.builder-2.0.2.jar",
+          "url": "com.liferay.gradle.plugins.tlddoc.builder-2.0.2.jar",
+          "size": 34276,
+          "sha512": "c7372f4daa63239f361e8263d1559b529ab1714b67ae7aa8eec7455d8bed6e336315d2ed4813329aaff2892f70b985979edefdf784e2b45d5262eaf92a638d83",
+          "sha256": "e141516df6a9246d5245528abb6dac7f2da8f62ed5c499151bfea799c0dc81c6",
+          "sha1": "b5c6cd1d7397a3453f8c4757de3caa13c1ce0a56",
+          "md5": "a2289bf64bef1f5c95df7fc6836136af"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.tlddoc.builder-2.0.2.jar",
+          "url": "com.liferay.gradle.plugins.tlddoc.builder-2.0.2.jar",
+          "size": 34276,
+          "sha512": "c7372f4daa63239f361e8263d1559b529ab1714b67ae7aa8eec7455d8bed6e336315d2ed4813329aaff2892f70b985979edefdf784e2b45d5262eaf92a638d83",
+          "sha256": "e141516df6a9246d5245528abb6dac7f2da8f62ed5c499151bfea799c0dc81c6",
+          "sha1": "b5c6cd1d7397a3453f8c4757de3caa13c1ce0a56",
+          "md5": "a2289bf64bef1f5c95df7fc6836136af"
+        }
+      ]
+    }
+  ]
+}

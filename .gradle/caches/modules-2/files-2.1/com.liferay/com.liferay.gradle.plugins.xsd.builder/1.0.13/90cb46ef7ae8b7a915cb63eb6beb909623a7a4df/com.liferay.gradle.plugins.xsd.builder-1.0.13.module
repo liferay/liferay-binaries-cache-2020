@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.xsd.builder",
+    "version": "1.0.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.xsd.builder-1.0.13.jar",
+          "url": "com.liferay.gradle.plugins.xsd.builder-1.0.13.jar",
+          "size": 14518,
+          "sha512": "395ba64066b4a240ee1fc5753c409c4e6b391c8b41bc515eeba87f42f10e0c64dd2bfbf3a9b3779046d94b882e07155c91186d9d138ad959588f0f94816f21b4",
+          "sha256": "ea038939a2170ce89b1bbed31924dfeba1423c4b7949be36726e9e5b8c8c0b2a",
+          "sha1": "d1bd7e83befc162f01058834e540150fdd3264fc",
+          "md5": "6e91563bf4e51bc9f73076fbb7bdc24f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.xsd.builder-1.0.13.jar",
+          "url": "com.liferay.gradle.plugins.xsd.builder-1.0.13.jar",
+          "size": 14518,
+          "sha512": "395ba64066b4a240ee1fc5753c409c4e6b391c8b41bc515eeba87f42f10e0c64dd2bfbf3a9b3779046d94b882e07155c91186d9d138ad959588f0f94816f21b4",
+          "sha256": "ea038939a2170ce89b1bbed31924dfeba1423c4b7949be36726e9e5b8c8c0b2a",
+          "sha1": "d1bd7e83befc162f01058834e540150fdd3264fc",
+          "md5": "6e91563bf4e51bc9f73076fbb7bdc24f"
+        }
+      ]
+    }
+  ]
+}
