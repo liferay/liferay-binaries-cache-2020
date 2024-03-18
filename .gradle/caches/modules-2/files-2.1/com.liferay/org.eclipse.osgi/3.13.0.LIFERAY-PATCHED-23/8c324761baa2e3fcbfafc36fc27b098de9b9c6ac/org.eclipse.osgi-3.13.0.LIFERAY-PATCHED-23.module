@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.osgi",
+    "version": "3.13.0.LIFERAY-PATCHED-23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-23.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-23.jar",
+          "size": 1400220,
+          "sha512": "ed51ed3696cae57be2d040bb2bf7b5fa7f87b6589799fc0249b98dcb77d1617a333e46adc5e79d0950554ce4d4ab1e500dec8e879576acfd32c0f8b4b2bcb4d0",
+          "sha256": "59856d6a497c731724144d1309d8e1878370fb3a8c8d0a7e800a26580f24e9e8",
+          "sha1": "0fe2182d42687ca238b52a8fe1d8bcd1604a7dba",
+          "md5": "1c7fca54c9a693e14b43675f027e13f5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-23.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-23.jar",
+          "size": 1400220,
+          "sha512": "ed51ed3696cae57be2d040bb2bf7b5fa7f87b6589799fc0249b98dcb77d1617a333e46adc5e79d0950554ce4d4ab1e500dec8e879576acfd32c0f8b4b2bcb4d0",
+          "sha256": "59856d6a497c731724144d1309d8e1878370fb3a8c8d0a7e800a26580f24e9e8",
+          "sha1": "0fe2182d42687ca238b52a8fe1d8bcd1604a7dba",
+          "md5": "1c7fca54c9a693e14b43675f027e13f5"
+        }
+      ]
+    }
+  ]
+}
