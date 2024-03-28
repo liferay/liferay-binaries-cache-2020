@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.osgi",
+    "version": "3.13.0.LIFERAY-PATCHED-24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-24.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-24.jar",
+          "size": 1400340,
+          "sha512": "b0b38127fa4a256c027625548eb1c355dc5eabc71b00b99cffc848cf35c9e7314c66e87be35d72d61b03305b5d0b11b831d54fc75034dd99a06b2ab5d1b2b99e",
+          "sha256": "d6fbf742ec8a3770b0c22b62ab8194137d32843f8e380c8904f16e50f0c60f32",
+          "sha1": "383e1b23653ae998a4508f0c4020233e62752f62",
+          "md5": "707ed7382beca93bfba6ce1776b12de3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-24.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-24.jar",
+          "size": 1400340,
+          "sha512": "b0b38127fa4a256c027625548eb1c355dc5eabc71b00b99cffc848cf35c9e7314c66e87be35d72d61b03305b5d0b11b831d54fc75034dd99a06b2ab5d1b2b99e",
+          "sha256": "d6fbf742ec8a3770b0c22b62ab8194137d32843f8e380c8904f16e50f0c60f32",
+          "sha1": "383e1b23653ae998a4508f0c4020233e62752f62",
+          "md5": "707ed7382beca93bfba6ce1776b12de3"
+        }
+      ]
+    }
+  ]
+}
