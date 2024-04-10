@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.ant.bnd",
+    "version": "3.2.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "biz.aQute.bnd",
+          "module": "aQute.libg",
+          "version": {
+            "requires": "6.4.0"
+          }
+        },
+        {
+          "group": "biz.aQute.bnd",
+          "module": "biz.aQute.bnd",
+          "version": {
+            "requires": "6.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.ant.bnd-3.2.11.jar",
+          "url": "com.liferay.ant.bnd-3.2.11.jar",
+          "size": 54582,
+          "sha512": "b536d538ad4d3094810cd2c93bb0518741e3c462583bdc658e184dc0af110b0cf1c1caceab583c2719a38415442d011d781679cf36b8608c7c17ee8430b088c3",
+          "sha256": "0d6b48b3f3a9b9713fdd1785df74727a796bed99d4976f4185c553cb23118687",
+          "sha1": "f93d2049239d590657e958f95e154fea8c9a7fb3",
+          "md5": "5496a42c00196ad2ebdcfc97e2ebc9a0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "biz.aQute.bnd",
+          "module": "aQute.libg",
+          "version": {
+            "requires": "6.4.0"
+          }
+        },
+        {
+          "group": "biz.aQute.bnd",
+          "module": "biz.aQute.bnd",
+          "version": {
+            "requires": "6.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.ant.bnd-3.2.11.jar",
+          "url": "com.liferay.ant.bnd-3.2.11.jar",
+          "size": 54582,
+          "sha512": "b536d538ad4d3094810cd2c93bb0518741e3c462583bdc658e184dc0af110b0cf1c1caceab583c2719a38415442d011d781679cf36b8608c7c17ee8430b088c3",
+          "sha256": "0d6b48b3f3a9b9713fdd1785df74727a796bed99d4976f4185c553cb23118687",
+          "sha1": "f93d2049239d590657e958f95e154fea8c9a7fb3",
+          "md5": "5496a42c00196ad2ebdcfc97e2ebc9a0"
+        }
+      ]
+    }
+  ]
+}
