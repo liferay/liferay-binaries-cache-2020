@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.sun.el.javax.el",
+    "version": "3.0.1.LIFERAY-PATCHED-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "com.sun.el.javax.el-3.0.1.LIFERAY-PATCHED-2.jar",
+          "url": "com.sun.el.javax.el-3.0.1.LIFERAY-PATCHED-2.jar",
+          "size": 243177,
+          "sha512": "61896ce954719ebde001fca8038dca305cc3cc0742b80560d9d432eb0cf7d4074ae14cb6db751b8f41f012e654cbf080939d60f357ee50fa7da6b6ffc82f3f97",
+          "sha256": "3686eb15af6116a6af67a5744a9be27beebbcf914b549a7b692ed051ed510172",
+          "sha1": "eeeb6e3d960eefb815031174dbea25ab93c5018b",
+          "md5": "70e3f8723a3a5d10654741e783d84983"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "com.sun.el.javax.el-3.0.1.LIFERAY-PATCHED-2.jar",
+          "url": "com.sun.el.javax.el-3.0.1.LIFERAY-PATCHED-2.jar",
+          "size": 243177,
+          "sha512": "61896ce954719ebde001fca8038dca305cc3cc0742b80560d9d432eb0cf7d4074ae14cb6db751b8f41f012e654cbf080939d60f357ee50fa7da6b6ffc82f3f97",
+          "sha256": "3686eb15af6116a6af67a5744a9be27beebbcf914b549a7b692ed051ed510172",
+          "sha1": "eeeb6e3d960eefb815031174dbea25ab93c5018b",
+          "md5": "70e3f8723a3a5d10654741e783d84983"
+        }
+      ]
+    }
+  ]
+}

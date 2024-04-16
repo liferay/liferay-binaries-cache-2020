@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-web",
+    "version": "5.3.33",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.33"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.33"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.33.jar",
+          "url": "spring-web-5.3.33.jar",
+          "size": 1656331,
+          "sha512": "a85a75ea1ec6edb4a4a9be7d7b474cb5a1179b65414580c1b14c9e118f08e2904b3f2a40836d4f0bc72d356423053daecc73e175d4dd580a146c330eb0d4c323",
+          "sha256": "6e7825e4a2234d826fd9a417947235a64950241f5d8365b5ef7fabba2b1bee1a",
+          "sha1": "dc3bd82ba847474d37eb06f1b5924a76069cb666",
+          "md5": "865197571b912d8aba6ba94218e2bd6f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.33"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.33"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.33.jar",
+          "url": "spring-web-5.3.33.jar",
+          "size": 1656331,
+          "sha512": "a85a75ea1ec6edb4a4a9be7d7b474cb5a1179b65414580c1b14c9e118f08e2904b3f2a40836d4f0bc72d356423053daecc73e175d4dd580a146c330eb0d4c323",
+          "sha256": "6e7825e4a2234d826fd9a417947235a64950241f5d8365b5ef7fabba2b1bee1a",
+          "sha1": "dc3bd82ba847474d37eb06f1b5924a76069cb666",
+          "md5": "865197571b912d8aba6ba94218e2bd6f"
+        }
+      ]
+    }
+  ]
+}
