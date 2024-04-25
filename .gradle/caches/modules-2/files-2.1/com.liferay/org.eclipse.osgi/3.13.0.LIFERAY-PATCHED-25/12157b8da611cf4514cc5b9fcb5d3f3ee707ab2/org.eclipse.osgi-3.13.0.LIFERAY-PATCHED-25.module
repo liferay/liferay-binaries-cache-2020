@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.osgi",
+    "version": "3.13.0.LIFERAY-PATCHED-25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-25.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-25.jar",
+          "size": 1400460,
+          "sha512": "7701ad98e8b4bb25a4e19251073596ef18055bc01da02045c51842c1ba3023ca5f7f9b97e251b21a88f6fbb21dbde92db5b1f33640f47c69f92726b65c4f3613",
+          "sha256": "dc73172753bb445cc9a86ed8b792474862bd4a3a71c29ae964a3cf1e66916163",
+          "sha1": "51c0254a025d52abe7388a973660ce6d32728351",
+          "md5": "c132cc7dfbcb77144996d89fcc457b18"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-25.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-25.jar",
+          "size": 1400460,
+          "sha512": "7701ad98e8b4bb25a4e19251073596ef18055bc01da02045c51842c1ba3023ca5f7f9b97e251b21a88f6fbb21dbde92db5b1f33640f47c69f92726b65c4f3613",
+          "sha256": "dc73172753bb445cc9a86ed8b792474862bd4a3a71c29ae964a3cf1e66916163",
+          "sha1": "51c0254a025d52abe7388a973660ce6d32728351",
+          "md5": "c132cc7dfbcb77144996d89fcc457b18"
+        }
+      ]
+    }
+  ]
+}
