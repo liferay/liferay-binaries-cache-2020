@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.osgi",
+    "version": "3.13.0.LIFERAY-PATCHED-26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-26.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-26.jar",
+          "size": 1400451,
+          "sha512": "7026a1d5af4899c7e2491f4c878d3c59aae4164f28dbd127794fa30286d0bc266935ddcbd5ececf804d6109b24edad68e53dc0804e506d00c1c7e4c49555819c",
+          "sha256": "a9c3660dbea4989aa5c396d044a71542bac5ed040b3965d7d5a2ba3cbefc86e1",
+          "sha1": "5ccd780403cdb858397d751a4ccc72657015f7f5",
+          "md5": "9fbae18e3740cf32763aa34a6caa9efd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-26.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-26.jar",
+          "size": 1400451,
+          "sha512": "7026a1d5af4899c7e2491f4c878d3c59aae4164f28dbd127794fa30286d0bc266935ddcbd5ececf804d6109b24edad68e53dc0804e506d00c1c7e4c49555819c",
+          "sha256": "a9c3660dbea4989aa5c396d044a71542bac5ed040b3965d7d5a2ba3cbefc86e1",
+          "sha1": "5ccd780403cdb858397d751a4ccc72657015f7f5",
+          "md5": "9fbae18e3740cf32763aa34a6caa9efd"
+        }
+      ]
+    }
+  ]
+}
