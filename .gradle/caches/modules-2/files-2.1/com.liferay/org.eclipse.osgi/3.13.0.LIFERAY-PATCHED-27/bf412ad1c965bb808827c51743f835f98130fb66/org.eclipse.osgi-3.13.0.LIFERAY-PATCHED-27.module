@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.osgi",
+    "version": "3.13.0.LIFERAY-PATCHED-27",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-27.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-27.jar",
+          "size": 1401158,
+          "sha512": "e1288528c9cbf1602e71598654724cbe76bd80c4347e9b10c4d16668992877acb6a8a3a5ccfee68d3b2c2193c7a2c502de89052be48666b5b581e0065120966f",
+          "sha256": "60dc94b932e43baceba05fd9ddb0e129946ad79a7ecde4932908f7a1dfecd26a",
+          "sha1": "6e5a13e296f66ed005f979d6fdd79e8932faea30",
+          "md5": "a3e9ed39b308846c9a861ca953ea6182"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-27.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-27.jar",
+          "size": 1401158,
+          "sha512": "e1288528c9cbf1602e71598654724cbe76bd80c4347e9b10c4d16668992877acb6a8a3a5ccfee68d3b2c2193c7a2c502de89052be48666b5b581e0065120966f",
+          "sha256": "60dc94b932e43baceba05fd9ddb0e129946ad79a7ecde4932908f7a1dfecd26a",
+          "sha1": "6e5a13e296f66ed005f979d6fdd79e8932faea30",
+          "md5": "a3e9ed39b308846c9a861ca953ea6182"
+        }
+      ]
+    }
+  ]
+}
