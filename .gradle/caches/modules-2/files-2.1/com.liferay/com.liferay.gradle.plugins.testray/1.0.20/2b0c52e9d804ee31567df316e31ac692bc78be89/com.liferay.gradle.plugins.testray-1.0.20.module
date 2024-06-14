@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.testray",
+    "version": "1.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.testray-1.0.20.jar",
+          "url": "com.liferay.gradle.plugins.testray-1.0.20.jar",
+          "size": 9262,
+          "sha512": "fb8fcf3eaad7510db9fef95d042ea182b5c7c86547a7efed381cea68a47f56ad6963ea25d78dd0ddda509e4c65c64399fdc6cef6fd532c4feec1795db1642c3a",
+          "sha256": "d90abaa16fb03ea9558cd7f080f6bbf2012c0c1a970a2226bfdc3154636224aa",
+          "sha1": "34b69fa6cf8ff0060d14f47228432fd3eb5c35b3",
+          "md5": "a39c765083ea712b3fbcb2e404473780"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.testray-1.0.20.jar",
+          "url": "com.liferay.gradle.plugins.testray-1.0.20.jar",
+          "size": 9262,
+          "sha512": "fb8fcf3eaad7510db9fef95d042ea182b5c7c86547a7efed381cea68a47f56ad6963ea25d78dd0ddda509e4c65c64399fdc6cef6fd532c4feec1795db1642c3a",
+          "sha256": "d90abaa16fb03ea9558cd7f080f6bbf2012c0c1a970a2226bfdc3154636224aa",
+          "sha1": "34b69fa6cf8ff0060d14f47228432fd3eb5c35b3",
+          "md5": "a39c765083ea712b3fbcb2e404473780"
+        }
+      ]
+    }
+  ]
+}
