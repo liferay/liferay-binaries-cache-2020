@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.patcher",
+    "version": "1.0.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.patcher-1.0.23.jar",
+          "url": "com.liferay.gradle.plugins.patcher-1.0.23.jar",
+          "size": 27043,
+          "sha512": "2fc19c86b8bdd893f8a7ac176e5b943fbd1e87730ac884a977e93888202f237d8a375b22ebff1461a90b012c4dd765be9fd74186ce31bc3e8106243f9ea588de",
+          "sha256": "e6c9aff0830838f736592d5bfb1ef733f2d14f7b3e402f4bf1242ff6c58b9b6a",
+          "sha1": "a42e3eb76d68680c0f4a87a3350ef302f1cffd61",
+          "md5": "5f9c91c1804d468dc6bbecc7bf3b2eec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.patcher-1.0.23.jar",
+          "url": "com.liferay.gradle.plugins.patcher-1.0.23.jar",
+          "size": 27043,
+          "sha512": "2fc19c86b8bdd893f8a7ac176e5b943fbd1e87730ac884a977e93888202f237d8a375b22ebff1461a90b012c4dd765be9fd74186ce31bc3e8106243f9ea588de",
+          "sha256": "e6c9aff0830838f736592d5bfb1ef733f2d14f7b3e402f4bf1242ff6c58b9b6a",
+          "sha1": "a42e3eb76d68680c0f4a87a3350ef302f1cffd61",
+          "md5": "5f9c91c1804d468dc6bbecc7bf3b2eec"
+        }
+      ]
+    }
+  ]
+}
