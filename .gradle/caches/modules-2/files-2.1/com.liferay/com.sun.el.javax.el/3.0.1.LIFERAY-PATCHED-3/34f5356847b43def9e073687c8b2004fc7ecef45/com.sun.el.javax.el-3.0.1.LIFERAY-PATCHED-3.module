@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.sun.el.javax.el",
+    "version": "3.0.1.LIFERAY-PATCHED-3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "com.sun.el.javax.el-3.0.1.LIFERAY-PATCHED-3.jar",
+          "url": "com.sun.el.javax.el-3.0.1.LIFERAY-PATCHED-3.jar",
+          "size": 246013,
+          "sha512": "a02c80718ca6e42c19842e48687ccc11bb9c15ea07a7d215482b41c158c1c7d9ef8d62009bce370034ad0cc1d32b7cd47b55d1634d568c0509ec3bfbcc562bc8",
+          "sha256": "6588735e5b44ada74513de8c2f28f34b75dc2e9ff0a4f10db08c81ad23427a37",
+          "sha1": "90825e2da3b4de144265f699c1bb307f66a3e2b6",
+          "md5": "4b81a1907457f30bb91bd626b0f2f053"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "com.sun.el.javax.el-3.0.1.LIFERAY-PATCHED-3.jar",
+          "url": "com.sun.el.javax.el-3.0.1.LIFERAY-PATCHED-3.jar",
+          "size": 246013,
+          "sha512": "a02c80718ca6e42c19842e48687ccc11bb9c15ea07a7d215482b41c158c1c7d9ef8d62009bce370034ad0cc1d32b7cd47b55d1634d568c0509ec3bfbcc562bc8",
+          "sha256": "6588735e5b44ada74513de8c2f28f34b75dc2e9ff0a4f10db08c81ad23427a37",
+          "sha1": "90825e2da3b4de144265f699c1bb307f66a3e2b6",
+          "md5": "4b81a1907457f30bb91bd626b0f2f053"
+        }
+      ]
+    }
+  ]
+}
