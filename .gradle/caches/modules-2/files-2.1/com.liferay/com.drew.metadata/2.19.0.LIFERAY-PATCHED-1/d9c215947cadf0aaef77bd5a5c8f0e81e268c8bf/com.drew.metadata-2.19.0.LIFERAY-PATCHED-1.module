@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.drew.metadata",
+    "version": "2.19.0.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "com.drew.metadata-2.19.0.LIFERAY-PATCHED-1.jar",
+          "url": "com.drew.metadata-2.19.0.LIFERAY-PATCHED-1.jar",
+          "size": 774724,
+          "sha512": "794c2dff0168f9bf44c6ebdbb80965330750ca9975f6b8ef1d8e42ea31335b1bcb1864b9a0191ee03d05308aa7fa896ab4870fdb13d15219f7d2b1b26a598213",
+          "sha256": "a1671347e0f051de4ff190009fe81904688c49dfe7e05d9cbc7ef27cbb542189",
+          "sha1": "38b5504aeb69e63acdf05c5067c7c242112ce2f6",
+          "md5": "8aa9691ed7abc7af47dbe0827b39323c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "com.drew.metadata-2.19.0.LIFERAY-PATCHED-1.jar",
+          "url": "com.drew.metadata-2.19.0.LIFERAY-PATCHED-1.jar",
+          "size": 774724,
+          "sha512": "794c2dff0168f9bf44c6ebdbb80965330750ca9975f6b8ef1d8e42ea31335b1bcb1864b9a0191ee03d05308aa7fa896ab4870fdb13d15219f7d2b1b26a598213",
+          "sha256": "a1671347e0f051de4ff190009fe81904688c49dfe7e05d9cbc7ef27cbb542189",
+          "sha1": "38b5504aeb69e63acdf05c5067c7c242112ce2f6",
+          "md5": "8aa9691ed7abc7af47dbe0827b39323c"
+        }
+      ]
+    }
+  ]
+}
