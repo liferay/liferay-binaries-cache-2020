@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-beans",
+    "version": "5.3.39",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-beans-5.3.39.jar",
+          "url": "spring-beans-5.3.39.jar",
+          "size": 706684,
+          "sha512": "53321d3395e51b2d0b6948adff4cce81a7a712c89af92ce27ad98a44e34bfb4efa0e617b951c0468deb0baafa258eaf61507982a6774d3d832593d129c93f3ce",
+          "sha256": "b6697a5d8facb81aa75e5a46d959d4256da9ce3b40d33f3b5bbd42a8b1ed5722",
+          "sha1": "87770ce736cbd777c07866cbc8a06b879765e3c8",
+          "md5": "c2f99040fb8b0bc98515c87b968227d3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-beans-5.3.39.jar",
+          "url": "spring-beans-5.3.39.jar",
+          "size": 706684,
+          "sha512": "53321d3395e51b2d0b6948adff4cce81a7a712c89af92ce27ad98a44e34bfb4efa0e617b951c0468deb0baafa258eaf61507982a6774d3d832593d129c93f3ce",
+          "sha256": "b6697a5d8facb81aa75e5a46d959d4256da9ce3b40d33f3b5bbd42a8b1ed5722",
+          "sha1": "87770ce736cbd777c07866cbc8a06b879765e3c8",
+          "md5": "c2f99040fb8b0bc98515c87b968227d3"
+        }
+      ]
+    }
+  ]
+}
