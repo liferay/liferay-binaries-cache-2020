@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.springframework.orm",
+    "version": "5.3.39.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.6.7.Final"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-orm",
+          "version": {
+            "requires": "5.3.39"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.orm-5.3.39.LIFERAY-PATCHED-1.jar",
+          "url": "org.springframework.orm-5.3.39.LIFERAY-PATCHED-1.jar",
+          "size": 204543,
+          "sha512": "add44c070e70dafc32eacfab17103c3578fe9a0e3ce2370f40b09d25037fe679a2fd1064aa470e315db3dbc8e3510e21280da8d0b24a2526316b6cd6d729cd71",
+          "sha256": "5f86736f08b81b0440281e7f0379a353e15b44338f7f5ddfa081b0dc2e6fafe8",
+          "sha1": "eb30846d3b249b27bf7d71b56c61caf94a6a0078",
+          "md5": "e6b899ba72561ac6e24a917c5d1170b0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.6.7.Final"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-orm",
+          "version": {
+            "requires": "5.3.39"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.orm-5.3.39.LIFERAY-PATCHED-1.jar",
+          "url": "org.springframework.orm-5.3.39.LIFERAY-PATCHED-1.jar",
+          "size": 204543,
+          "sha512": "add44c070e70dafc32eacfab17103c3578fe9a0e3ce2370f40b09d25037fe679a2fd1064aa470e315db3dbc8e3510e21280da8d0b24a2526316b6cd6d729cd71",
+          "sha256": "5f86736f08b81b0440281e7f0379a353e15b44338f7f5ddfa081b0dc2e6fafe8",
+          "sha1": "eb30846d3b249b27bf7d71b56c61caf94a6a0078",
+          "md5": "e6b899ba72561ac6e24a917c5d1170b0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.springframework.beans",
+    "version": "5.3.39.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.beans-5.3.39.LIFERAY-PATCHED-1.jar",
+          "url": "org.springframework.beans-5.3.39.LIFERAY-PATCHED-1.jar",
+          "size": 715543,
+          "sha512": "7cca730aa67a26b4d196209e336632ff9602eef3559bf562c14aea3002bb37e8ad8033a92f6c526e49eafd942d2d036f9c6a99256c815ad0dec54a33b856a8d6",
+          "sha256": "7c9b8c1919cb0d29a6d89a7134238517f9eebd3bb7ea5201752dba3b187a4265",
+          "sha1": "daf00931976637caac7c58850994c0fb27ebbc8f",
+          "md5": "a542b49560332a524a64aca5e69ad745"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.beans-5.3.39.LIFERAY-PATCHED-1.jar",
+          "url": "org.springframework.beans-5.3.39.LIFERAY-PATCHED-1.jar",
+          "size": 715543,
+          "sha512": "7cca730aa67a26b4d196209e336632ff9602eef3559bf562c14aea3002bb37e8ad8033a92f6c526e49eafd942d2d036f9c6a99256c815ad0dec54a33b856a8d6",
+          "sha256": "7c9b8c1919cb0d29a6d89a7134238517f9eebd3bb7ea5201752dba3b187a4265",
+          "sha1": "daf00931976637caac7c58850994c0fb27ebbc8f",
+          "md5": "a542b49560332a524a64aca5e69ad745"
+        }
+      ]
+    }
+  ]
+}
