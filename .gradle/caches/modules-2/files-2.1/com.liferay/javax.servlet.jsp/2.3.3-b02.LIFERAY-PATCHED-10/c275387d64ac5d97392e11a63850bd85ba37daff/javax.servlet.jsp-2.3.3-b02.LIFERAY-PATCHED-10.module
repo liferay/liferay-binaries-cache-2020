@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "javax.servlet.jsp",
+    "version": "2.3.3-b02.LIFERAY-PATCHED-10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.sun.el.javax.el",
+          "version": {
+            "requires": "3.0.1.LIFERAY-PATCHED-3"
+          }
+        },
+        {
+          "group": "javax.servlet.jsp",
+          "module": "javax.servlet.jsp-api",
+          "version": {
+            "requires": "2.3.2-b01"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.servlet",
+          "version": {
+            "requires": "3.2-b06"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.glassfish.web",
+          "module": "javax.servlet.jsp",
+          "version": {
+            "requires": "2.3.3-b02"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-10.jar",
+          "url": "javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-10.jar",
+          "size": 536723,
+          "sha512": "96613df6e887aa7f74bf42fcd63cbbe7c645666a2e0f988d2892c574168b4465c9881c7d225ace36a6068728f53c2065fc72fef0ab017860be1005d7f4b81632",
+          "sha256": "dccf4644d631c396daf6c7600b52c0db74193905ce9cc9927d0907f5b80f7cb8",
+          "sha1": "62e3ca96202d829c85cbf0445eb316a3d9a6e8b9",
+          "md5": "2a170a4e842eca0cb4d112145a613672"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.sun.el.javax.el",
+          "version": {
+            "requires": "3.0.1.LIFERAY-PATCHED-3"
+          }
+        },
+        {
+          "group": "javax.servlet.jsp",
+          "module": "javax.servlet.jsp-api",
+          "version": {
+            "requires": "2.3.2-b01"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.servlet",
+          "version": {
+            "requires": "3.2-b06"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.glassfish.web",
+          "module": "javax.servlet.jsp",
+          "version": {
+            "requires": "2.3.3-b02"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-10.jar",
+          "url": "javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-10.jar",
+          "size": 536723,
+          "sha512": "96613df6e887aa7f74bf42fcd63cbbe7c645666a2e0f988d2892c574168b4465c9881c7d225ace36a6068728f53c2065fc72fef0ab017860be1005d7f4b81632",
+          "sha256": "dccf4644d631c396daf6c7600b52c0db74193905ce9cc9927d0907f5b80f7cb8",
+          "sha1": "62e3ca96202d829c85cbf0445eb316a3d9a6e8b9",
+          "md5": "2a170a4e842eca0cb4d112145a613672"
+        }
+      ]
+    }
+  ]
+}
