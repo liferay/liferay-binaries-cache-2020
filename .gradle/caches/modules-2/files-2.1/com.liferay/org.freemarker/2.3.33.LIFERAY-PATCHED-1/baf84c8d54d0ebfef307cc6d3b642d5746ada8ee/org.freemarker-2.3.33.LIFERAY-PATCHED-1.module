@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.freemarker",
+    "version": "2.3.33.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j.core",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "javax.servlet.jsp",
+          "module": "javax.servlet.jsp-api",
+          "version": {
+            "requires": "2.3.2-b01"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.26"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "org.freemarker-2.3.33.LIFERAY-PATCHED-1.jar",
+          "url": "org.freemarker-2.3.33.LIFERAY-PATCHED-1.jar",
+          "size": 1855620,
+          "sha512": "b426cb3d37286dd5e54dd0d8af0894962fe05fc22788956663da6fa1d6ed03e41aefdfbf9d56429e44845258bd6cc0bc734fddd94d6363772d6691e9b70524eb",
+          "sha256": "77162bdb2661a03755798e50e6f84a19ece552130ae5fe6a315e2b84a2f33fba",
+          "sha1": "fbe0d47daee807e109a8d0ae17996f5022745405",
+          "md5": "ac80dd103dfa2d3439f3f5b9e1ad5bf7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.liferay",
+          "module": "org.apache.logging.log4j.core",
+          "version": {
+            "requires": "2.17.1.LIFERAY-PATCHED-1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "javax.servlet.jsp",
+          "module": "javax.servlet.jsp-api",
+          "version": {
+            "requires": "2.3.2-b01"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.26"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "org.freemarker-2.3.33.LIFERAY-PATCHED-1.jar",
+          "url": "org.freemarker-2.3.33.LIFERAY-PATCHED-1.jar",
+          "size": 1855620,
+          "sha512": "b426cb3d37286dd5e54dd0d8af0894962fe05fc22788956663da6fa1d6ed03e41aefdfbf9d56429e44845258bd6cc0bc734fddd94d6363772d6691e9b70524eb",
+          "sha256": "77162bdb2661a03755798e50e6f84a19ece552130ae5fe6a315e2b84a2f33fba",
+          "sha1": "fbe0d47daee807e109a8d0ae17996f5022745405",
+          "md5": "ac80dd103dfa2d3439f3f5b9e1ad5bf7"
+        }
+      ]
+    }
+  ]
+}
