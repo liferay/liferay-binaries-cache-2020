@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.checkerframework",
+    "module": "checker-qual",
+    "version": "3.47.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "checker-qual-3.47.0.jar",
+          "url": "checker-qual-3.47.0.jar",
+          "size": 235922,
+          "sha512": "b5a9720bd4bcac67e7457dbd2821618865f29a663e99ce9f38f1af7b714977b6f1ef90873fda68f66d204739488e695abc02fe002187518667eba5f6be5bbbcf",
+          "sha256": "9840a77c175a95a60c66da8f506871a907a6c4fc8a703bef38c715bc6d4de626",
+          "sha1": "2b3cbe34a6af46bb3692aac208caa4f55cd28584",
+          "md5": "ac57448fc8a7d2a8cf717bea6062f858"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "checker-qual-3.47.0.jar",
+          "url": "checker-qual-3.47.0.jar",
+          "size": 235922,
+          "sha512": "b5a9720bd4bcac67e7457dbd2821618865f29a663e99ce9f38f1af7b714977b6f1ef90873fda68f66d204739488e695abc02fe002187518667eba5f6be5bbbcf",
+          "sha256": "9840a77c175a95a60c66da8f506871a907a6c4fc8a703bef38c715bc6d4de626",
+          "sha1": "2b3cbe34a6af46bb3692aac208caa4f55cd28584",
+          "md5": "ac57448fc8a7d2a8cf717bea6062f858"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "checker-qual-3.47.0-javadoc.jar",
+          "url": "checker-qual-3.47.0-javadoc.jar",
+          "size": 1038708,
+          "sha512": "cc3e8a92b6ae193841a1ba23807698ad95f0b2b99914d2e1f630c5566de0291f73c03dc869a0ee22c65d8dc88b05cdd457a96c9419c4a114a77a19e167a7e28b",
+          "sha256": "31fc7d89741e85f917ef0a6dc2008946630fc1ba204e4238ccf59d47a3908961",
+          "sha1": "4e06fa30a977128d971a3c730962ac1ad44b3a80",
+          "md5": "0a846b5f812ada3c016f476474e00c4d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "checker-qual-3.47.0-sources.jar",
+          "url": "checker-qual-3.47.0-sources.jar",
+          "size": 269267,
+          "sha512": "72c5616a661b5df4f2af1bec4cbf36fbe04dce8309810d9c69e3b2a85487c9e116598f05ee262ae818d4eb16c8d0d3ec901165d47ed0e32fd4fb6f73f48159bb",
+          "sha256": "3b6277f0186e31f775c205cfe165f0fe98995e83108b15314e7a4cb93e3f9c96",
+          "sha1": "571d025343488959758a651b2620f2bfadf5a0bf",
+          "md5": "8615c4c6e148678ed9a96fea44c8086c"
+        }
+      ]
+    }
+  ]
+}
