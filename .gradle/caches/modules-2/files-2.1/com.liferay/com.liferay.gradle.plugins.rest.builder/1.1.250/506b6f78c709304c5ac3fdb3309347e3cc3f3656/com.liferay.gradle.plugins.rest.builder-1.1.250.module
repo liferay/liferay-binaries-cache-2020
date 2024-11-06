@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.rest.builder",
+    "version": "1.1.250",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.rest.builder-1.1.250.jar",
+          "url": "com.liferay.gradle.plugins.rest.builder-1.1.250.jar",
+          "size": 14719,
+          "sha512": "a94a3a2674a90d2da10b1d25a49bd4fca9a3b95086095d0c204412f01c8e94b36638bdcd77769b1d7c469b4890a31a1708a8037e403065bbd31c8cd5928b0e27",
+          "sha256": "9513f776e307b785373986e46318a04619f103f95a0318317713274bc6c4a428",
+          "sha1": "8066c5d186461027508bed3f293a0d5f6fe44c96",
+          "md5": "347476e907afa73b388cceccf1dfb55b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.rest.builder-1.1.250.jar",
+          "url": "com.liferay.gradle.plugins.rest.builder-1.1.250.jar",
+          "size": 14719,
+          "sha512": "a94a3a2674a90d2da10b1d25a49bd4fca9a3b95086095d0c204412f01c8e94b36638bdcd77769b1d7c469b4890a31a1708a8037e403065bbd31c8cd5928b0e27",
+          "sha256": "9513f776e307b785373986e46318a04619f103f95a0318317713274bc6c4a428",
+          "sha1": "8066c5d186461027508bed3f293a0d5f6fe44c96",
+          "md5": "347476e907afa73b388cceccf1dfb55b"
+        }
+      ]
+    }
+  ]
+}
