@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	* Copyright (c) Contributors to the Eclipse Foundation
+	*
+	* This program and the accompanying materials are made available under the
+	* terms of the Eclipse Public License 2.0 which is available at
+	* http://www.eclipse.org/legal/epl-2.0, or the Apache License, Version 2.0
+	* which is available at https://www.apache.org/licenses/LICENSE-2.0.
+	*
+	* SPDX-License-Identifier: (EPL-2.0 OR Apache-2.0)
+-->
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eclipse.transformer</groupId>
+  <artifactId>org.eclipse.transformer.jakarta</artifactId>
+  <version>1.0.0</version>
+  <name>org.eclipse.transformer:org.eclipse.transformer.jakarta</name>
+  <description>Eclipse Transformer Jakarta EE Rules</description>
+  <url>https://projects.eclipse.org/projects/technology.transformer</url>
+  <organization>
+    <name>Eclipse Foundation</name>
+    <url>https://www.eclipse.org</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>(EPL-2.0 OR Apache-2.0)</name>
+      <url>https://opensource.org/licenses/EPL-2.0,https://opensource.org/licenses/Apache-2.0</url>
+      <distribution>repo</distribution>
+      <comments>This program and the accompanying materials are made available under the terms of the Eclipse Public License 2.0, or the Apache License, Version 2.0.</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bjhargrave</id>
+      <name>BJ Hargrave</name>
+      <email>hargrave@us.ibm.com</email>
+      <url>https://github.com/bjhargrave</url>
+      <organization>IBM</organization>
+      <organizationUrl>https://developer.ibm.com</organizationUrl>
+      <roles>
+        <role>developer,lead</role>
+      </roles>
+      <timezone>America/New_York</timezone>
+    </developer>
+  </developers>
+  <mailingLists>
+    <mailingList>
+      <name>Eclipse Transformer Developer List</name>
+      <subscribe>https://accounts.eclipse.org/mailing-list/transformer-dev</subscribe>
+      <unsubscribe>https://accounts.eclipse.org/mailing-list/transformer-dev</unsubscribe>
+      <post>transformer-dev@eclipse.org</post>
+      <archive>http://www.eclipse.org/lists/transformer-dev</archive>
+    </mailingList>
+  </mailingLists>
+  <scm>
+    <connection>scm:git:https://github.com/eclipse/transformer.git</connection>
+    <developerConnection>scm:git:git@github.com:eclipse/transformer.git</developerConnection>
+    <tag>1.0.0</tag>
+    <url>https://github.com/eclipse/transformer</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/eclipse/transformer/issues</url>
+  </issueManagement>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>biz.aQute.bnd</groupId>
+        <artifactId>bnd-maven-plugin</artifactId>
+        <version>7.0.0</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>
