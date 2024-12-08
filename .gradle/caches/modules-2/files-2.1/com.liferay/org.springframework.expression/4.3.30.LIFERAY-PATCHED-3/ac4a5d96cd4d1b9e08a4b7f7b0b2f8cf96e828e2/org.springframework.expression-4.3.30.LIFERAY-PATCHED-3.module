@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.springframework.expression",
+    "version": "4.3.30.LIFERAY-PATCHED-3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "4.3.30.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-expression",
+          "version": {
+            "requires": "4.3.30.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.expression-4.3.30.LIFERAY-PATCHED-3.jar",
+          "url": "org.springframework.expression-4.3.30.LIFERAY-PATCHED-3.jar",
+          "size": 280947,
+          "sha512": "6faa7c6c6cbf7af064fde40d721fcf94bb64ae8e8e58ec5b10a7dc00ef7b1096149caccf693de104d08994d55c9347d17fa5ea889da0d4578d49827b011fbe86",
+          "sha256": "cb780b5ce477ed145b6b78118fc1c159f4e4369e18e69e97613333ce1759ccab",
+          "sha1": "e94ce9becd9b6bd178b1dfc9b212f89e1ab508fa",
+          "md5": "c2be73d9a19435ea013c4b5a44f26271"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "4.3.30.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-expression",
+          "version": {
+            "requires": "4.3.30.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.expression-4.3.30.LIFERAY-PATCHED-3.jar",
+          "url": "org.springframework.expression-4.3.30.LIFERAY-PATCHED-3.jar",
+          "size": 280947,
+          "sha512": "6faa7c6c6cbf7af064fde40d721fcf94bb64ae8e8e58ec5b10a7dc00ef7b1096149caccf693de104d08994d55c9347d17fa5ea889da0d4578d49827b011fbe86",
+          "sha256": "cb780b5ce477ed145b6b78118fc1c159f4e4369e18e69e97613333ce1759ccab",
+          "sha1": "e94ce9becd9b6bd178b1dfc9b212f89e1ab508fa",
+          "md5": "c2be73d9a19435ea013c4b5a44f26271"
+        }
+      ]
+    }
+  ]
+}
