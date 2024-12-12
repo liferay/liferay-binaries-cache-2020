@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.jasper.jspc",
+    "version": "2.0.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        },
+        {
+          "group": "javax.servlet.jsp.jstl",
+          "module": "javax.servlet.jsp.jstl-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.apache.tomcat",
+          "module": "tomcat-jasper",
+          "version": {
+            "requires": "9.0.97"
+          }
+        },
+        {
+          "group": "org.glassfish.web",
+          "module": "javax.servlet.jsp.jstl",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.osgi",
+          "module": "osgi.core",
+          "version": {
+            "requires": "6.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.jasper.jspc-2.0.18.jar",
+          "url": "com.liferay.gradle.plugins.jasper.jspc-2.0.18.jar",
+          "size": 16503,
+          "sha512": "df00fbb30af01bc5836bdfc477f1485a4fe0c330faa4eb8859aea035c778c0618364f7ebbc4238226e382f795f9bce6e875ed5b1be3eef48a444f6ad71dc433e",
+          "sha256": "00674e1166928c1bcb560ff8e9061b8701ef81f295e3e633cf90d941a46921ef",
+          "sha1": "1936182163623de49a4652fa49c0e670180f35c0",
+          "md5": "230fa576f6de717c324913411a998172"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        },
+        {
+          "group": "javax.servlet.jsp.jstl",
+          "module": "javax.servlet.jsp.jstl-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.apache.tomcat",
+          "module": "tomcat-jasper",
+          "version": {
+            "requires": "9.0.97"
+          }
+        },
+        {
+          "group": "org.glassfish.web",
+          "module": "javax.servlet.jsp.jstl",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.osgi",
+          "module": "osgi.core",
+          "version": {
+            "requires": "6.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.jasper.jspc-2.0.18.jar",
+          "url": "com.liferay.gradle.plugins.jasper.jspc-2.0.18.jar",
+          "size": 16503,
+          "sha512": "df00fbb30af01bc5836bdfc477f1485a4fe0c330faa4eb8859aea035c778c0618364f7ebbc4238226e382f795f9bce6e875ed5b1be3eef48a444f6ad71dc433e",
+          "sha256": "00674e1166928c1bcb560ff8e9061b8701ef81f295e3e633cf90d941a46921ef",
+          "sha1": "1936182163623de49a4652fa49c0e670180f35c0",
+          "md5": "230fa576f6de717c324913411a998172"
+        }
+      ]
+    }
+  ]
+}
