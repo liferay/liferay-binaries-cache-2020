@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.lang.builder",
+    "version": "3.0.39",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.lang.builder-3.0.39.jar",
+          "url": "com.liferay.gradle.plugins.lang.builder-3.0.39.jar",
+          "size": 22939,
+          "sha512": "5dd0d393bf42a416bc65e7baa8881364445c53418ea848ad10cbe557fdfd07b34c5c415af425ee763dd5f1a1d189f5933ebbcb64970753108d4162ba918c02b1",
+          "sha256": "eb1107ad03609c4b43d2ca42447d9c27c8e747db6460042e5957c11339412855",
+          "sha1": "0b3cd412f148eee31f387f66665df905457e1800",
+          "md5": "ff457239f2d8c11503005265bd5cc4e3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.lang.builder-3.0.39.jar",
+          "url": "com.liferay.gradle.plugins.lang.builder-3.0.39.jar",
+          "size": 22939,
+          "sha512": "5dd0d393bf42a416bc65e7baa8881364445c53418ea848ad10cbe557fdfd07b34c5c415af425ee763dd5f1a1d189f5933ebbcb64970753108d4162ba918c02b1",
+          "sha256": "eb1107ad03609c4b43d2ca42447d9c27c8e747db6460042e5957c11339412855",
+          "sha1": "0b3cd412f148eee31f387f66665df905457e1800",
+          "md5": "ff457239f2d8c11503005265bd5cc4e3"
+        }
+      ]
+    }
+  ]
+}
