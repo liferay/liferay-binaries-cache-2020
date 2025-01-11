@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.maven.plugin.builder",
+    "version": "2.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        },
+        {
+          "group": "com.thoughtworks.qdox",
+          "module": "qdox",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.dom4j",
+          "module": "dom4j",
+          "version": {
+            "requires": "2.1.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.maven.plugin.builder-2.0.3.jar",
+          "url": "com.liferay.gradle.plugins.maven.plugin.builder-2.0.3.jar",
+          "size": 45363,
+          "sha512": "109fe69f357842f3c63b3e595c5902dc46874adf570edcfc89a55c9b927d3aba3cc1db49cf9785b065de3c48c449f5709f8acbf6cc829abd9563d4a87c354892",
+          "sha256": "c646014526f74253b3d4be8350c04b65f41eb81c19196b5911f893e12e6610ac",
+          "sha1": "a1bc52ff00db7a92f0b0bb147a970bf61b881ee9",
+          "md5": "57e9c537019fcabfc8b6598dac321c89"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        },
+        {
+          "group": "com.thoughtworks.qdox",
+          "module": "qdox",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.dom4j",
+          "module": "dom4j",
+          "version": {
+            "requires": "2.1.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.maven.plugin.builder-2.0.3.jar",
+          "url": "com.liferay.gradle.plugins.maven.plugin.builder-2.0.3.jar",
+          "size": 45363,
+          "sha512": "109fe69f357842f3c63b3e595c5902dc46874adf570edcfc89a55c9b927d3aba3cc1db49cf9785b065de3c48c449f5709f8acbf6cc829abd9563d4a87c354892",
+          "sha256": "c646014526f74253b3d4be8350c04b65f41eb81c19196b5911f893e12e6610ac",
+          "sha1": "a1bc52ff00db7a92f0b0bb147a970bf61b881ee9",
+          "md5": "57e9c537019fcabfc8b6598dac321c89"
+        }
+      ]
+    }
+  ]
+}

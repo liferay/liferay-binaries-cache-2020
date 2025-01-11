@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.osgi.service.http",
+    "version": "1.2.2.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.osgi.service.http-1.2.2.LIFERAY-PATCHED-1.jar",
+          "url": "org.osgi.service.http-1.2.2.LIFERAY-PATCHED-1.jar",
+          "size": 19392,
+          "sha512": "b78cea692baf646c408b5cffb17946bd47d692f4296bca8bd2db0e3feac7f19d6efa8babb8a56da3852a9feb76938d99104ae24201ac7c3db959089490669377",
+          "sha256": "5380ac8f3a0a794d191c2a3ba101aa4df4a81d9386bf10ba5cff6b9108bd022c",
+          "sha1": "709f52c3fe97116ea813f45064279ad0fe74a8dd",
+          "md5": "c4366948eec6618dfd4c1704df662831"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.osgi.service.http-1.2.2.LIFERAY-PATCHED-1.jar",
+          "url": "org.osgi.service.http-1.2.2.LIFERAY-PATCHED-1.jar",
+          "size": 19392,
+          "sha512": "b78cea692baf646c408b5cffb17946bd47d692f4296bca8bd2db0e3feac7f19d6efa8babb8a56da3852a9feb76938d99104ae24201ac7c3db959089490669377",
+          "sha256": "5380ac8f3a0a794d191c2a3ba101aa4df4a81d9386bf10ba5cff6b9108bd022c",
+          "sha1": "709f52c3fe97116ea813f45064279ad0fe74a8dd",
+          "md5": "c4366948eec6618dfd4c1704df662831"
+        }
+      ]
+    }
+  ]
+}
