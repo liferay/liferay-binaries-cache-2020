@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.baseline",
+    "version": "7.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.ant.bnd",
+          "version": {
+            "requires": "3.2.14"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.baseline-7.0.5.jar",
+          "url": "com.liferay.gradle.plugins.baseline-7.0.5.jar",
+          "size": 39630,
+          "sha512": "ad1d4b9e38bf9954bd489f801a1f65e7a640fab642c7132ac624f5e1d8aa606861f4173902740aefc0afb0bbb1645eb0eae834dd78d9b65835584748c43053c2",
+          "sha256": "7636dbed1b1bb11e4e7dbba9f263209a383dc7d276eb64a70258d96e07c238fd",
+          "sha1": "19d5fa39ac8be18cebfb53570145218c78db537d",
+          "md5": "cd2a3557fa6974b117ef76bded02da18"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.ant.bnd",
+          "version": {
+            "requires": "3.2.14"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.baseline-7.0.5.jar",
+          "url": "com.liferay.gradle.plugins.baseline-7.0.5.jar",
+          "size": 39630,
+          "sha512": "ad1d4b9e38bf9954bd489f801a1f65e7a640fab642c7132ac624f5e1d8aa606861f4173902740aefc0afb0bbb1645eb0eae834dd78d9b65835584748c43053c2",
+          "sha256": "7636dbed1b1bb11e4e7dbba9f263209a383dc7d276eb64a70258d96e07c238fd",
+          "sha1": "19d5fa39ac8be18cebfb53570145218c78db537d",
+          "md5": "cd2a3557fa6974b117ef76bded02da18"
+        }
+      ]
+    }
+  ]
+}

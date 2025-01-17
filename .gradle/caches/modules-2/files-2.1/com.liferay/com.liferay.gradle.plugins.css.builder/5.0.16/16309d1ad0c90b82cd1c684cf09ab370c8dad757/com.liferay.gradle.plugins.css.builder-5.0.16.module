@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.css.builder",
+    "version": "5.0.16",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.css.builder-5.0.16.jar",
+          "url": "com.liferay.gradle.plugins.css.builder-5.0.16.jar",
+          "size": 32069,
+          "sha512": "5f3d00efe3e0b6d089871c41b87aab1ad7ec87a6da4c5fa1a0b9dcd6d5b9d559eaab34b70d17a6236c1f2a037b93b827164e17b8231667762b6b6838c122f702",
+          "sha256": "579bfa9e36863e0c876b27d0d6292d83e956025477036d8f6b3c44bb23657999",
+          "sha1": "3017240dbec5e1d7198c14678628708b55bd07b0",
+          "md5": "ed7e189bce22b0b029384afb61aa0518"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.css.builder-5.0.16.jar",
+          "url": "com.liferay.gradle.plugins.css.builder-5.0.16.jar",
+          "size": 32069,
+          "sha512": "5f3d00efe3e0b6d089871c41b87aab1ad7ec87a6da4c5fa1a0b9dcd6d5b9d559eaab34b70d17a6236c1f2a037b93b827164e17b8231667762b6b6838c122f702",
+          "sha256": "579bfa9e36863e0c876b27d0d6292d83e956025477036d8f6b3c44bb23657999",
+          "sha1": "3017240dbec5e1d7198c14678628708b55bd07b0",
+          "md5": "ed7e189bce22b0b029384afb61aa0518"
+        }
+      ]
+    }
+  ]
+}
