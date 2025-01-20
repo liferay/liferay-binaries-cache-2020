@@ -1,0 +1,372 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.poshi.runner",
+    "version": "1.0.496",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.deque.html.axe-core",
+          "module": "selenium",
+          "version": {
+            "requires": "4.6.0"
+          }
+        },
+        {
+          "group": "com.github.lewka",
+          "module": "ocular",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "com.jayway.jsonpath",
+          "module": "json-path",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.poshi.core",
+          "version": {
+            "requires": "1.0.161"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "jodd.util",
+          "version": {
+            "requires": "6.0.1.LIFERAY-PATCHED-2"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "1.6.6"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.15.1"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport",
+          "version": {
+            "strictly": "4.1.84.Final",
+            "requires": "4.1.84.Final"
+          }
+        },
+        {
+          "group": "org.junit.vintage",
+          "module": "junit-vintage-engine",
+          "version": {
+            "requires": "5.10.2"
+          }
+        },
+        {
+          "group": "net.lightbody.bmp",
+          "module": "browsermob-core",
+          "version": {
+            "requires": "2.1.5"
+          }
+        },
+        {
+          "group": "org.bytedeco.javacpp-presets",
+          "module": "opencv",
+          "version": {
+            "requires": "2.4.10-0.10"
+          }
+        },
+        {
+          "group": "org.dom4j",
+          "module": "dom4j",
+          "version": {
+            "requires": "2.1.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20231013"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.15.3"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-devtools-v100",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "org.sikuli",
+          "module": "sikuli-api",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "xml-apis",
+          "module": "xml-apis",
+          "version": {
+            "requires": "1.4.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.poshi.runner-1.0.496.jar",
+          "url": "com.liferay.poshi.runner-1.0.496.jar",
+          "size": 284655,
+          "sha512": "282cff55c8b93d195a9f11cf4389a29004d5c79842f2ead6a02934591c8d29be1b2a8ca2bdfe8fbba1187d3a0f7f3305d08a3ca26f10d8d347bcd1c07cee83ec",
+          "sha256": "481c3e4fe0bf7f1efbc7e99f828d5cc6a091316e1004acaf72decd28a4532daa",
+          "sha1": "42b281c9411182f7237397597df31c6fd7b6d601",
+          "md5": "a27efb4c75abcf6b2f76afc4e50bce51"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.deque.html.axe-core",
+          "module": "selenium",
+          "version": {
+            "requires": "4.6.0"
+          }
+        },
+        {
+          "group": "com.github.lewka",
+          "module": "ocular",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "com.jayway.jsonpath",
+          "module": "json-path",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.poshi.core",
+          "version": {
+            "requires": "1.0.161"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "jodd.util",
+          "version": {
+            "requires": "6.0.1.LIFERAY-PATCHED-2"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "1.6.6"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.15.1"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport",
+          "version": {
+            "strictly": "4.1.84.Final",
+            "requires": "4.1.84.Final"
+          }
+        },
+        {
+          "group": "org.junit.vintage",
+          "module": "junit-vintage-engine",
+          "version": {
+            "requires": "5.10.2"
+          }
+        },
+        {
+          "group": "net.lightbody.bmp",
+          "module": "browsermob-core",
+          "version": {
+            "requires": "2.1.5"
+          }
+        },
+        {
+          "group": "org.bytedeco.javacpp-presets",
+          "module": "opencv",
+          "version": {
+            "requires": "2.4.10-0.10"
+          }
+        },
+        {
+          "group": "org.dom4j",
+          "module": "dom4j",
+          "version": {
+            "requires": "2.1.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20231013"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.15.3"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-devtools-v100",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "org.sikuli",
+          "module": "sikuli-api",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "xml-apis",
+          "module": "xml-apis",
+          "version": {
+            "requires": "1.4.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.poshi.runner-1.0.496.jar",
+          "url": "com.liferay.poshi.runner-1.0.496.jar",
+          "size": 284655,
+          "sha512": "282cff55c8b93d195a9f11cf4389a29004d5c79842f2ead6a02934591c8d29be1b2a8ca2bdfe8fbba1187d3a0f7f3305d08a3ca26f10d8d347bcd1c07cee83ec",
+          "sha256": "481c3e4fe0bf7f1efbc7e99f828d5cc6a091316e1004acaf72decd28a4532daa",
+          "sha1": "42b281c9411182f7237397597df31c6fd7b6d601",
+          "md5": "a27efb4c75abcf6b2f76afc4e50bce51"
+        }
+      ]
+    }
+  ]
+}
