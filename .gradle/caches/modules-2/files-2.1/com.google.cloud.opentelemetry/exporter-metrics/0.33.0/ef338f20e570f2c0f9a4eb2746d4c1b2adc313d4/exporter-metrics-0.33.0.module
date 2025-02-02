@@ -1,0 +1,224 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.cloud.opentelemetry",
+    "module": "exporter-metrics",
+    "version": "0.33.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.auto.value",
+          "module": "auto-value-annotations",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.42.1"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-core",
+          "version": {
+            "requires": "2.44.1"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-monitoring",
+          "version": {
+            "requires": "3.52.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-metrics",
+          "version": {
+            "requires": "1.42.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exporter-metrics-0.33.0.jar",
+          "url": "exporter-metrics-0.33.0.jar",
+          "size": 39863,
+          "sha512": "6b9fb217ee6cbaa040c9cf8edc9487055ad990811277e603194b6b51ec1c320eb8015fc3b1dea1d0ee459769a0c50d0fbdcf70fd2c96181c75b450a4caa74d39",
+          "sha256": "7a9ab87683a97357a95389ff3cec9684785648076f9b158d44da3becb93bb036",
+          "sha1": "6f0cd9f1481cf92e566478140aa4d26e159b5ad8",
+          "md5": "8e734c32c7919f9618ba979a9e30ff6c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.cloud",
+          "module": "libraries-bom",
+          "version": {
+            "requires": "26.48.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom",
+          "version": {
+            "requires": "1.42.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.cloud.opentelemetry",
+          "module": "shared-resourcemapping",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry.semconv",
+          "module": "opentelemetry-semconv",
+          "version": {
+            "requires": "1.27.0-alpha"
+          }
+        },
+        {
+          "group": "com.google.auto.value",
+          "module": "auto-value-annotations",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.42.1"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-core",
+          "version": {
+            "requires": "2.44.1"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-monitoring",
+          "version": {
+            "requires": "3.52.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-metrics",
+          "version": {
+            "requires": "1.42.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exporter-metrics-0.33.0.jar",
+          "url": "exporter-metrics-0.33.0.jar",
+          "size": 39863,
+          "sha512": "6b9fb217ee6cbaa040c9cf8edc9487055ad990811277e603194b6b51ec1c320eb8015fc3b1dea1d0ee459769a0c50d0fbdcf70fd2c96181c75b450a4caa74d39",
+          "sha256": "7a9ab87683a97357a95389ff3cec9684785648076f9b158d44da3becb93bb036",
+          "sha1": "6f0cd9f1481cf92e566478140aa4d26e159b5ad8",
+          "md5": "8e734c32c7919f9618ba979a9e30ff6c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exporter-metrics-0.33.0-javadoc.jar",
+          "url": "exporter-metrics-0.33.0-javadoc.jar",
+          "size": 435840,
+          "sha512": "766dd0af3c6a9a75994a3fe18cc2fd2d1e0ad23af36ffe41db984b51484275b6291d5eac2ebada851df684732c7117f3af3044fe695f1f17546013363633a41c",
+          "sha256": "3913f34d3eed0a85c4102e6038d86d697e58decf686734dfb1bd932fbb9c4e84",
+          "sha1": "2dad8aa5b47a4f68bbc532b86517c58cae247f32",
+          "md5": "9c2546aab5128bb7fd0766c48b055866"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exporter-metrics-0.33.0-sources.jar",
+          "url": "exporter-metrics-0.33.0-sources.jar",
+          "size": 23620,
+          "sha512": "d27200d3737dca99b2aa1463629c9d4fcdbe3f5ab276334caae0c92e9af9190dd392057bcbfc10f4e699875aba1c404d807a62aa7fbbf9ef7b7978b7029fd14c",
+          "sha256": "1693896c58280c0583ec7d4e63dee1cc2ba8b4c8bad4b10f701cca326686018f",
+          "sha1": "bb849f4b21297b3582a205038d1e1a6505ade563",
+          "md5": "328a1274a390e575ff7ee7e59817c169"
+        }
+      ]
+    }
+  ]
+}
