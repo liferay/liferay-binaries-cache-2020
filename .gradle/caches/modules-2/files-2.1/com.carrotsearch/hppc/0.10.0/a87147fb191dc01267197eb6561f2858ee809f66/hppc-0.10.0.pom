@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.carrotsearch</groupId>
+  <artifactId>hppc</artifactId>
+  <version>0.10.0</version>
+  <name>High Performance Primitive Collections</name>
+  <description>High Performance Primitive Collections: data structures (maps, sets, lists, stacks, queues) generated for combinations of object and primitive types to conserve JVM memory and speed up execution.</description>
+  <url>https://github.com/carrotsearch/hppc</url>
+  <organization>
+    <name>Carrot Search s.c.</name>
+    <url>https://www.carrotsearch.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stanislaw.osinski</id>
+      <name>Stanisław Osiński</name>
+      <email>stanislaw.osinski@carrotsearch.com</email>
+    </developer>
+    <developer>
+      <id>dawid.weiss</id>
+      <name>Dawid Weiss</name>
+      <email>dawid.weiss@carrotsearch.com</email>
+    </developer>
+    <developer>
+      <id>bruno.roustant</id>
+      <name>Bruno Roustant</name>
+      <email>bruno.roustant@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:carrotsearch/hppc.git</connection>
+    <developerConnection>scm:git:git@github.com:carrotsearch/hppc.git</developerConnection>
+    <url>https://github.com/carrotsearch/hppc</url>
+  </scm>
+</project>

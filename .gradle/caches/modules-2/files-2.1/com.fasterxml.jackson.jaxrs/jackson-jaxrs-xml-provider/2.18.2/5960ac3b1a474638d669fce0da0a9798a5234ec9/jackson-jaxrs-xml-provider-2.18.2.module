@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.jaxrs",
+    "module": "jackson-jaxrs-xml-provider",
+    "version": "2.18.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.jaxrs",
+          "module": "jackson-jaxrs-base",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-jaxb-annotations",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "org.codehaus.woodstox",
+          "module": "stax2-api",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.woodstox",
+          "module": "woodstox-core",
+          "version": {
+            "requires": "7.0.0"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.stream",
+              "module": "stax-api"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.18.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-jaxrs-xml-provider-2.18.2.jar",
+          "url": "jackson-jaxrs-xml-provider-2.18.2.jar",
+          "size": 13857,
+          "sha512": "5aa4d13a56e38f64481790d55b3f26bba6be089f1638c15f31af35c321a888e39c13a34305204181f7f550c569b3066deb6c34e123950f51d7fdb42802311278",
+          "sha256": "36d01d95e43d39e76f1712ce1a69a8967a3caa1084430981d276020b6d3d4b31",
+          "sha1": "adbef23045aacacbeb3c042bbd78666c3b3b7e2b",
+          "md5": "541f7ead9a6fa9ce384b7e291ed9abc4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.jaxrs",
+          "module": "jackson-jaxrs-base",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-jaxb-annotations",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "org.codehaus.woodstox",
+          "module": "stax2-api",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.woodstox",
+          "module": "woodstox-core",
+          "version": {
+            "requires": "7.0.0"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.stream",
+              "module": "stax-api"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.18.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-jaxrs-xml-provider-2.18.2.jar",
+          "url": "jackson-jaxrs-xml-provider-2.18.2.jar",
+          "size": 13857,
+          "sha512": "5aa4d13a56e38f64481790d55b3f26bba6be089f1638c15f31af35c321a888e39c13a34305204181f7f550c569b3066deb6c34e123950f51d7fdb42802311278",
+          "sha256": "36d01d95e43d39e76f1712ce1a69a8967a3caa1084430981d276020b6d3d4b31",
+          "sha1": "adbef23045aacacbeb3c042bbd78666c3b3b7e2b",
+          "md5": "541f7ead9a6fa9ce384b7e291ed9abc4"
+        }
+      ]
+    }
+  ]
+}
