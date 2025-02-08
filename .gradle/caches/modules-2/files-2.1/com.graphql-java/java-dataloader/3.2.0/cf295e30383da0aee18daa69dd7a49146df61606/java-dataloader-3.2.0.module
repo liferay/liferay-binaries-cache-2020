@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.graphql-java",
+    "module": "java-dataloader",
+    "version": "3.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "java-dataloader-3.2.0.jar",
+          "url": "java-dataloader-3.2.0.jar",
+          "size": 68395,
+          "sha512": "6ec6dce44ec4d14ba482130d7a022ab76d3174fe75b1cccfd35d2bb595b17e65865b8b9955c6606f8c63128fab4b9a0aa2529a6ea4ffa12b3026971833c043e3",
+          "sha256": "b9c7d32aef05a2e33dc07c5ce45b713c405b61c6264cb0ed48aac003add3eaa4",
+          "sha1": "f45c53595cab4c23e35526cc122e2bd159a50516",
+          "md5": "2558e982381ac391c975246c0c13074b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "java-dataloader-3.2.0.jar",
+          "url": "java-dataloader-3.2.0.jar",
+          "size": 68395,
+          "sha512": "6ec6dce44ec4d14ba482130d7a022ab76d3174fe75b1cccfd35d2bb595b17e65865b8b9955c6606f8c63128fab4b9a0aa2529a6ea4ffa12b3026971833c043e3",
+          "sha256": "b9c7d32aef05a2e33dc07c5ce45b713c405b61c6264cb0ed48aac003add3eaa4",
+          "sha1": "f45c53595cab4c23e35526cc122e2bd159a50516",
+          "md5": "2558e982381ac391c975246c0c13074b"
+        }
+      ]
+    }
+  ]
+}

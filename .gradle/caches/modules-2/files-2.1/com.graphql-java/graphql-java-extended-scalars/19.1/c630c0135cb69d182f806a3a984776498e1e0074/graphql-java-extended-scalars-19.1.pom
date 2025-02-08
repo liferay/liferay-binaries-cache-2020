@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.graphql-java</groupId>
+  <artifactId>graphql-java-extended-scalars</artifactId>
+  <version>19.1</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.graphql-java</groupId>
+      <artifactId>graphql-java</artifactId>
+      <version>19.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>graphql-java-extended-scalars</name>
+  <description>A library fo extended scalars for graphql-java</description>
+  <url>https://github.com/graphql-java/graphql-java-extended-scalars</url>
+  <inceptionYear>2018</inceptionYear>
+  <scm>
+    <url>https://github.com/graphql-java/graphql-java-extended-scalars</url>
+    <connection>scm:git@github.com:graphql-java/graphql-java-extended-scalars.git</connection>
+    <developerConnection>scm:git@github.com:graphql-java/graphql-java-extended-scalars.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/graphql-java/graphql-java/blob/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bbakerman</id>
+      <name>Brad Baker</name>
+      <email>bbakerman@gmail.com</email>
+    </developer>
+  </developers>
+</project>

@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.graphql-java-kickstart",
+    "module": "graphql-java-servlet",
+    "version": "14.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.graphql-java-kickstart",
+          "module": "graphql-java-kickstart",
+          "version": {
+            "requires": "14.0.0"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "javax.websocket",
+          "module": "javax.websocket-api",
+          "version": {
+            "requires": "1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphql-java-servlet-14.0.0.jar",
+          "url": "graphql-java-servlet-14.0.0.jar",
+          "size": 112273,
+          "sha512": "a1ad9a30b7bb57601834d90fde2fccf1b17c4e94c79f7e259d57d68e2e74b0f73d54544a88214db47093f19a5c8c97ed4588a997f07be96a6713fbb060e948f7",
+          "sha256": "a9dd77afa4ce26e488e887fe073dd24aa48a51c9182812fe01037b0dcdf0e16c",
+          "sha1": "dffa8a1363057d6e7605e8eb533a8251b9d9508b",
+          "md5": "c65d7fb26ca98ba0b95fbb0922c8719b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "com.graphql-java-kickstart",
+          "module": "graphql-java-kickstart",
+          "version": {
+            "requires": "14.0.0"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "javax.websocket",
+          "module": "javax.websocket-api",
+          "version": {
+            "requires": "1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphql-java-servlet-14.0.0.jar",
+          "url": "graphql-java-servlet-14.0.0.jar",
+          "size": 112273,
+          "sha512": "a1ad9a30b7bb57601834d90fde2fccf1b17c4e94c79f7e259d57d68e2e74b0f73d54544a88214db47093f19a5c8c97ed4588a997f07be96a6713fbb060e948f7",
+          "sha256": "a9dd77afa4ce26e488e887fe073dd24aa48a51c9182812fe01037b0dcdf0e16c",
+          "sha1": "dffa8a1363057d6e7605e8eb533a8251b9d9508b",
+          "md5": "c65d7fb26ca98ba0b95fbb0922c8719b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphql-java-servlet-14.0.0-sources.jar",
+          "url": "graphql-java-servlet-14.0.0-sources.jar",
+          "size": 54383,
+          "sha512": "c5725b592473364f8fdb42df4fbdfff7f5868fbf65c493759cad67ec86d0e749a354b3ef9cfb3962801b2c2e571e7bff7bd2399a5c5a2eab2a0d2a75107c6997",
+          "sha256": "6b8768efad2c8e131e558c99557293cf8d9759fb961fe9dbad8c8023a71a95a4",
+          "sha1": "ac4fb27f9e20c3eac7429006f6c13b9ed5a78fae",
+          "md5": "c7f36871cd9248b9ae372f5ef15deaab"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphql-java-servlet-14.0.0-javadoc.jar",
+          "url": "graphql-java-servlet-14.0.0-javadoc.jar",
+          "size": 221735,
+          "sha512": "cef597995889b6c25d430056ae934b429ba51713f2f3dcd54f25eb370256e89d65ff6c052723cc211c4bf6f6429a45c08425e1453e4be36fddd4e74a29a2e0e6",
+          "sha256": "0d18b0db0a8f9526dc71e38bdcde45f18e8415ccc9a0334a078cb6692310d1bf",
+          "sha1": "c3969fc39ed47bb5fc10c6165c03614bb03a3e6a",
+          "md5": "858eab54d40ffb7e59f5d5fd45213a34"
+        }
+      ]
+    }
+  ]
+}

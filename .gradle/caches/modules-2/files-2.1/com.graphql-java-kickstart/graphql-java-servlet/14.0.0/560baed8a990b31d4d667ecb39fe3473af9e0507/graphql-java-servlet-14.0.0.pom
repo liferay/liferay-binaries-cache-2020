@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.graphql-java-kickstart</groupId>
+  <artifactId>graphql-java-servlet</artifactId>
+  <version>14.0.0</version>
+  <name>graphql-java-servlet</name>
+  <description>relay.js-compatible GraphQL servlet</description>
+  <url>https://github.com/graphql-java-kickstart/graphql-java-servlet</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>oliemansm</id>
+      <name>Michiel Oliemans</name>
+    </developer>
+    <developer>
+      <id>yrashk</id>
+      <name>Yurii Rashkovskii</name>
+      <email>yrashk@gmail.com</email>
+    </developer>
+    <developer>
+      <id>apottere</id>
+      <name>Andrew Potter</name>
+      <email>apottere@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://github.com/graphql-java-kickstart/graphql-java-servlet.git</connection>
+    <developerConnection>scm:git://github.com/graphql-java-kickstart/graphql-java-servlet.git</developerConnection>
+    <url>https://github.com/graphql-java-kickstart/graphql-java-servlet</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.graphql-java-kickstart</groupId>
+      <artifactId>graphql-java-kickstart</artifactId>
+      <version>14.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.websocket</groupId>
+      <artifactId>javax.websocket-api</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.36</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
