@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "jakarta.annotation",
+    "version": "1.3.5.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jakarta.annotation-1.3.5.LIFERAY-PATCHED-1.jar",
+          "url": "jakarta.annotation-1.3.5.LIFERAY-PATCHED-1.jar",
+          "size": 10234,
+          "sha512": "1940441471936e36ed20682df15276e9dd3098e58c227de5b151ac09708aa021ef1254010df4d677dfcd5ea41d2d73a2c1779c25cca4555de23ad18da988734f",
+          "sha256": "6b758da9eff47cfa8091c886fbb5675e1f3c237005e96a9481620dca018bdba6",
+          "sha1": "398acbe9e57dc4ab87f0bd7a1d5c89185d5036a7",
+          "md5": "afd6e1bcbfa589c9e0b5aad1c70eaaa8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jakarta.annotation-1.3.5.LIFERAY-PATCHED-1.jar",
+          "url": "jakarta.annotation-1.3.5.LIFERAY-PATCHED-1.jar",
+          "size": 10234,
+          "sha512": "1940441471936e36ed20682df15276e9dd3098e58c227de5b151ac09708aa021ef1254010df4d677dfcd5ea41d2d73a2c1779c25cca4555de23ad18da988734f",
+          "sha256": "6b758da9eff47cfa8091c886fbb5675e1f3c237005e96a9481620dca018bdba6",
+          "sha1": "398acbe9e57dc4ab87f0bd7a1d5c89185d5036a7",
+          "md5": "afd6e1bcbfa589c9e0b5aad1c70eaaa8"
+        }
+      ]
+    }
+  ]
+}
