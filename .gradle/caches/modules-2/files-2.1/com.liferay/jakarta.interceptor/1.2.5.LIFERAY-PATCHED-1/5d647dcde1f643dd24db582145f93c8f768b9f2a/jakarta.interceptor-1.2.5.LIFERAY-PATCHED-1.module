@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "jakarta.interceptor",
+    "version": "1.2.5.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jakarta.interceptor-1.2.5.LIFERAY-PATCHED-1.jar",
+          "url": "jakarta.interceptor-1.2.5.LIFERAY-PATCHED-1.jar",
+          "size": 10130,
+          "sha512": "056c8f09eaba4413e3ab120f75891c5fa84cf55f2fa712891a5fabe38006ac368aaa2a002ae0ec209db64dc359a2281d26c40aa971ed83817f013050bbbda3ed",
+          "sha256": "7f818f53509861a0d48269ee6694c152582476e535bb6c3ec7698bc869806f77",
+          "sha1": "ece8c78343c7f395c1bbc11ca2d87d360fe8cdb7",
+          "md5": "ddfc74cc7151ca9b7a81193007c6d8e1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jakarta.interceptor-1.2.5.LIFERAY-PATCHED-1.jar",
+          "url": "jakarta.interceptor-1.2.5.LIFERAY-PATCHED-1.jar",
+          "size": 10130,
+          "sha512": "056c8f09eaba4413e3ab120f75891c5fa84cf55f2fa712891a5fabe38006ac368aaa2a002ae0ec209db64dc359a2281d26c40aa971ed83817f013050bbbda3ed",
+          "sha256": "7f818f53509861a0d48269ee6694c152582476e535bb6c3ec7698bc869806f77",
+          "sha1": "ece8c78343c7f395c1bbc11ca2d87d360fe8cdb7",
+          "md5": "ddfc74cc7151ca9b7a81193007c6d8e1"
+        }
+      ]
+    }
+  ]
+}
