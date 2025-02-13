@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "jakarta.json.bind",
+    "version": "1.0.2.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jakarta.json.bind-1.0.2.LIFERAY-PATCHED-1.jar",
+          "url": "jakarta.json.bind-1.0.2.LIFERAY-PATCHED-1.jar",
+          "size": 19128,
+          "sha512": "d238d5e43d69c1782ee47a633c444cd747370f13a0f4f2d073f4e112bbada935a862afaa932f62cab79b204885ad0a0b15425b2233d3543940a98ae893fdc071",
+          "sha256": "afbfea4a605db86ee0645409fc0d99c9e0b1dd3305c6a315cc9a900a9fa7c401",
+          "sha1": "7269099bd9cc9af766a76702e4fb51d8bd80ceec",
+          "md5": "03912b05019bc664cce8b9dd7a5c1f77"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jakarta.json.bind-1.0.2.LIFERAY-PATCHED-1.jar",
+          "url": "jakarta.json.bind-1.0.2.LIFERAY-PATCHED-1.jar",
+          "size": 19128,
+          "sha512": "d238d5e43d69c1782ee47a633c444cd747370f13a0f4f2d073f4e112bbada935a862afaa932f62cab79b204885ad0a0b15425b2233d3543940a98ae893fdc071",
+          "sha256": "afbfea4a605db86ee0645409fc0d99c9e0b1dd3305c6a315cc9a900a9fa7c401",
+          "sha1": "7269099bd9cc9af766a76702e4fb51d8bd80ceec",
+          "md5": "03912b05019bc664cce8b9dd7a5c1f77"
+        }
+      ]
+    }
+  ]
+}
