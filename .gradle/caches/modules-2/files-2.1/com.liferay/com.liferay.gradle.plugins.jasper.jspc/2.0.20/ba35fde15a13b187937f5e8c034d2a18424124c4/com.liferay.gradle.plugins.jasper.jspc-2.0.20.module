@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.jasper.jspc",
+    "version": "2.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.jasper.jspc-2.0.20.jar",
+          "url": "com.liferay.gradle.plugins.jasper.jspc-2.0.20.jar",
+          "size": 20911,
+          "sha512": "6a4f75a81c4a6c4797c5f5ec44fb27697c97389b6e092bfb8152e7d84b93b08833858e60d0c66e97b0a4ef430100c76751032fc6bfd2845b6967898f614e5a7c",
+          "sha256": "fcfaf9d608446961a0114c1e0fe789426d6276eb9ff5f25e5a18f13dda2a17c4",
+          "sha1": "9ba8f40f3bbc66e61170c963121ef762043581f0",
+          "md5": "c463df116c9fca360d465a6595a188b5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        },
+        {
+          "group": "org.apache.tomcat",
+          "module": "tomcat-jasper",
+          "version": {
+            "requires": "9.0.98"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.jasper.jspc-2.0.20.jar",
+          "url": "com.liferay.gradle.plugins.jasper.jspc-2.0.20.jar",
+          "size": 20911,
+          "sha512": "6a4f75a81c4a6c4797c5f5ec44fb27697c97389b6e092bfb8152e7d84b93b08833858e60d0c66e97b0a4ef430100c76751032fc6bfd2845b6967898f614e5a7c",
+          "sha256": "fcfaf9d608446961a0114c1e0fe789426d6276eb9ff5f25e5a18f13dda2a17c4",
+          "sha1": "9ba8f40f3bbc66e61170c963121ef762043581f0",
+          "md5": "c463df116c9fca360d465a6595a188b5"
+        }
+      ]
+    }
+  ]
+}

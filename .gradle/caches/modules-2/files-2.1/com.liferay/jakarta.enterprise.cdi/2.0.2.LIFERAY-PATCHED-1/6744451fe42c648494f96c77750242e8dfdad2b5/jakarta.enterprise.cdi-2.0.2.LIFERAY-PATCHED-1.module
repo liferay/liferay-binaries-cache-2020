@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "jakarta.enterprise.cdi",
+    "version": "2.0.2.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jakarta.enterprise.cdi-2.0.2.LIFERAY-PATCHED-1.jar",
+          "url": "jakarta.enterprise.cdi-2.0.2.LIFERAY-PATCHED-1.jar",
+          "size": 101172,
+          "sha512": "4718472bec3746aacd551685409a086b9add63d9c1efa4dfdfc50ccc86da16b0fa63c35321255d95d1996bb447a355f09e386f7d0919a555178fe9a1a4e7c381",
+          "sha256": "e4883d614ef71e026736e9c25cc2b2125c658736bcbe3eb6618e222ff59be140",
+          "sha1": "2d90f188f654c544910bf0caa8983f141b6a6f97",
+          "md5": "fe1d065be0dd00100e70a92ed6adb774"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jakarta.enterprise.cdi-2.0.2.LIFERAY-PATCHED-1.jar",
+          "url": "jakarta.enterprise.cdi-2.0.2.LIFERAY-PATCHED-1.jar",
+          "size": 101172,
+          "sha512": "4718472bec3746aacd551685409a086b9add63d9c1efa4dfdfc50ccc86da16b0fa63c35321255d95d1996bb447a355f09e386f7d0919a555178fe9a1a4e7c381",
+          "sha256": "e4883d614ef71e026736e9c25cc2b2125c658736bcbe3eb6618e222ff59be140",
+          "sha1": "2d90f188f654c544910bf0caa8983f141b6a6f97",
+          "md5": "fe1d065be0dd00100e70a92ed6adb774"
+        }
+      ]
+    }
+  ]
+}
