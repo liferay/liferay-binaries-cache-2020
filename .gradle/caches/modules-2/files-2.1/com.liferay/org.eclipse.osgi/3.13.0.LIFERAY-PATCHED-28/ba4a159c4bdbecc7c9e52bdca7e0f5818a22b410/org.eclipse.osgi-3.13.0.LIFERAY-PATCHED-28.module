@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.osgi",
+    "version": "3.13.0.LIFERAY-PATCHED-28",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-28.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-28.jar",
+          "size": 1408481,
+          "sha512": "70a3d64a559bb9e76d56572b8f85f4ab79654bb40dbcb84c42557ee95f17e7fa8b3aa4606467c8ebdd9a48e261646f47401f4e21fd26d2e89394025f9312d0af",
+          "sha256": "8d1f1565f055260d7df7c7fb730e8dc7dd41e9ffcef3751999edba9523c44088",
+          "sha1": "9aea4ae6f356ead0f3ceb32d654ac41d16dd54b4",
+          "md5": "49ac605f8effb92058ec9410bb466900"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-28.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-28.jar",
+          "size": 1408481,
+          "sha512": "70a3d64a559bb9e76d56572b8f85f4ab79654bb40dbcb84c42557ee95f17e7fa8b3aa4606467c8ebdd9a48e261646f47401f4e21fd26d2e89394025f9312d0af",
+          "sha256": "8d1f1565f055260d7df7c7fb730e8dc7dd41e9ffcef3751999edba9523c44088",
+          "sha1": "9aea4ae6f356ead0f3ceb32d654ac41d16dd54b4",
+          "md5": "49ac605f8effb92058ec9410bb466900"
+        }
+      ]
+    }
+  ]
+}
