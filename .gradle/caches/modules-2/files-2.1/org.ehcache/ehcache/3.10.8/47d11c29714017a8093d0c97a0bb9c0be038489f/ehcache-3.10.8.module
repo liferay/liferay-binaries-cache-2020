@@ -1,0 +1,606 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ehcache",
+    "module": "ehcache",
+    "version": "3.10.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "userdocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "user-manual",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ehcache-3.10.8-docs.zip",
+          "url": "ehcache-3.10.8-docs.zip",
+          "size": 713705,
+          "sha512": "19ab1eb274d5c479177b127ad1070edc8f54a10618c11c8c1ec7c2fce8959d0515c724f18ca69c86d71602ac80d7c4074c7a084d99fc459886e2de93780ac18f",
+          "sha256": "1b6e23fe27bd0a95b795a422c932b2355b69c4ac5eb94303c486819761aec200",
+          "sha1": "671a72d93feb4aca84c32cc0e37cf905fe6910b5",
+          "md5": "933d22489b22003d20f1ea1a6729a3a4"
+        }
+      ]
+    },
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "javax.cache",
+          "module": "cache-api",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ehcache-3.10.8.jar",
+          "url": "ehcache-3.10.8.jar",
+          "size": 1814014,
+          "sha512": "deeafba63b4ff08f26721aa9b8582c486d4a12ad3889c3deadb52ca86cd71212550ffd71f7cefc8e58543fd0114f48cc086ec3c173091ea7a5c2f99a3919893e",
+          "sha256": "bed87f71d8cd25a8a4ef65f274cc58301f28929a01417d0bee8d73953dc30bac",
+          "sha1": "f0d50ede46609db78413ca7f4250d348a597b101",
+          "md5": "35f94bd99bae66088df39d8a45e73468"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-api",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-core",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache",
+          "name": "ehcache",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-impl",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml",
+          "version": "3.10.8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.cache",
+          "module": "cache-api",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "[2.2,3)"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ehcache-3.10.8.jar",
+          "url": "ehcache-3.10.8.jar",
+          "size": 1814014,
+          "sha512": "deeafba63b4ff08f26721aa9b8582c486d4a12ad3889c3deadb52ca86cd71212550ffd71f7cefc8e58543fd0114f48cc086ec3c173091ea7a5c2f99a3919893e",
+          "sha256": "bed87f71d8cd25a8a4ef65f274cc58301f28929a01417d0bee8d73953dc30bac",
+          "sha1": "f0d50ede46609db78413ca7f4250d348a597b101",
+          "md5": "35f94bd99bae66088df39d8a45e73468"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-api",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-core",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache",
+          "name": "ehcache",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-impl",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml",
+          "version": "3.10.8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ehcache-3.10.8-sources.jar",
+          "url": "ehcache-3.10.8-sources.jar",
+          "size": 729991,
+          "sha512": "a4831da78460f74b3646893ce9fbd1bbd6fa85b895ce80a669869863eb966a2458fb03474e5816b075a553b9aad48aecaff7d96f945adadafb2b2271ef954670",
+          "sha256": "c3c8e0a2ff3fd54ba948d56a6764568bbd7155534906604644e10af84b3db02e",
+          "sha1": "c37a77c78d9ce7d7fa5dcecd3a64202a433c5a53",
+          "md5": "5eff9954279aff863ea4accff6263976"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-api",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-core",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache",
+          "name": "ehcache",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-impl",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml",
+          "version": "3.10.8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ehcache-3.10.8-javadoc.jar",
+          "url": "ehcache-3.10.8-javadoc.jar",
+          "size": 887202,
+          "sha512": "30e5f032bdf841b7b2cc327c44f9c7fa1352dc816f648bdca0649afc4b88bf1e869b186f38aa7e550ccf2ec97234c0051427d151c12c95f48fe599b0dfa58154",
+          "sha256": "c900de2f1271acd5c25e777269964668a15cff358c22ed62c7db7fc161e1f066",
+          "sha1": "ef1c9891c6687c90a98ee06941764a36a37b23a7",
+          "md5": "888fb8bdf3cb844bbf2f37b3b224cb0b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-api",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-core",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache",
+          "name": "ehcache",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-impl",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml",
+          "version": "3.10.8"
+        }
+      ]
+    },
+    {
+      "name": "jakartaApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "javax.cache",
+          "module": "cache-api",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ehcache-3.10.8-jakarta.jar",
+          "url": "ehcache-3.10.8-jakarta.jar",
+          "size": 1814241,
+          "sha512": "cc2fe9472be5534188d1d327c2c8fdb39114f83a3c9ca7e5cb2425f09517653ffeccb7e0d96f5c38fe0f0eb4d8846aecbbb2d92777b666eb803969a06a386faa",
+          "sha256": "4530ba51c1768f680bffcc5af722f7b65a0abb3874d9f17a731c7085eb2613e7",
+          "sha1": "892b8caf98d188d0bac6ff16db564cae13a6874f",
+          "md5": "6767673b52b5c2157bb6b41daef38963"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-jakarta",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-impl",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache",
+          "name": "ehcache-jakarta",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-api",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-core",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-jakarta",
+          "version": "3.10.8"
+        }
+      ]
+    },
+    {
+      "name": "jakartaRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.cache",
+          "module": "cache-api",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "[3,3.1)"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ehcache-3.10.8-jakarta.jar",
+          "url": "ehcache-3.10.8-jakarta.jar",
+          "size": 1814241,
+          "sha512": "cc2fe9472be5534188d1d327c2c8fdb39114f83a3c9ca7e5cb2425f09517653ffeccb7e0d96f5c38fe0f0eb4d8846aecbbb2d92777b666eb803969a06a386faa",
+          "sha256": "4530ba51c1768f680bffcc5af722f7b65a0abb3874d9f17a731c7085eb2613e7",
+          "sha1": "892b8caf98d188d0bac6ff16db564cae13a6874f",
+          "md5": "6767673b52b5c2157bb6b41daef38963"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-jakarta",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-impl",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache",
+          "name": "ehcache-jakarta",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-api",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-core",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-jakarta",
+          "version": "3.10.8"
+        }
+      ]
+    },
+    {
+      "name": "jakartaSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ehcache-3.10.8-jakarta-sources.jar",
+          "url": "ehcache-3.10.8-jakarta-sources.jar",
+          "size": 730175,
+          "sha512": "6c78579497a2f86a1ca3310172f0bc3f3125367c12085fd79752ab10b63d0c9294a0d1cfd484f10e2203a93dc92cd57c9e5a52a1733a7d76fea73b8a8258ca2f",
+          "sha256": "bdca6ada9db02797fb0278b5d864906b5b437ed63ae02aac60d4093d4c9de0a3",
+          "sha1": "812b9f418dea73df0be7300bcd2b26ab7454ab76",
+          "md5": "a2d98f32a33f75ee60c7acce4716a99e"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-jakarta",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-impl",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache",
+          "name": "ehcache-jakarta",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-api",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-core",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-jakarta",
+          "version": "3.10.8"
+        }
+      ]
+    },
+    {
+      "name": "jakartaJavadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ehcache-3.10.8-jakarta-javadoc.jar",
+          "url": "ehcache-3.10.8-jakarta-javadoc.jar",
+          "size": 887200,
+          "sha512": "5ba17c40316203e0449901e41abc7ce1e0a1929ff612a64732cbb4bf9ba2eb092319eb26144f13222c40d189a91e755bb4f8f5ac588f056377735f38d547d75a",
+          "sha256": "7b76d0afd966c6ee93bf86dd4d95609806c5fcf53c5ce6a34214465d1228afa1",
+          "sha1": "809de07d0b5f9cf2224b6b51a2141663eb20e89d",
+          "md5": "bf78da4516e126195b94f49a17246edd"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-jakarta",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-impl",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache",
+          "name": "ehcache-jakarta",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-api",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-xml-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-provider",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-core",
+          "version": "3.10.8"
+        },
+        {
+          "group": "org.ehcache.modules",
+          "name": "ehcache-107-jakarta",
+          "version": "3.10.8"
+        }
+      ]
+    }
+  ]
+}
