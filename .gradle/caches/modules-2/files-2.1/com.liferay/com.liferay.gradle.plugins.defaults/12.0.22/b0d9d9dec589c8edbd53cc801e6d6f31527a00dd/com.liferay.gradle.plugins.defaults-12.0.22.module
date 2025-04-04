@@ -1,0 +1,309 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.defaults",
+    "version": "12.0.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.jk1",
+          "module": "gradle-license-report",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.gradle.publish",
+          "module": "plugin-publish-plugin",
+          "version": {
+            "requires": "0.11.0"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins",
+          "version": {
+            "requires": "16.0.69"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.app.javadoc.builder",
+          "version": {
+            "requires": "1.2.6"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.baseline",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.cache",
+          "version": {
+            "requires": "1.0.19"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.change.log.builder",
+          "version": {
+            "requires": "1.1.7"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.dependency.checker",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.go",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.jsdoc",
+          "version": {
+            "requires": "2.0.79"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.patcher",
+          "version": {
+            "requires": "1.0.23"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.poshi.runner",
+          "version": {
+            "requires": "4.0.22"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.testray",
+          "version": {
+            "requires": "1.0.22"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.whip",
+          "version": {
+            "requires": "1.0.10"
+          }
+        },
+        {
+          "group": "gradle.plugin.com.github.maiflai",
+          "module": "gradle-scalatest",
+          "version": {
+            "requires": "0.25"
+          }
+        },
+        {
+          "group": "gradle.plugin.com.github.spotbugs.snom",
+          "module": "spotbugs-gradle-plugin",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "org.apache.aries.jmx",
+          "module": "org.apache.aries.jmx.api",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.defaults-12.0.22.jar",
+          "url": "com.liferay.gradle.plugins.defaults-12.0.22.jar",
+          "size": 427906,
+          "sha512": "fcaa122539d542cdfcec89a952c742ed3d94f1cbd1e1f97b65ef43a0ee624cf8e6f0e4fe294f1d58321ac103625adec32f224c629aaf2b1a390b9183457d66c2",
+          "sha256": "6a3cc167c94f1afe3a3c124e72ba1c043bc42d6a952c0d3fb53d85e712187b21",
+          "sha1": "3cec4a7e28c0f300fb7f114b321a3d50816eaf8a",
+          "md5": "e75d654347ddadbbc09f72b03abfccb1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "com.github.jk1",
+          "module": "gradle-license-report",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "com.gradle.publish",
+          "module": "plugin-publish-plugin",
+          "version": {
+            "requires": "0.11.0"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins",
+          "version": {
+            "requires": "16.0.69"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.app.javadoc.builder",
+          "version": {
+            "requires": "1.2.6"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.baseline",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.cache",
+          "version": {
+            "requires": "1.0.19"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.change.log.builder",
+          "version": {
+            "requires": "1.1.7"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.dependency.checker",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.go",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.jsdoc",
+          "version": {
+            "requires": "2.0.79"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.patcher",
+          "version": {
+            "requires": "1.0.23"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.poshi.runner",
+          "version": {
+            "requires": "4.0.22"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.testray",
+          "version": {
+            "requires": "1.0.22"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.plugins.whip",
+          "version": {
+            "requires": "1.0.10"
+          }
+        },
+        {
+          "group": "gradle.plugin.com.github.maiflai",
+          "module": "gradle-scalatest",
+          "version": {
+            "requires": "0.25"
+          }
+        },
+        {
+          "group": "gradle.plugin.com.github.spotbugs.snom",
+          "module": "spotbugs-gradle-plugin",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "org.apache.aries.jmx",
+          "module": "org.apache.aries.jmx.api",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.defaults-12.0.22.jar",
+          "url": "com.liferay.gradle.plugins.defaults-12.0.22.jar",
+          "size": 427906,
+          "sha512": "fcaa122539d542cdfcec89a952c742ed3d94f1cbd1e1f97b65ef43a0ee624cf8e6f0e4fe294f1d58321ac103625adec32f224c629aaf2b1a390b9183457d66c2",
+          "sha256": "6a3cc167c94f1afe3a3c124e72ba1c043bc42d6a952c0d3fb53d85e712187b21",
+          "sha1": "3cec4a7e28c0f300fb7f114b321a3d50816eaf8a",
+          "md5": "e75d654347ddadbbc09f72b03abfccb1"
+        }
+      ]
+    }
+  ]
+}
