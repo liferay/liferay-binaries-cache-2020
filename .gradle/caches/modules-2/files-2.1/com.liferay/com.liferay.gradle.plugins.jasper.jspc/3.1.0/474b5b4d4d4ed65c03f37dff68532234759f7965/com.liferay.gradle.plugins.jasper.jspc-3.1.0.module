@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.jasper.jspc",
+    "version": "3.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.jasper.jspc-3.1.0.jar",
+          "url": "com.liferay.gradle.plugins.jasper.jspc-3.1.0.jar",
+          "size": 23899,
+          "sha512": "22dcfbe888b882a8c2bf306179f7be555616a9e73794fcb493b18846b5128b1d4249ccc00d2cd68919b4901b4f2b76a12c2614c8aeda354485a040b0f4104db3",
+          "sha256": "6ee565eaabdd28939326e1126935d8c5c7fd61a4d9187eb981972076df90ccba",
+          "sha1": "c4616730320ab509f6055203e15ff8a0efa2d104",
+          "md5": "45d84049103df4dbc295d63093c96efd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        },
+        {
+          "group": "org.apache.tomcat",
+          "module": "tomcat-jasper",
+          "version": {
+            "requires": "9.0.104"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.jasper.jspc-3.1.0.jar",
+          "url": "com.liferay.gradle.plugins.jasper.jspc-3.1.0.jar",
+          "size": 23899,
+          "sha512": "22dcfbe888b882a8c2bf306179f7be555616a9e73794fcb493b18846b5128b1d4249ccc00d2cd68919b4901b4f2b76a12c2614c8aeda354485a040b0f4104db3",
+          "sha256": "6ee565eaabdd28939326e1126935d8c5c7fd61a4d9187eb981972076df90ccba",
+          "sha1": "c4616730320ab509f6055203e15ff8a0efa2d104",
+          "md5": "45d84049103df4dbc295d63093c96efd"
+        }
+      ]
+    }
+  ]
+}
