@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.module",
+    "module": "jackson-module-jakarta-xmlbind-annotations",
+    "version": "2.18.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.9.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "jakarta.activation",
+          "module": "jakarta.activation-api",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.18.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-module-jakarta-xmlbind-annotations-2.18.2.jar",
+          "url": "jackson-module-jakarta-xmlbind-annotations-2.18.2.jar",
+          "size": 31440,
+          "sha512": "9b06b216af9e2d476a84a1f021134474b7d17fcc610e102fd80af915a427edb9b326381e6dce8d79965d3c35349850ff415cb3a2f02d38d21a5c509d6e5d989f",
+          "sha256": "66715ebfa7df7194b6c9a95e6410d067430efe03fbf80cfbecadd692d4a46c47",
+          "sha1": "10da0bf875d119cecd5f764da11792bcc0a4d48b",
+          "md5": "b79b689ced912fe9c72f23298728ae1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "jakarta.activation",
+          "module": "jakarta.activation-api",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.18.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-module-jakarta-xmlbind-annotations-2.18.2.jar",
+          "url": "jackson-module-jakarta-xmlbind-annotations-2.18.2.jar",
+          "size": 31440,
+          "sha512": "9b06b216af9e2d476a84a1f021134474b7d17fcc610e102fd80af915a427edb9b326381e6dce8d79965d3c35349850ff415cb3a2f02d38d21a5c509d6e5d989f",
+          "sha256": "66715ebfa7df7194b6c9a95e6410d067430efe03fbf80cfbecadd692d4a46c47",
+          "sha1": "10da0bf875d119cecd5f764da11792bcc0a4d48b",
+          "md5": "b79b689ced912fe9c72f23298728ae1"
+        }
+      ]
+    }
+  ]
+}

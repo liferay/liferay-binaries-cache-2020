@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.jakarta.rs",
+    "module": "jackson-jakarta-rs-xml-provider",
+    "version": "2.18.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.jakarta.rs",
+          "module": "jackson-jakarta-rs-base",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-jakarta-xmlbind-annotations",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "org.codehaus.woodstox",
+          "module": "stax2-api",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.woodstox",
+          "module": "woodstox-core",
+          "version": {
+            "requires": "7.0.0"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.stream",
+              "module": "stax-api"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.18.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-jakarta-rs-xml-provider-2.18.2.jar",
+          "url": "jackson-jakarta-rs-xml-provider-2.18.2.jar",
+          "size": 14340,
+          "sha512": "d251b4200192298a748ed54fd4ab35f8518376fdd9ae5b92c53c2596ca342e0cef7d11d62126285e5545b81fe81aeedb8790683201dd9b77c119b2a0d459d4cc",
+          "sha256": "b11ae176f07eaf20788a4b7987784232cfc1b38e77bfa17dd10d5b7d3bd46bde",
+          "sha1": "be96d79fc2efc63f96795ddbe4c2058a6bac9605",
+          "md5": "4f8005d79e9cdf6cbf6b1d9cc880fbbe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.jakarta.rs",
+          "module": "jackson-jakarta-rs-base",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-jakarta-xmlbind-annotations",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "org.codehaus.woodstox",
+          "module": "stax2-api",
+          "version": {
+            "requires": "4.2.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.woodstox",
+          "module": "woodstox-core",
+          "version": {
+            "requires": "7.0.0"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.stream",
+              "module": "stax-api"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.18.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-jakarta-rs-xml-provider-2.18.2.jar",
+          "url": "jackson-jakarta-rs-xml-provider-2.18.2.jar",
+          "size": 14340,
+          "sha512": "d251b4200192298a748ed54fd4ab35f8518376fdd9ae5b92c53c2596ca342e0cef7d11d62126285e5545b81fe81aeedb8790683201dd9b77c119b2a0d459d4cc",
+          "sha256": "b11ae176f07eaf20788a4b7987784232cfc1b38e77bfa17dd10d5b7d3bd46bde",
+          "sha1": "be96d79fc2efc63f96795ddbe4c2058a6bac9605",
+          "md5": "4f8005d79e9cdf6cbf6b1d9cc880fbbe"
+        }
+      ]
+    }
+  ]
+}

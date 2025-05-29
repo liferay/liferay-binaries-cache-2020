@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.quartz",
+    "version": "2.1.7.LIFERAY-PATCHED-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.quartz-scheduler",
+          "module": "quartz",
+          "version": {
+            "requires": "2.1.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.quartz-2.1.7.LIFERAY-PATCHED-2.jar",
+          "url": "org.quartz-2.1.7.LIFERAY-PATCHED-2.jar",
+          "size": 572392,
+          "sha512": "0520adb6f81050a5dd2b2404d0da225ba6b59581c73fb033ac5dd1cb0ba10aaa44dfebe431610b16275b16eeb255aa18533a426399193c3447f112fa275ba36d",
+          "sha256": "fb7b9a90e3b6903755bab13d3577e9e4a29ed74eb4d974b7db00b35a73b416ce",
+          "sha1": "19acd67f48625a34a51be8ad14496bb35d087941",
+          "md5": "75e3143bc9e8777fe0b82018f0b9f25d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.quartz-scheduler",
+          "module": "quartz",
+          "version": {
+            "requires": "2.1.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.quartz-2.1.7.LIFERAY-PATCHED-2.jar",
+          "url": "org.quartz-2.1.7.LIFERAY-PATCHED-2.jar",
+          "size": 572392,
+          "sha512": "0520adb6f81050a5dd2b2404d0da225ba6b59581c73fb033ac5dd1cb0ba10aaa44dfebe431610b16275b16eeb255aa18533a426399193c3447f112fa275ba36d",
+          "sha256": "fb7b9a90e3b6903755bab13d3577e9e4a29ed74eb4d974b7db00b35a73b416ce",
+          "sha1": "19acd67f48625a34a51be8ad14496bb35d087941",
+          "md5": "75e3143bc9e8777fe0b82018f0b9f25d"
+        }
+      ]
+    }
+  ]
+}

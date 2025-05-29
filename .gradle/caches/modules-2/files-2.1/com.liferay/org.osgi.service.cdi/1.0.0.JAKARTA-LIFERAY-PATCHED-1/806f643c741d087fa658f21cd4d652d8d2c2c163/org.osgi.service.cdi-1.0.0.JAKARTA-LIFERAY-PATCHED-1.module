@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.osgi.service.cdi",
+    "version": "1.0.0.JAKARTA-LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.osgi.service.cdi-1.0.0.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "url": "org.osgi.service.cdi-1.0.0.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "size": 114322,
+          "sha512": "3cf2f0a25766b88727eca732ec17270018c925b2e39a772a4461fe740a36aa122992d8299316adfe43bbeb9280d88c894b4e07aa2844db859b58e90433e1bfee",
+          "sha256": "e0343edb4a81053807cd377d559074bf19a2051ff508194c53c2c390cce5dd97",
+          "sha1": "994edd6f3cee4871c96b6cbbba283d593f4d233b",
+          "md5": "d47fdf92dee703bdd484095a3f10e4c3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.osgi.service.cdi-1.0.0.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "url": "org.osgi.service.cdi-1.0.0.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "size": 114322,
+          "sha512": "3cf2f0a25766b88727eca732ec17270018c925b2e39a772a4461fe740a36aa122992d8299316adfe43bbeb9280d88c894b4e07aa2844db859b58e90433e1bfee",
+          "sha256": "e0343edb4a81053807cd377d559074bf19a2051ff508194c53c2c390cce5dd97",
+          "sha1": "994edd6f3cee4871c96b6cbbba283d593f4d233b",
+          "md5": "d47fdf92dee703bdd484095a3f10e4c3"
+        }
+      ]
+    }
+  ]
+}

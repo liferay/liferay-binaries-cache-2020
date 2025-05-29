@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "javax.ccpp.ri",
+    "version": "1.0.JAKARTA-LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "javax.ccpp.ri-1.0.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "url": "javax.ccpp.ri-1.0.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "size": 43747,
+          "sha512": "eb5f5a673e8eb1b10e84928cbdd0613445e93875d2efef9bc631e9086baed6097997ffcf4807017d660ed6aa2c32ce94f0ee8562c676e10896e2a0a15da0a4f6",
+          "sha256": "bcf022636586f192dbc2a805dd040921a2f9e54d8afad6f7b244537c6216fc25",
+          "sha1": "5c5bbc6eed41671621d26112982c5a5aa7b3ad5e",
+          "md5": "5c2f702c6783ba21c11328f70273762a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "javax.ccpp.ri-1.0.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "url": "javax.ccpp.ri-1.0.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "size": 43747,
+          "sha512": "eb5f5a673e8eb1b10e84928cbdd0613445e93875d2efef9bc631e9086baed6097997ffcf4807017d660ed6aa2c32ce94f0ee8562c676e10896e2a0a15da0a4f6",
+          "sha256": "bcf022636586f192dbc2a805dd040921a2f9e54d8afad6f7b244537c6216fc25",
+          "sha1": "5c5bbc6eed41671621d26112982c5a5aa7b3ad5e",
+          "md5": "5c2f702c6783ba21c11328f70273762a"
+        }
+      ]
+    }
+  ]
+}

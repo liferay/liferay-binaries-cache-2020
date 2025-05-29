@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.scribe",
+    "version": "1.3.6.JAKARTA-LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.scribe-1.3.6.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "url": "org.scribe-1.3.6.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "size": 93772,
+          "sha512": "2e6516c6503c17c0efc6028535708df4d43635574d29e6cdbbab1862bd8213b1578398fa38455521b4c3a780249b45abca2a4ee2a42bc2fe3f914781324fad87",
+          "sha256": "8cd86ed816e93a546679e1a486b4553eee3e188d7df614e1086db7ccd04333b0",
+          "sha1": "7dce143272c166bef2a6e88c85aa683c2e01bef8",
+          "md5": "1002c017e100f718831bcb851d8d0626"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.scribe-1.3.6.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "url": "org.scribe-1.3.6.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "size": 93772,
+          "sha512": "2e6516c6503c17c0efc6028535708df4d43635574d29e6cdbbab1862bd8213b1578398fa38455521b4c3a780249b45abca2a4ee2a42bc2fe3f914781324fad87",
+          "sha256": "8cd86ed816e93a546679e1a486b4553eee3e188d7df614e1086db7ccd04333b0",
+          "sha1": "7dce143272c166bef2a6e88c85aa683c2e01bef8",
+          "md5": "1002c017e100f718831bcb851d8d0626"
+        }
+      ]
+    }
+  ]
+}

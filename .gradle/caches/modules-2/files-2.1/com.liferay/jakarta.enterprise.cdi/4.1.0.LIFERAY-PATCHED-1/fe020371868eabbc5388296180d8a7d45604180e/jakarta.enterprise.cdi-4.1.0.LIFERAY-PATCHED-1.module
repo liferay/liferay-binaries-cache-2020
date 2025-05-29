@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "jakarta.enterprise.cdi",
+    "version": "4.1.0.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jakarta.enterprise.cdi-4.1.0.LIFERAY-PATCHED-1.jar",
+          "url": "jakarta.enterprise.cdi-4.1.0.LIFERAY-PATCHED-1.jar",
+          "size": 151471,
+          "sha512": "c6b7d81d56da47e09c381980676cd03f26f22c3fdba6df94cca8cdaa41fd770f83f8dde624a9d9377f760cb9b900118ee49aca5b0c5a40bac93038365b036be0",
+          "sha256": "2a3e526485c05c62bd73e503d617a3b01434cb138274c9489a334b377953100e",
+          "sha1": "a07def5e8c60f67e1c58e15eaba1b4fa086cb316",
+          "md5": "dc634b58fb727199dd1cec74a4b63f5c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jakarta.enterprise.cdi-4.1.0.LIFERAY-PATCHED-1.jar",
+          "url": "jakarta.enterprise.cdi-4.1.0.LIFERAY-PATCHED-1.jar",
+          "size": 151471,
+          "sha512": "c6b7d81d56da47e09c381980676cd03f26f22c3fdba6df94cca8cdaa41fd770f83f8dde624a9d9377f760cb9b900118ee49aca5b0c5a40bac93038365b036be0",
+          "sha256": "2a3e526485c05c62bd73e503d617a3b01434cb138274c9489a334b377953100e",
+          "sha1": "a07def5e8c60f67e1c58e15eaba1b4fa086cb316",
+          "md5": "dc634b58fb727199dd1cec74a4b63f5c"
+        }
+      ]
+    }
+  ]
+}

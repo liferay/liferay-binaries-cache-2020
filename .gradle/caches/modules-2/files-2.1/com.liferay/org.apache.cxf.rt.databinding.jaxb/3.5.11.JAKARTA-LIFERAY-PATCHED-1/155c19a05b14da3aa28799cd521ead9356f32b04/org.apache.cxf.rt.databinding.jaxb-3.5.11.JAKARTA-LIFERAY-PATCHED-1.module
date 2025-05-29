@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.apache.cxf.rt.databinding.jaxb",
+    "version": "3.5.11.JAKARTA-LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.apache.cxf.rt.databinding.jaxb-3.5.11.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "url": "org.apache.cxf.rt.databinding.jaxb-3.5.11.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "size": 116587,
+          "sha512": "d5d3013eec4706cfda248b5eb538215fda911b92581d2de4c98a70ac63ca80a32b2905d322391077fb22dbc6b3b40f056ddda9d2158f8093156dbb99a73d49f4",
+          "sha256": "b060163631c2c964109fb9e1ac14e92a2b480a9369256198266d1cbb1e22fdbe",
+          "sha1": "df503f5631ef4faf2556cb7b567b8ab7684dd543",
+          "md5": "fa5121daa45dd94a0bf1bb2881f9f656"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.apache.cxf.rt.databinding.jaxb-3.5.11.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "url": "org.apache.cxf.rt.databinding.jaxb-3.5.11.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "size": 116587,
+          "sha512": "d5d3013eec4706cfda248b5eb538215fda911b92581d2de4c98a70ac63ca80a32b2905d322391077fb22dbc6b3b40f056ddda9d2158f8093156dbb99a73d49f4",
+          "sha256": "b060163631c2c964109fb9e1ac14e92a2b480a9369256198266d1cbb1e22fdbe",
+          "sha1": "df503f5631ef4faf2556cb7b567b8ab7684dd543",
+          "md5": "fa5121daa45dd94a0bf1bb2881f9f656"
+        }
+      ]
+    }
+  ]
+}
