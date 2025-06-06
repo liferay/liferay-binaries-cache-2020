@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.glassfish.jaxb.core",
+    "version": "4.0.5.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.glassfish.jaxb.core-4.0.5.LIFERAY-PATCHED-1.jar",
+          "url": "org.glassfish.jaxb.core-4.0.5.LIFERAY-PATCHED-1.jar",
+          "size": 143066,
+          "sha512": "6c639b3211f9aa8f6345232dfb0264785dae5f5eafff3df5e90b8d02f77a1052f6b62c8301ee003f68aba1b1e721b199fccd1f95fb7ae75cefee650bf365159f",
+          "sha256": "337fde8fe6140cebd202376c98d4ce9759efed98d3080233e189a029f171f700",
+          "sha1": "1435ae267b523e34382b33131f5386a8e3db78dd",
+          "md5": "e751e8b5887f5f79614bdf704cb3ec6f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.glassfish.jaxb.core-4.0.5.LIFERAY-PATCHED-1.jar",
+          "url": "org.glassfish.jaxb.core-4.0.5.LIFERAY-PATCHED-1.jar",
+          "size": 143066,
+          "sha512": "6c639b3211f9aa8f6345232dfb0264785dae5f5eafff3df5e90b8d02f77a1052f6b62c8301ee003f68aba1b1e721b199fccd1f95fb7ae75cefee650bf365159f",
+          "sha256": "337fde8fe6140cebd202376c98d4ce9759efed98d3080233e189a029f171f700",
+          "sha1": "1435ae267b523e34382b33131f5386a8e3db78dd",
+          "md5": "e751e8b5887f5f79614bdf704cb3ec6f"
+        }
+      ]
+    }
+  ]
+}
