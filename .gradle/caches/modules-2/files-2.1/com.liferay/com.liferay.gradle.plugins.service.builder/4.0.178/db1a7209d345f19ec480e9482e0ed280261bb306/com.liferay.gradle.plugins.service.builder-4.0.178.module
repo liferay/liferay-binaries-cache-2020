@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.service.builder",
+    "version": "4.0.178",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.service.builder-4.0.178.jar",
+          "url": "com.liferay.gradle.plugins.service.builder-4.0.178.jar",
+          "size": 36390,
+          "sha512": "75b49b310c0a09807623beb5fbecd0cc6f25dec360e4c16fcf6e98e6bcf4a4429515df19f213dad85234aa4347efb8aea0908df67ce1f12c182badbd84d291a2",
+          "sha256": "21e64e30971cbdcb854567b3aa2176715236485e74ea9600ee447e9d1a26d491",
+          "sha1": "cd9e2c8876fac469b3da7fd456847762937e6483",
+          "md5": "ff762ae7efeb55e52e221a599768a8e6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.service.builder-4.0.178.jar",
+          "url": "com.liferay.gradle.plugins.service.builder-4.0.178.jar",
+          "size": 36390,
+          "sha512": "75b49b310c0a09807623beb5fbecd0cc6f25dec360e4c16fcf6e98e6bcf4a4429515df19f213dad85234aa4347efb8aea0908df67ce1f12c182badbd84d291a2",
+          "sha256": "21e64e30971cbdcb854567b3aa2176715236485e74ea9600ee447e9d1a26d491",
+          "sha1": "cd9e2c8876fac469b3da7fd456847762937e6483",
+          "md5": "ff762ae7efeb55e52e221a599768a8e6"
+        }
+      ]
+    }
+  ]
+}
