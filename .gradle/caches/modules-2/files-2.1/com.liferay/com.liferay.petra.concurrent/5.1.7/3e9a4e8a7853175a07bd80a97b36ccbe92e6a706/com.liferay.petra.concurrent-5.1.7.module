@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.petra.concurrent",
+    "version": "5.1.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "com.liferay.petra.concurrent-5.1.7.jar",
+          "url": "com.liferay.petra.concurrent-5.1.7.jar",
+          "size": 43832,
+          "sha512": "18bd5dac7b898be8e798732e5dfdc0bf68f6d682d0c330ca5cb102790206379415c44e63a1f09dde39ec93f7169d1c77d4d7c49088e8dcf62289278a285ff043",
+          "sha256": "f45727c3ec7ebd55a3735dcb6bbd83b427518ed692140fc7bc63d7403ea5c134",
+          "sha1": "de1ad3f41055b26bf75a8da69f915c810dc12c80",
+          "md5": "74cc18a7f7f30b806344ea2b3485e44e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "com.liferay.petra.concurrent-5.1.7.jar",
+          "url": "com.liferay.petra.concurrent-5.1.7.jar",
+          "size": 43832,
+          "sha512": "18bd5dac7b898be8e798732e5dfdc0bf68f6d682d0c330ca5cb102790206379415c44e63a1f09dde39ec93f7169d1c77d4d7c49088e8dcf62289278a285ff043",
+          "sha256": "f45727c3ec7ebd55a3735dcb6bbd83b427518ed692140fc7bc63d7403ea5c134",
+          "sha1": "de1ad3f41055b26bf75a8da69f915c810dc12c80",
+          "md5": "74cc18a7f7f30b806344ea2b3485e44e"
+        }
+      ]
+    }
+  ]
+}
