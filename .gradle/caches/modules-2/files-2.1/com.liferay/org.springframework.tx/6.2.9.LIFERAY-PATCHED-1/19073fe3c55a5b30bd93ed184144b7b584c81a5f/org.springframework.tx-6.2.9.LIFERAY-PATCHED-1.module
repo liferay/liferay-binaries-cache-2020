@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.springframework.tx",
+    "version": "6.2.9.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "6.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.tx-6.2.9.LIFERAY-PATCHED-1.jar",
+          "url": "org.springframework.tx-6.2.9.LIFERAY-PATCHED-1.jar",
+          "size": 284015,
+          "sha512": "abff666b1a1b9e786091a00f8c5b0802091c433ec87768fbc17c033046d95a10c7e2d4b03ce88f8e02a61cfe9edb5e7e9bbf3562496a6d1db775e0202c8f6988",
+          "sha256": "4f5a1b7965a56c603b1388ba3ca2ab054ba8d6502cc66108c30ca0b6246074a8",
+          "sha1": "509f2f7455bd1c9666eabd7751852a0f8dd43589",
+          "md5": "46d74be930808eec197d1f1a56c3ba35"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "6.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.tx-6.2.9.LIFERAY-PATCHED-1.jar",
+          "url": "org.springframework.tx-6.2.9.LIFERAY-PATCHED-1.jar",
+          "size": 284015,
+          "sha512": "abff666b1a1b9e786091a00f8c5b0802091c433ec87768fbc17c033046d95a10c7e2d4b03ce88f8e02a61cfe9edb5e7e9bbf3562496a6d1db775e0202c8f6988",
+          "sha256": "4f5a1b7965a56c603b1388ba3ca2ab054ba8d6502cc66108c30ca0b6246074a8",
+          "sha1": "509f2f7455bd1c9666eabd7751852a0f8dd43589",
+          "md5": "46d74be930808eec197d1f1a56c3ba35"
+        }
+      ]
+    }
+  ]
+}

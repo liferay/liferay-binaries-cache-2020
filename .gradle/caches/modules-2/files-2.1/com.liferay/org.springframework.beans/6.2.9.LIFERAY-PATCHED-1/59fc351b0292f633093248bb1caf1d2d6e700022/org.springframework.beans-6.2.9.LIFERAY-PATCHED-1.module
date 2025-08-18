@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.springframework.beans",
+    "version": "6.2.9.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "6.2.9"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "6.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.beans-6.2.9.LIFERAY-PATCHED-1.jar",
+          "url": "org.springframework.beans-6.2.9.LIFERAY-PATCHED-1.jar",
+          "size": 897040,
+          "sha512": "91156aeb1078ec3a2948536b643db6c2dbcee0be8e5c71a7e8d166828e24e668bc7805c5836bd2f742e329aa747c018a896b4ac9b093a33b473fffa2d57f9838",
+          "sha256": "bef4fd617cd0905efc5df3573860119ef9625f56e18c1f4ac17ff47ecf675b90",
+          "sha1": "167c223839ad7c17cc48eb1308f191217ec6f5dc",
+          "md5": "006e4af391be263cafc81339be805fd1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "6.2.9"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "6.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.beans-6.2.9.LIFERAY-PATCHED-1.jar",
+          "url": "org.springframework.beans-6.2.9.LIFERAY-PATCHED-1.jar",
+          "size": 897040,
+          "sha512": "91156aeb1078ec3a2948536b643db6c2dbcee0be8e5c71a7e8d166828e24e668bc7805c5836bd2f742e329aa747c018a896b4ac9b093a33b473fffa2d57f9838",
+          "sha256": "bef4fd617cd0905efc5df3573860119ef9625f56e18c1f4ac17ff47ecf675b90",
+          "sha1": "167c223839ad7c17cc48eb1308f191217ec6f5dc",
+          "md5": "006e4af391be263cafc81339be805fd1"
+        }
+      ]
+    }
+  ]
+}

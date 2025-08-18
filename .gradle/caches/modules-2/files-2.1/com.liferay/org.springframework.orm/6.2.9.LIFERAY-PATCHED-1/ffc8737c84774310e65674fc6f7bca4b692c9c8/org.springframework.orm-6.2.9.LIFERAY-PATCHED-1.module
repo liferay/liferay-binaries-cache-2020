@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.springframework.orm",
+    "version": "6.2.9.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "org.hibernate.core",
+          "version": {
+            "requires": "5.6.7.LIFERAY-PATCHED-2.JAKARTA-LIFERAY-PATCHED-1"
+          }
+        },
+        {
+          "group": "jakarta.persistence",
+          "module": "jakarta.persistence-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-orm",
+          "version": {
+            "requires": "6.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.orm-6.2.9.LIFERAY-PATCHED-1.jar",
+          "url": "org.springframework.orm-6.2.9.LIFERAY-PATCHED-1.jar",
+          "size": 234465,
+          "sha512": "1eabfdcb34cbf9fd4a86f6446f71844d288f31f56de666059daf5ab0bb5783cb5f87b03c8d1efdaf526ab1adc690794d25263a5c6750adf6078dbee2552cd5cf",
+          "sha256": "f167c47c450ccb65b17ca63e480dd77e44d64e9d60730a4b6b3789e6d7134fd1",
+          "sha1": "827ce8b1470f30f6b647a615782dade84118bca5",
+          "md5": "f7c5167ec191011214cc2fc18c115bb6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "org.hibernate.core",
+          "version": {
+            "requires": "5.6.7.LIFERAY-PATCHED-2.JAKARTA-LIFERAY-PATCHED-1"
+          }
+        },
+        {
+          "group": "jakarta.persistence",
+          "module": "jakarta.persistence-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-orm",
+          "version": {
+            "requires": "6.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.springframework.orm-6.2.9.LIFERAY-PATCHED-1.jar",
+          "url": "org.springframework.orm-6.2.9.LIFERAY-PATCHED-1.jar",
+          "size": 234465,
+          "sha512": "1eabfdcb34cbf9fd4a86f6446f71844d288f31f56de666059daf5ab0bb5783cb5f87b03c8d1efdaf526ab1adc690794d25263a5c6750adf6078dbee2552cd5cf",
+          "sha256": "f167c47c450ccb65b17ca63e480dd77e44d64e9d60730a4b6b3789e6d7134fd1",
+          "sha1": "827ce8b1470f30f6b647a615782dade84118bca5",
+          "md5": "f7c5167ec191011214cc2fc18c115bb6"
+        }
+      ]
+    }
+  ]
+}
