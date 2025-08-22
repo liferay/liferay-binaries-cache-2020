@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.app.docker",
+    "version": "1.0.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.bmuschko",
+          "module": "gradle-docker-plugin",
+          "version": {
+            "requires": "6.7.0"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.app.docker-1.0.14.jar",
+          "url": "com.liferay.gradle.plugins.app.docker-1.0.14.jar",
+          "size": 23215,
+          "sha512": "71b8f0e584662bfff780dcd6409d02b7a784a3377ccc7349806f1e41796a2ebf6aca3676e5edb7857165d35c7a9b6c94d80e73ee58782c89763fcaf6ce922193",
+          "sha256": "1985305349c5de7db297ab502c35d941387a3567781c6db49a44d8734b3fe69e",
+          "sha1": "4cf324808b98cc75d51f46bf98cbc72cbf5c69ba",
+          "md5": "efa8c859925287fa442235a8e9039335"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.bmuschko",
+          "module": "gradle-docker-plugin",
+          "version": {
+            "requires": "6.7.0"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.app.docker-1.0.14.jar",
+          "url": "com.liferay.gradle.plugins.app.docker-1.0.14.jar",
+          "size": 23215,
+          "sha512": "71b8f0e584662bfff780dcd6409d02b7a784a3377ccc7349806f1e41796a2ebf6aca3676e5edb7857165d35c7a9b6c94d80e73ee58782c89763fcaf6ce922193",
+          "sha256": "1985305349c5de7db297ab502c35d941387a3567781c6db49a44d8734b3fe69e",
+          "sha1": "4cf324808b98cc75d51f46bf98cbc72cbf5c69ba",
+          "md5": "efa8c859925287fa442235a8e9039335"
+        }
+      ]
+    }
+  ]
+}
