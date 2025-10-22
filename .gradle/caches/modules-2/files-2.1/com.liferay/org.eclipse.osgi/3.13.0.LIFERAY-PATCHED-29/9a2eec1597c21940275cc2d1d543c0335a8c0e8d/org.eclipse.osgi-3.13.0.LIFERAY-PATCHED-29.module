@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.osgi",
+    "version": "3.13.0.LIFERAY-PATCHED-29",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-29.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-29.jar",
+          "size": 1406645,
+          "sha512": "335f2cd4376650b3fb708e0cba10589b0a872fea7f79ec69f20a3d14f9e5bb4d8918425f5f353bb657cb8de2be0661b9848d98e7f7b46750c86e54ae300263d4",
+          "sha256": "5bda161bc7a26d6f3fc73250582e7e035e37270bf905c504711eaf0b6bb3a309",
+          "sha1": "293ab321112a305a4e0dbb6e39564e476804027d",
+          "md5": "27b8874da44370de41571174a3ca3893"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-29.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-29.jar",
+          "size": 1406645,
+          "sha512": "335f2cd4376650b3fb708e0cba10589b0a872fea7f79ec69f20a3d14f9e5bb4d8918425f5f353bb657cb8de2be0661b9848d98e7f7b46750c86e54ae300263d4",
+          "sha256": "5bda161bc7a26d6f3fc73250582e7e035e37270bf905c504711eaf0b6bb3a309",
+          "sha1": "293ab321112a305a4e0dbb6e39564e476804027d",
+          "md5": "27b8874da44370de41571174a3ca3893"
+        }
+      ]
+    }
+  ]
+}
