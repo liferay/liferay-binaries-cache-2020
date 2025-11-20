@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.apache.tika.core",
+    "version": "1.28.5.LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.apache.tika.core-1.28.5.LIFERAY-PATCHED-1.jar",
+          "url": "org.apache.tika.core-1.28.5.LIFERAY-PATCHED-1.jar",
+          "size": 736959,
+          "sha512": "fd8e5ed05319926c87d5091fca2d6d91ae93182b05f1dbd9dfdffb30bc64fe93522e7b4c1aa78db9af41694e174c21aa63db41135c9028181f535ad6a3af3a96",
+          "sha256": "3d3c8925224083918325b0f8c1b017622b41a586e6fb7de2d0d363cbd6e87bf5",
+          "sha1": "a1f8d789372c253a1bd3f0e13ec89fa9e049579f",
+          "md5": "9ce8bf947d66e763e34b4025166d5783"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.apache.tika.core-1.28.5.LIFERAY-PATCHED-1.jar",
+          "url": "org.apache.tika.core-1.28.5.LIFERAY-PATCHED-1.jar",
+          "size": 736959,
+          "sha512": "fd8e5ed05319926c87d5091fca2d6d91ae93182b05f1dbd9dfdffb30bc64fe93522e7b4c1aa78db9af41694e174c21aa63db41135c9028181f535ad6a3af3a96",
+          "sha256": "3d3c8925224083918325b0f8c1b017622b41a586e6fb7de2d0d363cbd6e87bf5",
+          "sha1": "a1f8d789372c253a1bd3f0e13ec89fa9e049579f",
+          "md5": "9ce8bf947d66e763e34b4025166d5783"
+        }
+      ]
+    }
+  ]
+}
