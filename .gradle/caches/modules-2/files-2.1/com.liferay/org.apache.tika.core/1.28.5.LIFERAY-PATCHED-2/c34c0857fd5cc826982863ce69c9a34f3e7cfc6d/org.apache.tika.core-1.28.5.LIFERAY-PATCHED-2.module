@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.apache.tika.core",
+    "version": "1.28.5.LIFERAY-PATCHED-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.apache.tika.core-1.28.5.LIFERAY-PATCHED-2.jar",
+          "url": "org.apache.tika.core-1.28.5.LIFERAY-PATCHED-2.jar",
+          "size": 736686,
+          "sha512": "ab042f1f2d5a092df4de76ad9e2311724f7e92acdfb74f69426a0929f594f676d99f23e7409e6dd7ebaddfe42f0df475903561ab04c768e74dc56606c98925d4",
+          "sha256": "a74e1c65170c5f0d8de8b78cdd7bfacefe8f296012ceb05f47654a8f5f9dc61d",
+          "sha1": "f5329282d16ff622214d669d191a5e7b9f7e70f3",
+          "md5": "4c1fee82f5fa646c3e0251976562bee6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.apache.tika.core-1.28.5.LIFERAY-PATCHED-2.jar",
+          "url": "org.apache.tika.core-1.28.5.LIFERAY-PATCHED-2.jar",
+          "size": 736686,
+          "sha512": "ab042f1f2d5a092df4de76ad9e2311724f7e92acdfb74f69426a0929f594f676d99f23e7409e6dd7ebaddfe42f0df475903561ab04c768e74dc56606c98925d4",
+          "sha256": "a74e1c65170c5f0d8de8b78cdd7bfacefe8f296012ceb05f47654a8f5f9dc61d",
+          "sha1": "f5329282d16ff622214d669d191a5e7b9f7e70f3",
+          "md5": "4c1fee82f5fa646c3e0251976562bee6"
+        }
+      ]
+    }
+  ]
+}
