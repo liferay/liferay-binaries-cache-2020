@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.apache.cxf.rt.rs.client",
+    "version": "3.6.9.JAKARTA-LIFERAY-PATCHED-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.apache.cxf.rt.rs.client-3.6.9.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "url": "org.apache.cxf.rt.rs.client-3.6.9.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "size": 194746,
+          "sha512": "b4d953e0b7bde73d8b7838462f44440995f74589de23d006d161b583bcb10b6e61bf972eb96db4579df1bf083c561dd6056c43f81f2e6918c78334cff5786bbe",
+          "sha256": "6aa85028497b4105ba0ef7f36fa91f5c82c62a9e4c14f75ecab80b5a248ff977",
+          "sha1": "a10ab4a8d3977f6ecb5f8b99e903c3b345363614",
+          "md5": "9ba835ef8de24ec98403e179f68fffdb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.apache.cxf.rt.rs.client-3.6.9.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "url": "org.apache.cxf.rt.rs.client-3.6.9.JAKARTA-LIFERAY-PATCHED-1.jar",
+          "size": 194746,
+          "sha512": "b4d953e0b7bde73d8b7838462f44440995f74589de23d006d161b583bcb10b6e61bf972eb96db4579df1bf083c561dd6056c43f81f2e6918c78334cff5786bbe",
+          "sha256": "6aa85028497b4105ba0ef7f36fa91f5c82c62a9e4c14f75ecab80b5a248ff977",
+          "sha1": "a10ab4a8d3977f6ecb5f8b99e903c3b345363614",
+          "md5": "9ba835ef8de24ec98403e179f68fffdb"
+        }
+      ]
+    }
+  ]
+}
