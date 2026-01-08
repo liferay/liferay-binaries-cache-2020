@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.eclipse.osgi",
+    "version": "3.13.0.LIFERAY-PATCHED-30",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-30.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-30.jar",
+          "size": 1406420,
+          "sha512": "64b36160ef2e6be8fc22b9d9cb909341df3fad243aabf76cefab20b27a81257dd85b455c13154e95051316201c725a0360d43805f6fb3d7126b33ae625fda37c",
+          "sha256": "ba0d716dfdbc73c495b5fe69144c171f1286a9d9343682cb7a24d020e7188dc2",
+          "sha1": "39a2516592f2dfb3caf2de0e1a13e53c20a1bb87",
+          "md5": "220dd280f246908b9aa5c33ce87d8dc9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-30.jar",
+          "url": "org.eclipse.osgi-3.13.0.LIFERAY-PATCHED-30.jar",
+          "size": 1406420,
+          "sha512": "64b36160ef2e6be8fc22b9d9cb909341df3fad243aabf76cefab20b27a81257dd85b455c13154e95051316201c725a0360d43805f6fb3d7126b33ae625fda37c",
+          "sha256": "ba0d716dfdbc73c495b5fe69144c171f1286a9d9343682cb7a24d020e7188dc2",
+          "sha1": "39a2516592f2dfb3caf2de0e1a13e53c20a1bb87",
+          "md5": "220dd280f246908b9aa5c33ce87d8dc9"
+        }
+      ]
+    }
+  ]
+}
