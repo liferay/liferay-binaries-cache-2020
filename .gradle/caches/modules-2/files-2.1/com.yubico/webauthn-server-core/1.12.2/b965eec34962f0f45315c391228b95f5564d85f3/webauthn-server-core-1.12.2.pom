@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yubico</groupId>
+  <artifactId>webauthn-server-core</artifactId>
+  <version>1.12.2</version>
+  <name>webauthn-server-core</name>
+  <description>Yubico WebAuthn server core API</description>
+  <url>https://developers.yubico.com/java-webauthn-server/</url>
+  <licenses>
+    <license>
+      <name>BSD-license</name>
+      <comments>Revised 2-clause BSD license</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>emil</id>
+      <name>Emil Lundberg</name>
+      <email>emil@yubico.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Yubico/java-webauthn-server.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Yubico/java-webauthn-server.git</developerConnection>
+    <url>scm:git:git://github.com/Yubico/java-webauthn-server.git</url>
+  </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.yubico</groupId>
+        <artifactId>webauthn-server-parent</artifactId>
+        <version>1.12.2</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.yubico</groupId>
+      <artifactId>webauthn-server-core-minimal</artifactId>
+      <version>1.12.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk15on</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.squareup.okhttp3",
+    "module": "okhttp-sse",
+    "version": "4.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okhttp-sse-4.12.0.jar",
+          "url": "okhttp-sse-4.12.0.jar",
+          "size": 13065,
+          "sha512": "87d087f8f2ba31b9ee75dc107a561eeda61704f20f1736319a53a5b6ffdfca76d6449c47dbb0b60b23c23510c561d5d37e4354afe058dd43fd6c692823a139ca",
+          "sha256": "bff4fbcaef7aac2d910d4ff46dafaa4e6d15da127df6bac97216da46943a7d4c",
+          "sha1": "eca9c68c54ae7fd18d465beba65d80a44e9667e4",
+          "md5": "4d440b966bd351ceba7a08f15d6b7e86"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okhttp-sse-4.12.0.jar",
+          "url": "okhttp-sse-4.12.0.jar",
+          "size": 13065,
+          "sha512": "87d087f8f2ba31b9ee75dc107a561eeda61704f20f1736319a53a5b6ffdfca76d6449c47dbb0b60b23c23510c561d5d37e4354afe058dd43fd6c692823a139ca",
+          "sha256": "bff4fbcaef7aac2d910d4ff46dafaa4e6d15da127df6bac97216da46943a7d4c",
+          "sha1": "eca9c68c54ae7fd18d465beba65d80a44e9667e4",
+          "md5": "4d440b966bd351ceba7a08f15d6b7e86"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "okhttp-sse-4.12.0-javadoc.jar",
+          "url": "okhttp-sse-4.12.0-javadoc.jar",
+          "size": 261,
+          "sha512": "f32dcd897d7cce6f49449a8f35b3e536806b7872c5fdbf6d64a278ad3b5913af1deac9fc318cff62288df2e90d9ca110343ef458d48d04819dc36d8f0721e270",
+          "sha256": "7474a959995b723c89569170568a1640145df9764f108bea0b7e558237d37160",
+          "sha1": "ec5347f8ca97ca0080c57dbf0a2baadbaac8c9c9",
+          "md5": "cb32f6095f660dcfb9a76f588562b6f2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "okhttp-sse-4.12.0-sources.jar",
+          "url": "okhttp-sse-4.12.0-sources.jar",
+          "size": 6193,
+          "sha512": "fb830abd2c162877e46047d73d70b00207582f07f6ec135f2079068accfe17821f25ab3ea8286fa4f9673cb4b669993670d409681e30a847ce625d39ba0171c4",
+          "sha256": "1a40ddcc7c348d429ea60919b2430cca49e2e0ad453d063b0f282b0e3a319fe7",
+          "sha1": "ed4c0e8cb71f66a5a13dcbf2fa6ae43f920bb44f",
+          "md5": "2d75f27e820243da390325a5b2e125f3"
+        }
+      ]
+    }
+  ]
+}

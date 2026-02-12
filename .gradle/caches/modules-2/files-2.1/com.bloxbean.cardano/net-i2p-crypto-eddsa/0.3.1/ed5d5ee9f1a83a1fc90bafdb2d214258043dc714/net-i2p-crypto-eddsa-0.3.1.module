@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bloxbean.cardano",
+    "module": "net-i2p-crypto-eddsa",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "net-i2p-crypto-eddsa-0.3.1.jar",
+          "url": "net-i2p-crypto-eddsa-0.3.1.jar",
+          "size": 59818,
+          "sha512": "9c585835246bc3fb92dc381c14987fb32e8be7caf179cd646c1945af0730d705adc57f1d2307db9d7a185f4ca092d6fc22ae6251a6c1f2d799ad5c1023eceb4f",
+          "sha256": "3bc2c8922a52de7ecad21e9a34d2594b473f18598b7a2b8bd7d4b68ed6cc4dbf",
+          "sha1": "39f76e9119ca22a4a094ecabddd896a354fbd7e8",
+          "md5": "057b9688f9d57d6c87c3222c16ed9f32"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "net-i2p-crypto-eddsa-0.3.1.jar",
+          "url": "net-i2p-crypto-eddsa-0.3.1.jar",
+          "size": 59818,
+          "sha512": "9c585835246bc3fb92dc381c14987fb32e8be7caf179cd646c1945af0730d705adc57f1d2307db9d7a185f4ca092d6fc22ae6251a6c1f2d799ad5c1023eceb4f",
+          "sha256": "3bc2c8922a52de7ecad21e9a34d2594b473f18598b7a2b8bd7d4b68ed6cc4dbf",
+          "sha1": "39f76e9119ca22a4a094ecabddd896a354fbd7e8",
+          "md5": "057b9688f9d57d6c87c3222c16ed9f32"
+        }
+      ]
+    }
+  ]
+}

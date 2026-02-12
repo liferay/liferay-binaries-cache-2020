@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.microsoft.graph",
+    "module": "microsoft-graph-core",
+    "version": "1.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6",
+      "buildId": "6repie27zvaitiewycdvwij2pi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.12.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "microsoft-graph-core-1.0.9.jar",
+          "url": "microsoft-graph-core-1.0.9.jar",
+          "size": 28437,
+          "sha512": "06d6c101265ef66c1930ec1142cedf111e8cd63972976b50a99d13c49ed521721122ea73324e51ed5b475762a756040b22fb8477c222dadf15f58890f492673b",
+          "sha256": "b2d2ab352de0caf634d3d89f6042882777b3023e4aa4e230a7a0639b0c87d673",
+          "sha1": "20392b5b466c1a9744f8e9f09b1940d906f8bfb0",
+          "md5": "8649d2204a1def6ac7c2b0f98e79b54b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.12.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "microsoft-graph-core-1.0.9.jar",
+          "url": "microsoft-graph-core-1.0.9.jar",
+          "size": 28437,
+          "sha512": "06d6c101265ef66c1930ec1142cedf111e8cd63972976b50a99d13c49ed521721122ea73324e51ed5b475762a756040b22fb8477c222dadf15f58890f492673b",
+          "sha256": "b2d2ab352de0caf634d3d89f6042882777b3023e4aa4e230a7a0639b0c87d673",
+          "sha1": "20392b5b466c1a9744f8e9f09b1940d906f8bfb0",
+          "md5": "8649d2204a1def6ac7c2b0f98e79b54b"
+        }
+      ]
+    }
+  ]
+}

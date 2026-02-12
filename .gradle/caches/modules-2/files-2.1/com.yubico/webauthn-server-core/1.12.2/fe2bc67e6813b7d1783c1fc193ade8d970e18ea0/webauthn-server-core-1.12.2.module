@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yubico",
+    "module": "webauthn-server-core",
+    "version": "1.12.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.yubico",
+          "module": "webauthn-server-parent",
+          "version": {
+            "requires": "1.12.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.yubico",
+          "module": "webauthn-server-core-minimal",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webauthn-server-core-1.12.2.jar",
+          "url": "webauthn-server-core-1.12.2.jar",
+          "size": 1390,
+          "sha512": "576817725b563ebbf7787a80dc20bfe30db566b3ec2de018beb9889a5f59657f1c0cb6874ce1d0f728e5521ab0a8357059b375cc2bfb8a68adfac33006cadf3d",
+          "sha256": "14e472b0f28de124decd33a003c9c74c32339d9938d84e3926b979b9942e1577",
+          "sha1": "cb991fc92b07c54afd1e2fc635e1107d4c6be70d",
+          "md5": "0ea3f931241ce46363f9389df4cebc59"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on"
+        },
+        {
+          "group": "com.yubico",
+          "module": "webauthn-server-parent",
+          "version": {
+            "requires": "1.12.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.yubico",
+          "module": "webauthn-server-core-minimal",
+          "version": {
+            "requires": "1.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webauthn-server-core-1.12.2.jar",
+          "url": "webauthn-server-core-1.12.2.jar",
+          "size": 1390,
+          "sha512": "576817725b563ebbf7787a80dc20bfe30db566b3ec2de018beb9889a5f59657f1c0cb6874ce1d0f728e5521ab0a8357059b375cc2bfb8a68adfac33006cadf3d",
+          "sha256": "14e472b0f28de124decd33a003c9c74c32339d9938d84e3926b979b9942e1577",
+          "sha1": "cb991fc92b07c54afd1e2fc635e1107d4c6be70d",
+          "md5": "0ea3f931241ce46363f9389df4cebc59"
+        }
+      ]
+    }
+  ]
+}

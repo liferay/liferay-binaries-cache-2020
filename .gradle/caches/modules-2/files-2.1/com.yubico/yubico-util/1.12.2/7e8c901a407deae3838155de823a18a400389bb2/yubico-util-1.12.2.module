@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yubico",
+    "module": "yubico-util",
+    "version": "1.12.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.yubico",
+          "module": "webauthn-server-parent",
+          "version": {
+            "requires": "1.12.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind"
+        }
+      ],
+      "files": [
+        {
+          "name": "yubico-util-1.12.2.jar",
+          "url": "yubico-util-1.12.2.jar",
+          "size": 15160,
+          "sha512": "dd3c5ebab837fa5273b2eb01aa8d9cda2864225336343940534e64afe6b784a09114d00e2f064e3e69cf63a09ec7c7cc8d62dbc43e1c49a1a5ac78b162a5c18d",
+          "sha256": "8291a3e99840ef460dabc89218ee54f7091351cca7351b4f01727902050dda7c",
+          "sha1": "1ccd7a144bffdd18b854af493fbbd6206a3f9a13",
+          "md5": "ab58ec33813ccfe9e3a8aba5f17d29bb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-cbor"
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jdk8"
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava"
+        },
+        {
+          "group": "com.upokecenter",
+          "module": "cbor"
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api"
+        },
+        {
+          "group": "com.yubico",
+          "module": "webauthn-server-parent",
+          "version": {
+            "requires": "1.12.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind"
+        }
+      ],
+      "files": [
+        {
+          "name": "yubico-util-1.12.2.jar",
+          "url": "yubico-util-1.12.2.jar",
+          "size": 15160,
+          "sha512": "dd3c5ebab837fa5273b2eb01aa8d9cda2864225336343940534e64afe6b784a09114d00e2f064e3e69cf63a09ec7c7cc8d62dbc43e1c49a1a5ac78b162a5c18d",
+          "sha256": "8291a3e99840ef460dabc89218ee54f7091351cca7351b4f01727902050dda7c",
+          "sha1": "1ccd7a144bffdd18b854af493fbbd6206a3f9a13",
+          "md5": "ab58ec33813ccfe9e3a8aba5f17d29bb"
+        }
+      ]
+    }
+  ]
+}

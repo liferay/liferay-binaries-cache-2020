@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.mvel2",
+    "version": "2.1.0.drools16.LIFERAY-PATCHED-3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.mvel",
+          "module": "mvel2",
+          "version": {
+            "requires": "2.1.0.drools16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.mvel2-2.1.0.drools16.LIFERAY-PATCHED-3.jar",
+          "url": "org.mvel2-2.1.0.drools16.LIFERAY-PATCHED-3.jar",
+          "size": 754929,
+          "sha512": "543af90d46d6d2a98ed0450ff11340edf0bf13951928b2ae559ed3d176ebb9daf8b89050fb2a94cc53ed7ec31d411e240a84b9c95a619d88d1233d3b80f4d413",
+          "sha256": "1ac64a68d2b8c1390c9c958d410f63b45ea8d1c17c076f8ded321150ef1123f9",
+          "sha1": "85bca61de6e8318dd25d51dc1260ec362c3938bb",
+          "md5": "ea4fde7a4b682f869a9bbe0491b79e7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.mvel",
+          "module": "mvel2",
+          "version": {
+            "requires": "2.1.0.drools16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.mvel2-2.1.0.drools16.LIFERAY-PATCHED-3.jar",
+          "url": "org.mvel2-2.1.0.drools16.LIFERAY-PATCHED-3.jar",
+          "size": 754929,
+          "sha512": "543af90d46d6d2a98ed0450ff11340edf0bf13951928b2ae559ed3d176ebb9daf8b89050fb2a94cc53ed7ec31d411e240a84b9c95a619d88d1233d3b80f4d413",
+          "sha256": "1ac64a68d2b8c1390c9c958d410f63b45ea8d1c17c076f8ded321150ef1123f9",
+          "sha1": "85bca61de6e8318dd25d51dc1260ec362c3938bb",
+          "md5": "ea4fde7a4b682f869a9bbe0491b79e7f"
+        }
+      ]
+    }
+  ]
+}
