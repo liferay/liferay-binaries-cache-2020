@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-context",
+    "version": "1.57.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-common",
+          "version": {
+            "requires": "1.57.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-context-1.57.0.jar",
+          "url": "opentelemetry-context-1.57.0.jar",
+          "size": 49584,
+          "sha512": "cf3a255f035fe6aa02c443c0b0a2852b16eed611c68fdd2f14085523e755941e6d5f96bad0f601e39fc206cc09302d452372f7632d3709d9bf7cebf7bf39440e",
+          "sha256": "dc3c6b64970c245f760e8af5233d4862f829c88a0a1f013578035a7390dcd290",
+          "sha1": "3e9212282c7b886d341cfc57ea116c24e9a2539a",
+          "md5": "a50e02f82b9cd1d959e8b6de53a28d87"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-common",
+          "version": {
+            "requires": "1.57.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-context-1.57.0.jar",
+          "url": "opentelemetry-context-1.57.0.jar",
+          "size": 49584,
+          "sha512": "cf3a255f035fe6aa02c443c0b0a2852b16eed611c68fdd2f14085523e755941e6d5f96bad0f601e39fc206cc09302d452372f7632d3709d9bf7cebf7bf39440e",
+          "sha256": "dc3c6b64970c245f760e8af5233d4862f829c88a0a1f013578035a7390dcd290",
+          "sha1": "3e9212282c7b886d341cfc57ea116c24e9a2539a",
+          "md5": "a50e02f82b9cd1d959e8b6de53a28d87"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-context-1.57.0-javadoc.jar",
+          "url": "opentelemetry-context-1.57.0-javadoc.jar",
+          "size": 131727,
+          "sha512": "ac121c5b4ceb02679e0efc0366c1b39bd807e8d77288425a43a36bc79b2a1474a8ad003ca3d51c5d518f8078b9bcbe62db3f9d960bff934599c1a9f7a44e65ea",
+          "sha256": "57b8d879db5e4b6ee59ec0bfe172ffa0e68f17f2d904a799ba63c4bdd9f8baa6",
+          "sha1": "4043b4c093ca5d3e973ec933df9a49544b2a0548",
+          "md5": "5505c732fd7b8352de0b404c0b9db22c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-context-1.57.0-sources.jar",
+          "url": "opentelemetry-context-1.57.0-sources.jar",
+          "size": 39194,
+          "sha512": "4dad15c2bffe48b0a62c15f688c8531532f930cbfb3dcddccf8c0666b67b0d66d28762933d0c930a801a6eb30dca54fd5799179bbdab6310a4bbfdbbe4a9343c",
+          "sha256": "650dac0dd7d4c621cc5e9a9ad6591c0756ba8d62e06c5cb43ed3c99a0bf8add9",
+          "sha1": "debf67efbdf63ee5402bf74885a44be81e46f944",
+          "md5": "64a3a7dbdaa13778fbb0c5dd69ac8756"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.elasticsearch",
+    "module": "elasticsearch",
+    "version": "8.19.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-core",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-logging",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-x-content",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-geo",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-lz4",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch.plugin",
+          "module": "elasticsearch-plugin-api",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch.plugin",
+          "module": "elasticsearch-plugin-analysis-api",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-grok",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-tdigest",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-core",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-analysis-common",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-backward-codecs",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-facet",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-grouping",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-highlighter",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-join",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-memory",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-misc",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-queries",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-queryparser",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-sandbox",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-suggest",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-cli",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.hdrhistogram",
+          "module": "HdrHistogram",
+          "version": {
+            "requires": "2.1.9"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "co.elastic.logging",
+          "module": "log4j2-ecs-layout",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.elastic.logging",
+          "module": "ecs-logging-core",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticsearch-8.19.11.jar",
+          "url": "elasticsearch-8.19.11.jar",
+          "size": 18220024,
+          "sha512": "de19b1bf70fb9461faa8024d8f9e8ed037b68c5b43f7032678a566d33b1d474d0d63f63484b11a6d7a88a3c8008fc1acd41a9ca7aa6d0d9c989f7a019883aff0",
+          "sha256": "7fbdc2cdbf7f65963ff7c9b2f6d9573d640d72bec42c654cf468456af5795606",
+          "sha1": "b779eae969385ee57f4f62a3fd2f87d020743050",
+          "md5": "d45679d153b3bb7b0837bb63120275c5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-simdvec",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-entitlement",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "com.carrotsearch",
+          "module": "hppc",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-native",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-core",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-logging",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-x-content",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-geo",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-lz4",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch.plugin",
+          "module": "elasticsearch-plugin-api",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch.plugin",
+          "module": "elasticsearch-plugin-analysis-api",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-grok",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-tdigest",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-core",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-analysis-common",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-backward-codecs",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-facet",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-grouping",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-highlighter",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-join",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-memory",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-misc",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-queries",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-queryparser",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-sandbox",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.apache.lucene",
+          "module": "lucene-suggest",
+          "version": {
+            "requires": "9.12.2"
+          }
+        },
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-cli",
+          "version": {
+            "requires": "8.19.11"
+          }
+        },
+        {
+          "group": "org.hdrhistogram",
+          "module": "HdrHistogram",
+          "version": {
+            "requires": "2.1.9"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "co.elastic.logging",
+          "module": "log4j2-ecs-layout",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.elastic.logging",
+          "module": "ecs-logging-core",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticsearch-8.19.11.jar",
+          "url": "elasticsearch-8.19.11.jar",
+          "size": 18220024,
+          "sha512": "de19b1bf70fb9461faa8024d8f9e8ed037b68c5b43f7032678a566d33b1d474d0d63f63484b11a6d7a88a3c8008fc1acd41a9ca7aa6d0d9c989f7a019883aff0",
+          "sha256": "7fbdc2cdbf7f65963ff7c9b2f6d9573d640d72bec42c654cf468456af5795606",
+          "sha1": "b779eae969385ee57f4f62a3fd2f87d020743050",
+          "md5": "d45679d153b3bb7b0837bb63120275c5"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-8.19.11-javadoc.jar",
+          "url": "elasticsearch-8.19.11-javadoc.jar",
+          "size": 26231644,
+          "sha512": "dd1d5239891bd7a2b0f94be35253c51ce99cea404de30b3e13460970b5f150d24990e0c031a067dc07767936139d070f252dadcfdddf3bd3c6525ce9e7d54e98",
+          "sha256": "a797b8265e735873807a57c05da5381a42cebe87b0343d8cf1a6c783222a94c8",
+          "sha1": "a4bb59f7c7cc47abd8209b9b87ef745998735a42",
+          "md5": "434c587210bf404c6db0c9b066d37265"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-8.19.11-sources.jar",
+          "url": "elasticsearch-8.19.11-sources.jar",
+          "size": 8829427,
+          "sha512": "0a3ffb4632d1a3707940937e4631c9ed0640578c098cb1f8c670df5cfd3af0d77324c0bba920d02468c912b915d17f727d16fbf67db4b97015c562eee6e4be52",
+          "sha256": "7867ab9dc91a5b1755797f5c564900c973b5c2f32b03f5223f876bb833f02198",
+          "sha1": "47cd8444b47eb8a31ad0bdb3c83d49423ff5a3e5",
+          "md5": "3215d11c10418ee05ead7f61f334063b"
+        }
+      ]
+    }
+  ]
+}

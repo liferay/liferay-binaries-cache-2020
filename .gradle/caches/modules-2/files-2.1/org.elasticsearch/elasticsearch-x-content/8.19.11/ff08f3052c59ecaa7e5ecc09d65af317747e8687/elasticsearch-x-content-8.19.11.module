@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.elasticsearch",
+    "module": "elasticsearch-x-content",
+    "version": "8.19.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-core",
+          "version": {
+            "requires": "8.19.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticsearch-x-content-8.19.11.jar",
+          "url": "elasticsearch-x-content-8.19.11.jar",
+          "size": 1417555,
+          "sha512": "377f258de6c2ac6898038d01c0bbc4baa48cdfac9c2cd12a992d488488633cbbdded78d7d98081f4199bbd0c4cdabfca0b9694563210cdecfb4264bad8d5e296",
+          "sha256": "e5519bf491d4913d6174b29d908a95122b5de31078e497f85b6ac511496e6c43",
+          "sha1": "e98047453ed219efc0af82a8568fa597afb8a579",
+          "md5": "f5b81e010961f578cbc1462c48baced9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.elasticsearch",
+          "module": "elasticsearch-core",
+          "version": {
+            "requires": "8.19.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticsearch-x-content-8.19.11.jar",
+          "url": "elasticsearch-x-content-8.19.11.jar",
+          "size": 1417555,
+          "sha512": "377f258de6c2ac6898038d01c0bbc4baa48cdfac9c2cd12a992d488488633cbbdded78d7d98081f4199bbd0c4cdabfca0b9694563210cdecfb4264bad8d5e296",
+          "sha256": "e5519bf491d4913d6174b29d908a95122b5de31078e497f85b6ac511496e6c43",
+          "sha1": "e98047453ed219efc0af82a8568fa597afb8a579",
+          "md5": "f5b81e010961f578cbc1462c48baced9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-x-content-8.19.11-javadoc.jar",
+          "url": "elasticsearch-x-content-8.19.11-javadoc.jar",
+          "size": 411529,
+          "sha512": "8ef7b15261f1839b7c8ec5b4f7d5f7d14396eeac5a7acb4b8d9933fd8fea997674534c974257cace429aa48b0beab2a4063d8ded5790b5944473672ab28de8f9",
+          "sha256": "85d6bf78f1bacf85af711c8f3faeff9436386271f3ca48011925477781395401",
+          "sha1": "9e6c0e93319f34a4871e7efbe3dfcbb8454ddc89",
+          "md5": "7aaf7546b721a5236bb9640be118caab"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-x-content-8.19.11-sources.jar",
+          "url": "elasticsearch-x-content-8.19.11-sources.jar",
+          "size": 100619,
+          "sha512": "8bc5ef910625e7c18610e85e1343f57486be7950f17761be1104e1518a932d34e68361b3f79e69fb1e29948a5335769548085dd26b0dbe99d8c6c8910175ca91",
+          "sha256": "f5df7ffb1b34eb82f146382484a515367997884ce781493e8f4450fcf990a153",
+          "sha1": "761a9b1dc16dc02e31a7621dd38a19e260bbd196",
+          "md5": "66383dd9e4a025568fdf9d2d1c39f973"
+        }
+      ]
+    }
+  ]
+}
