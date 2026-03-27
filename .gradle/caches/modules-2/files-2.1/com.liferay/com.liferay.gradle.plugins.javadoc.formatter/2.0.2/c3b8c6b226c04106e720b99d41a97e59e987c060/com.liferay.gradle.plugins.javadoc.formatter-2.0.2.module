@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.javadoc.formatter",
+    "version": "2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.javadoc.formatter-2.0.2.jar",
+          "url": "com.liferay.gradle.plugins.javadoc.formatter-2.0.2.jar",
+          "size": 12917,
+          "sha512": "520b06a7377b3989a1610779e4a2b8baa53c51df398452067bcc2ff4516bb8ab265e6297312ef245ee4f6de282b1af585c06c68c782d355c22af3e79c26abe84",
+          "sha256": "f6ccad401b898bb1cfd8e047158829cab7bb5d6c88b9f924134dd1a920104e8b",
+          "sha1": "70287ee0c7a62e00f5f1a8f3b4d28357466d8180",
+          "md5": "8c5e1569c5674187f9d04632e1191674"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.javadoc.formatter-2.0.2.jar",
+          "url": "com.liferay.gradle.plugins.javadoc.formatter-2.0.2.jar",
+          "size": 12917,
+          "sha512": "520b06a7377b3989a1610779e4a2b8baa53c51df398452067bcc2ff4516bb8ab265e6297312ef245ee4f6de282b1af585c06c68c782d355c22af3e79c26abe84",
+          "sha256": "f6ccad401b898bb1cfd8e047158829cab7bb5d6c88b9f924134dd1a920104e8b",
+          "sha1": "70287ee0c7a62e00f5f1a8f3b4d28357466d8180",
+          "md5": "8c5e1569c5674187f9d04632e1191674"
+        }
+      ]
+    }
+  ]
+}

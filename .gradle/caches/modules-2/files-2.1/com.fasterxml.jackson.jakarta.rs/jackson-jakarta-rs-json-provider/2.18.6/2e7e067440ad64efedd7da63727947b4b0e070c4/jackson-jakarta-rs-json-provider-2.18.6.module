@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.jakarta.rs",
+    "module": "jackson-jakarta-rs-json-provider",
+    "version": "2.18.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.jakarta.rs",
+          "module": "jackson-jakarta-rs-base",
+          "version": {
+            "requires": "2.18.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-jakarta-xmlbind-annotations",
+          "version": {
+            "requires": "2.18.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.18.6"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-jakarta-rs-json-provider-2.18.6.jar",
+          "url": "jackson-jakarta-rs-json-provider-2.18.6.jar",
+          "size": 16507,
+          "sha512": "97ab91d67e42cbb8117a524d3b00256509b991b52940b06bac9865c18c21c8ef244b586fb53c1c951638cf5d40ec9fec7c1eb49acc75a598b847752c9c755cfd",
+          "sha256": "1ed031b264dca6ea555ce03b1d7169aae1bdc8ecee12d7f583056ca2c5a4456b",
+          "sha1": "482723f1495893c263271ef3e767084d2ea7434c",
+          "md5": "532df17e22b2b332326f4cba541abf4d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.jakarta.rs",
+          "module": "jackson-jakarta-rs-base",
+          "version": {
+            "requires": "2.18.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-jakarta-xmlbind-annotations",
+          "version": {
+            "requires": "2.18.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.18.6"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-jakarta-rs-json-provider-2.18.6.jar",
+          "url": "jackson-jakarta-rs-json-provider-2.18.6.jar",
+          "size": 16507,
+          "sha512": "97ab91d67e42cbb8117a524d3b00256509b991b52940b06bac9865c18c21c8ef244b586fb53c1c951638cf5d40ec9fec7c1eb49acc75a598b847752c9c755cfd",
+          "sha256": "1ed031b264dca6ea555ce03b1d7169aae1bdc8ecee12d7f583056ca2c5a4456b",
+          "sha1": "482723f1495893c263271ef3e767084d2ea7434c",
+          "md5": "532df17e22b2b332326f4cba541abf4d"
+        }
+      ]
+    }
+  ]
+}

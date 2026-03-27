@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.node",
+    "version": "8.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.node-8.1.4.jar",
+          "url": "com.liferay.gradle.plugins.node-8.1.4.jar",
+          "size": 121786,
+          "sha512": "e5cc699f4ea6c208956d2df4fbd442c2536b4b0630c775c0b8a0cd40f8892428bf3112b98ddd567c17c7ba48b5a42123876252491476d7f37a8fffcef59a8230",
+          "sha256": "42e3155990e512bc4ac7a6a60b895cc2c52290d2961e0e1b309cc2e260e35c7a",
+          "sha1": "e65c808593e30c48e7a38cb1352d1b5d86cc4d9a",
+          "md5": "b84ec230388cc75b46dc21938522992a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.node-8.1.4.jar",
+          "url": "com.liferay.gradle.plugins.node-8.1.4.jar",
+          "size": 121786,
+          "sha512": "e5cc699f4ea6c208956d2df4fbd442c2536b4b0630c775c0b8a0cd40f8892428bf3112b98ddd567c17c7ba48b5a42123876252491476d7f37a8fffcef59a8230",
+          "sha256": "42e3155990e512bc4ac7a6a60b895cc2c52290d2961e0e1b309cc2e260e35c7a",
+          "sha1": "e65c808593e30c48e7a38cb1352d1b5d86cc4d9a",
+          "md5": "b84ec230388cc75b46dc21938522992a"
+        }
+      ]
+    }
+  ]
+}
