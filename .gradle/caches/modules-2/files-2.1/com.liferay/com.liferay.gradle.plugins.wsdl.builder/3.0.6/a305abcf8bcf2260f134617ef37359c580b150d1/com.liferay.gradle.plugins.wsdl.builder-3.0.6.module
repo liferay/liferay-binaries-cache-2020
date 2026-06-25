@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.wsdl.builder",
+    "version": "3.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.wsdl.builder-3.0.6.jar",
+          "url": "com.liferay.gradle.plugins.wsdl.builder-3.0.6.jar",
+          "size": 26049,
+          "sha512": "fd84dc4ca8d0ad9f5d3454cb365f6e995b6b29d2f1897541bbac2b6bd62bb5a89c050c5baa0088642fb56ebd287965099689b36e3c03ef7fb427a52f00e4a783",
+          "sha256": "954671ffa586c4c1bc8753b51f4d2e48bba1c9ebd47531cac360c7f5f90d1e8a",
+          "sha1": "ecdd5d7c88b960a6f934b30b67f61f8dfa23bf69",
+          "md5": "6a4ab1ed03509b2936368889e72462a6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.wsdl.builder-3.0.6.jar",
+          "url": "com.liferay.gradle.plugins.wsdl.builder-3.0.6.jar",
+          "size": 26049,
+          "sha512": "fd84dc4ca8d0ad9f5d3454cb365f6e995b6b29d2f1897541bbac2b6bd62bb5a89c050c5baa0088642fb56ebd287965099689b36e3c03ef7fb427a52f00e4a783",
+          "sha256": "954671ffa586c4c1bc8753b51f4d2e48bba1c9ebd47531cac360c7f5f90d1e8a",
+          "sha1": "ecdd5d7c88b960a6f934b30b67f61f8dfa23bf69",
+          "md5": "6a4ab1ed03509b2936368889e72462a6"
+        }
+      ]
+    }
+  ]
+}

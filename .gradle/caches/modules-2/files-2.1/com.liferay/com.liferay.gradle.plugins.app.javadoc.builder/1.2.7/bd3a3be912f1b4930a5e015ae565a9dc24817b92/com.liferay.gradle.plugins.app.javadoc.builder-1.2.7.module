@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.app.javadoc.builder",
+    "version": "1.2.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.app.javadoc.builder-1.2.7.jar",
+          "url": "com.liferay.gradle.plugins.app.javadoc.builder-1.2.7.jar",
+          "size": 16199,
+          "sha512": "d3298468336d78e7532e2be127d6ccaf63fd39e229d238d7137fe10f26fd4c595ad3197165c948a0d08ae3a863d01cd8c8082b1d5753e24c4ccf12a82e75bc15",
+          "sha256": "6f33fc0341e4d534e97a88ecf64e8e5cd3bc358e671ef7712c08a3928a75b40e",
+          "sha1": "2bdae82305323d95b1eb24e92be3996143749dee",
+          "md5": "224609d9d3e2c8d82545dd87772d2fc7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.app.javadoc.builder-1.2.7.jar",
+          "url": "com.liferay.gradle.plugins.app.javadoc.builder-1.2.7.jar",
+          "size": 16199,
+          "sha512": "d3298468336d78e7532e2be127d6ccaf63fd39e229d238d7137fe10f26fd4c595ad3197165c948a0d08ae3a863d01cd8c8082b1d5753e24c4ccf12a82e75bc15",
+          "sha256": "6f33fc0341e4d534e97a88ecf64e8e5cd3bc358e671ef7712c08a3928a75b40e",
+          "sha1": "2bdae82305323d95b1eb24e92be3996143749dee",
+          "md5": "224609d9d3e2c8d82545dd87772d2fc7"
+        }
+      ]
+    }
+  ]
+}

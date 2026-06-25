@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.util",
+    "version": "1.0.53",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "com.liferay.gradle.util-1.0.53.jar",
+          "url": "com.liferay.gradle.util-1.0.53.jar",
+          "size": 53977,
+          "sha512": "bb350dbd8319acf11b9a954d75d6b9f4f4fac47e4f6a3ec415167fc8e99dc6c7b4e9a3ac21c57319a113852bdf52ed8de74cba8c5e0f7f887578417e568c705e",
+          "sha256": "ab108b49b9d259b38d4e65a73ffe30e8e2879d918cf5ab05cf506f57a9fc1ee4",
+          "sha1": "595a1ab414ab1977a7302600edbe81935f89a15d",
+          "md5": "e670ba51225272329562478372ce346a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "com.liferay.gradle.util-1.0.53.jar",
+          "url": "com.liferay.gradle.util-1.0.53.jar",
+          "size": 53977,
+          "sha512": "bb350dbd8319acf11b9a954d75d6b9f4f4fac47e4f6a3ec415167fc8e99dc6c7b4e9a3ac21c57319a113852bdf52ed8de74cba8c5e0f7f887578417e568c705e",
+          "sha256": "ab108b49b9d259b38d4e65a73ffe30e8e2879d918cf5ab05cf506f57a9fc1ee4",
+          "sha1": "595a1ab414ab1977a7302600edbe81935f89a15d",
+          "md5": "e670ba51225272329562478372ce346a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.whip",
+    "version": "1.0.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.whip-1.0.12.jar",
+          "url": "com.liferay.gradle.plugins.whip-1.0.12.jar",
+          "size": 13532,
+          "sha512": "7b3ef0da2e99361dfc1200730201cd0335cd199a07c2a50719105717fe8f63bd285a0912e4bb1f132c755a4e2db3f5d53434627a3ddd8ef5810b720a5d91bd3d",
+          "sha256": "fec846bf917fb75800825e27f90891a3408705aa66c87521fc562d6a2cae1f69",
+          "sha1": "7150d99af50563452df1bca0daa85f149caf05b9",
+          "md5": "d7f10da151d58dba42765456abb454f8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.whip-1.0.12.jar",
+          "url": "com.liferay.gradle.plugins.whip-1.0.12.jar",
+          "size": 13532,
+          "sha512": "7b3ef0da2e99361dfc1200730201cd0335cd199a07c2a50719105717fe8f63bd285a0912e4bb1f132c755a4e2db3f5d53434627a3ddd8ef5810b720a5d91bd3d",
+          "sha256": "fec846bf917fb75800825e27f90891a3408705aa66c87521fc562d6a2cae1f69",
+          "sha1": "7150d99af50563452df1bca0daa85f149caf05b9",
+          "md5": "d7f10da151d58dba42765456abb454f8"
+        }
+      ]
+    }
+  ]
+}

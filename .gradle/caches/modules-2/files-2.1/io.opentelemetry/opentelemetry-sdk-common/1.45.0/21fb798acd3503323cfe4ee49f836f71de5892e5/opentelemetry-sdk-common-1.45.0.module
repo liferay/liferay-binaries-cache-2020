@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-common",
+    "version": "1.45.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.45.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.45.0.jar",
+          "url": "opentelemetry-sdk-common-1.45.0.jar",
+          "size": 54519,
+          "sha512": "11ac59956ecb720fa09b98a3dda7ae6dda676f2d2d5f39177ce6b51b987a07389921ec7e434dc0eedc448bbc72c7edda12d257cc73b806a3b6f8a341058638c5",
+          "sha256": "cb58926cc8341a03e8bda7530de8b4516c5dfd6829271d2fe156d0c558800d77",
+          "sha1": "f977e13bbf27ddead5152488c26391891012e760",
+          "md5": "5d31b583810605e688b66894d9d12385"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.45.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.45.0.jar",
+          "url": "opentelemetry-sdk-common-1.45.0.jar",
+          "size": 54519,
+          "sha512": "11ac59956ecb720fa09b98a3dda7ae6dda676f2d2d5f39177ce6b51b987a07389921ec7e434dc0eedc448bbc72c7edda12d257cc73b806a3b6f8a341058638c5",
+          "sha256": "cb58926cc8341a03e8bda7530de8b4516c5dfd6829271d2fe156d0c558800d77",
+          "sha1": "f977e13bbf27ddead5152488c26391891012e760",
+          "md5": "5d31b583810605e688b66894d9d12385"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.45.0-javadoc.jar",
+          "url": "opentelemetry-sdk-common-1.45.0-javadoc.jar",
+          "size": 130484,
+          "sha512": "6747c123d9aefe5ff85d4ff64eb512ef7ec69391f580d56832adbc912a0bf41c5ad43b12cf313350c5620459ba2dcea0353288e04f188be66c52de06e95741e0",
+          "sha256": "1dbbfb1282d18339563981fd76aa87dcb460cc1633bacc094cf98da780800d77",
+          "sha1": "0ea7246e46e05d0b2ad38ea2a06ba3ede734c38d",
+          "md5": "2554bc0a8824cdd6c636028f61774924"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.45.0-sources.jar",
+          "url": "opentelemetry-sdk-common-1.45.0-sources.jar",
+          "size": 37586,
+          "sha512": "5bd9572263688d15f20a809f1a6503fa44df078d3010f59fa021f74bb5a296ad9b1d408da58aad7b1f628bdd7dc5de5b6779b3d3a2ec17385c589f6ae1426e56",
+          "sha256": "c282baa80bfecbd30c3816a839045c35c27beebfb503f4fe1de05b8e3c752be3",
+          "sha1": "515787bfeb9a5545a5742781d5be422f5b06ca86",
+          "md5": "0ad82b9fb2e52f03c6fff603d170ef82"
+        }
+      ]
+    }
+  ]
+}

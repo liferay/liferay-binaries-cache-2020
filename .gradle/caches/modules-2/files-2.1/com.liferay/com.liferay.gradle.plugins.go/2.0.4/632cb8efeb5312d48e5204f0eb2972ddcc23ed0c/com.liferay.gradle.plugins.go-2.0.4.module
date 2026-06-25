@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.go",
+    "version": "2.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.go-2.0.4.jar",
+          "url": "com.liferay.gradle.plugins.go-2.0.4.jar",
+          "size": 26140,
+          "sha512": "4ba2b7c9ed7d25381b715e6091f8cc2c0dce3e84c227d4957f1e1079da164a33daf554f93c357a367c0bd12b4bda975729c3cdfb7d2eb65be670533604886335",
+          "sha256": "ccdd64542166e04412802480cf10266e6da43a1a3b92eede3ad9fff937632619",
+          "sha1": "fd3152af1d41b454f0224e3a46ce006d1f8e8a05",
+          "md5": "a2df09264de4984ae293fab909ecf017"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.go-2.0.4.jar",
+          "url": "com.liferay.gradle.plugins.go-2.0.4.jar",
+          "size": 26140,
+          "sha512": "4ba2b7c9ed7d25381b715e6091f8cc2c0dce3e84c227d4957f1e1079da164a33daf554f93c357a367c0bd12b4bda975729c3cdfb7d2eb65be670533604886335",
+          "sha256": "ccdd64542166e04412802480cf10266e6da43a1a3b92eede3ad9fff937632619",
+          "sha1": "fd3152af1d41b454f0224e3a46ce006d1f8e8a05",
+          "md5": "a2df09264de4984ae293fab909ecf017"
+        }
+      ]
+    }
+  ]
+}
