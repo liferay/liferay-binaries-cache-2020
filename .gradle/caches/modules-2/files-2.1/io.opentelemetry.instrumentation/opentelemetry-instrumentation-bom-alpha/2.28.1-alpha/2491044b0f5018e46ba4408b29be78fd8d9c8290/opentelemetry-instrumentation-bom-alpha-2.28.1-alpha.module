@@ -1,0 +1,5664 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry.instrumentation",
+    "module": "opentelemetry-instrumentation-bom-alpha",
+    "version": "2.28.1-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom",
+          "version": {
+            "requires": "1.62.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom-alpha",
+          "version": {
+            "requires": "1.62.0-alpha"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-bom",
+          "version": {
+            "requires": "2.28.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-declarative-config-bridge",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-annotations-support",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api-incubator",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-extension-api",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-internal-logging-application",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-internal-logging-simple",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-tooling",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-muzzle",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-sdk-autoconfigure-support",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-testing-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-tooling-java9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-agent-for-testing",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-activej-http-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-alibaba-druid-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-alibaba-druid-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-dbcp-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-apache-dbcp-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-dubbo-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-apache-dubbo-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-elasticjob-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-httpasyncclient-4.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-shenyu-2.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-avaje-jex-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-c3p0-0.9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-c3p0-0.9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-camel-2.20",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-executors-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-executors",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-external-annotations",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-failsafe-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-finagle-http-23.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-finatra-2.9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-geode-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-google-http-client-1.19",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-grails-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-grizzly-2.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-grpc-1.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-grpc-1.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-guava-10.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-guava-10.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-gwt-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-helidon-4.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-helidon-4.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hikaricp-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-hikaricp-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-http-url-connection",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hystrix-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-iceberg-1.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-influxdb-2.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-java-http-client",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-java-http-client",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-java-http-server",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-java-http-server",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-java-util-logging",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jdbc-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jdbc",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-jdbc",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jfinal-3.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jmx-metrics",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-jmx-metrics",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jodd-http-4.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsp-2.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kubernetes-client-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-methods",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-mybatis-3.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-extension-annotations-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-extension-kotlin-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-instrumentation-annotations-1.16",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-instrumentation-api",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-oracle-ucp-11.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-oracle-ucp-11.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-oshi",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-oshi",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-payara",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-powerjob-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-quarkus-resteasy-reactive",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-quartz-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-quartz-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-r2dbc-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-r2dbc-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rabbitmq-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rediscala-1.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-resources",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rmi-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rmi",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-runtime-telemetry",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-runtime-telemetry",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-scala-fork-join-2.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spark-2.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spymemcached-2.12",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-tapestry-5.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-thrift-0.13",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-thrift-0.13",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-twilio-6.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-undertow-1.4-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-undertow-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vaadin-14.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vibur-dbcp-11.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-vibur-dbcp-11.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-wicket-8.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-akka-actor-2.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-akka-actor-fork-join-2.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-akka-http-10.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-httpclient-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-httpclient-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-apache-httpclient-4.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-httpclient-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-apache-httpclient-5.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-armeria-1.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-armeria-1.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-armeria-grpc-1.14",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-async-http-client-1.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-async-http-client-1.9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-async-http-client-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-async-http-client-common-1.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-aws-lambda-core-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-lambda-core-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-aws-lambda-events-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-lambda-events-3.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-lambda-events-common-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-aws-sdk-1.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-sdk-1.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-sdk-1.11-autoconfigure",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-aws-sdk-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-sdk-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-sdk-2.2-autoconfigure",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-azure-core-1.14",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-azure-core-1.19",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-azure-core-1.36",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-azure-core-1.53",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-cassandra-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-cassandra-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-cassandra-4.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-cassandra-4.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-clickhouse-client-common-0.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-clickhouse-client-v1-0.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-clickhouse-client-v2-0.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-2.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-3.1.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-3.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-3.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-common-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-dropwizard-metrics-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-dropwizard-views-0.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-api-client-7.16",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-rest-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-rest-6.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-rest-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-elasticsearch-rest-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-rest-common-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-elasticsearch-rest-common-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-transport-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-transport-5.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-transport-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-transport-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-graphql-java-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-graphql-java-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-graphql-java-20.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-graphql-java-20.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-graphql-java-common-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-3.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-common-3.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-procedure-call-4.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-reactive-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-application-logger-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-application-logger",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-class-loader",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-eclipse-osgi-3.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-lambda",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-reflection",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-url-class-loader",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-javalin-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-javalin-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-common-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-2.0-axis2-1.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-2.0-cxf-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-2.0-metro-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-common-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-jws-api-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jboss-logmanager-appender-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jboss-logmanager-mdc-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jedis-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jedis-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jedis-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jedis-common-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-11.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-8.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-httpclient-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-jetty-httpclient-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-httpclient-9.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-jetty-httpclient-9.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jms-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jms-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jms-common-1.1-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jms-common-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-common-jakarta",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-common-javax",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-mojarra-1.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-mojarra-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-myfaces-1.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-myfaces-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kafka-connect-2.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kafka-streams-0.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kotlinx-coroutines-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kotlinx-coroutines-flow-1.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-ktor-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-ktor-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-ktor-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-ktor-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-ktor-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-ktor-common-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-lettuce-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-lettuce-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-lettuce-5.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-lettuce-5.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-lettuce-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-liberty-20.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-liberty-dispatcher-20.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-log4j-appender-1.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-log4j-appender-2.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-log4j-appender-2.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-log4j-mdc-1.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-logback-appender-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-logback-appender-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-logback-mdc-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-logback-mdc-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-micrometer-1.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-micrometer-1.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-mongo-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-mongo-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-mongo-3.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-mongo-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-mongo-async-3.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-nats-2.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-nats-2.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-netty-3.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-netty-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-netty-4.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-netty-4.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-netty-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-netty-common-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-netty-common-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-okhttp-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-okhttp-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-okhttp-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-openai-java-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-openai-java-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opensearch-java-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opensearch-rest-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opensearch-rest-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opensearch-rest-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.10",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.15",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.27",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.31",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.32",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.37",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.38",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.40",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.42",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.47",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.50",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.56",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.57",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.59",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-pekko-actor-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-pekko-http-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-pulsar-2.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-ratpack-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-ratpack-1.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-ratpack-1.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-reactor-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-reactor-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-reactor-3.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-reactor-kafka-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-redisson-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-redisson-3.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-redisson-common-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-restlet-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-restlet-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-restlet-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-restlet-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rocketmq-client-4.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rocketmq-client-4.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rocketmq-client-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rxjava-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rxjava-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rxjava-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rxjava-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rxjava-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rxjava-3.1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rxjava-3.1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rxjava-common-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-servlet-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-servlet-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-servlet-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-servlet-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-servlet-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-servlet-common-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-servlet-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-servlet-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-servlet-common-javax",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-batch-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-boot-actuator-autoconfigure-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-boot-resources",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-cloud-aws-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-core-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-integration-4.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-integration-4.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-kafka-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-kafka-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-pulsar-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-rabbit-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-rmi-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-scheduling-3.1-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-scheduling-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-security-config-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-security-config-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-ws-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-zipkin-spring-boot-starter",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-struts-2.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-struts-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-tomcat-10.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-tomcat-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-tomcat-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-tomcat-jdbc",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-kafka-client-3.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-redis-client-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-rx-java-3.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-web-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-xxl-job-1.9.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-xxl-job-2.1.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-xxl-job-2.3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-xxl-job-common-1.9.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-zio-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-zio-http-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-annotations",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-cxf-3.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-jersey-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-resteasy-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-resteasy-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-resteasy-common-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-3.0-annotations",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-3.0-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-3.0-jersey-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-3.0-resteasy-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kafka-clients-0.11-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kafka-clients-0.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-kafka-clients-2.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-kafka-clients-common-0.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-log4j-context-data-2.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-log4j-context-data-2.17-autoconfigure",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-log4j-context-data-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-mvc-2.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-mvc-2.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-ws-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-ws-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-ws-2.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-ws-common-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-reactor-netty-0.9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-reactor-netty-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-cloud-gateway-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-cloud-gateway-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-cloud-gateway-webmvc-4.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-data-1.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-jms-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-jms-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-web-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-web-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-webflux-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-webflux-5.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-webmvc-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-webmvc-5.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-webmvc-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-webmvc-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-webmvc-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-http-client-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-http-client-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-http-client-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-http-client-common-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-sql-client-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-sql-client-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-sql-client-common-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.semconv",
+          "module": "opentelemetry-semconv-incubating",
+          "version": {
+            "requires": "1.41.1-alpha"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom",
+          "version": {
+            "requires": "1.62.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom-alpha",
+          "version": {
+            "requires": "1.62.0-alpha"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-bom",
+          "version": {
+            "requires": "2.28.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-declarative-config-bridge",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-annotations-support",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api-incubator",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-extension-api",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-internal-logging-application",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-internal-logging-simple",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-tooling",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-muzzle",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-sdk-autoconfigure-support",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-testing-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-javaagent-tooling-java9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent",
+          "module": "opentelemetry-agent-for-testing",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-activej-http-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-alibaba-druid-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-alibaba-druid-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-dbcp-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-apache-dbcp-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-dubbo-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-apache-dubbo-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-elasticjob-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-httpasyncclient-4.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-shenyu-2.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-avaje-jex-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-c3p0-0.9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-c3p0-0.9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-camel-2.20",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-executors-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-executors",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-external-annotations",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-failsafe-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-finagle-http-23.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-finatra-2.9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-geode-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-google-http-client-1.19",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-grails-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-grizzly-2.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-grpc-1.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-grpc-1.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-guava-10.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-guava-10.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-gwt-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-helidon-4.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-helidon-4.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hikaricp-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-hikaricp-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-http-url-connection",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hystrix-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-iceberg-1.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-influxdb-2.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-java-http-client",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-java-http-client",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-java-http-server",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-java-http-server",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-java-util-logging",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jdbc-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jdbc",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-jdbc",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jfinal-3.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jmx-metrics",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-jmx-metrics",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jodd-http-4.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsp-2.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kubernetes-client-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-methods",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-mybatis-3.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-extension-annotations-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-extension-kotlin-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-instrumentation-annotations-1.16",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-instrumentation-api",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-oracle-ucp-11.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-oracle-ucp-11.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-oshi",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-oshi",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-payara",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-powerjob-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-quarkus-resteasy-reactive",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-quartz-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-quartz-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-r2dbc-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-r2dbc-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rabbitmq-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rediscala-1.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-resources",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rmi-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rmi",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-runtime-telemetry",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-runtime-telemetry",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-scala-fork-join-2.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spark-2.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spymemcached-2.12",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-tapestry-5.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-thrift-0.13",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-thrift-0.13",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-twilio-6.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-undertow-1.4-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-undertow-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vaadin-14.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vibur-dbcp-11.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-vibur-dbcp-11.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-wicket-8.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-akka-actor-2.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-akka-actor-fork-join-2.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-akka-http-10.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-httpclient-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-httpclient-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-apache-httpclient-4.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-apache-httpclient-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-apache-httpclient-5.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-armeria-1.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-armeria-1.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-armeria-grpc-1.14",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-async-http-client-1.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-async-http-client-1.9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-async-http-client-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-async-http-client-common-1.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-aws-lambda-core-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-lambda-core-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-aws-lambda-events-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-lambda-events-3.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-lambda-events-common-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-aws-sdk-1.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-sdk-1.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-sdk-1.11-autoconfigure",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-aws-sdk-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-sdk-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-aws-sdk-2.2-autoconfigure",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-azure-core-1.14",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-azure-core-1.19",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-azure-core-1.36",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-azure-core-1.53",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-cassandra-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-cassandra-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-cassandra-4.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-cassandra-4.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-clickhouse-client-common-0.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-clickhouse-client-v1-0.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-clickhouse-client-v2-0.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-2.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-3.1.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-3.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-3.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-couchbase-common-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-dropwizard-metrics-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-dropwizard-views-0.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-api-client-7.16",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-rest-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-rest-6.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-rest-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-elasticsearch-rest-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-rest-common-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-elasticsearch-rest-common-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-transport-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-transport-5.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-transport-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-elasticsearch-transport-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-graphql-java-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-graphql-java-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-graphql-java-20.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-graphql-java-20.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-graphql-java-common-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-3.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-common-3.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-procedure-call-4.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-hibernate-reactive-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-application-logger-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-application-logger",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-class-loader",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-eclipse-osgi-3.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-lambda",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-reflection",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-internal-url-class-loader",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-javalin-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-javalin-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-common-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-2.0-axis2-1.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-2.0-cxf-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-2.0-metro-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-common-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxws-jws-api-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jboss-logmanager-appender-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jboss-logmanager-mdc-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jedis-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jedis-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jedis-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jedis-common-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-11.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-8.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-httpclient-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-jetty-httpclient-12.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jetty-httpclient-9.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-jetty-httpclient-9.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jms-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jms-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jms-common-1.1-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jms-common-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-common-jakarta",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-common-javax",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-mojarra-1.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-mojarra-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-myfaces-1.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jsf-myfaces-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kafka-connect-2.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kafka-streams-0.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kotlinx-coroutines-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kotlinx-coroutines-flow-1.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-ktor-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-ktor-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-ktor-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-ktor-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-ktor-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-ktor-common-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-lettuce-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-lettuce-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-lettuce-5.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-lettuce-5.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-lettuce-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-liberty-20.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-liberty-dispatcher-20.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-log4j-appender-1.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-log4j-appender-2.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-log4j-appender-2.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-log4j-mdc-1.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-logback-appender-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-logback-appender-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-logback-mdc-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-logback-mdc-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-micrometer-1.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-micrometer-1.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-mongo-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-mongo-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-mongo-3.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-mongo-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-mongo-async-3.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-nats-2.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-nats-2.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-netty-3.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-netty-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-netty-4.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-netty-4.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-netty-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-netty-common-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-netty-common-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-okhttp-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-okhttp-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-okhttp-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-openai-java-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-openai-java-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opensearch-java-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opensearch-rest-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opensearch-rest-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opensearch-rest-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.10",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.15",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.27",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.31",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.32",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.37",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.38",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.40",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.42",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.47",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.50",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.56",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.57",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-opentelemetry-api-1.59",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-pekko-actor-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-pekko-http-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-pulsar-2.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-ratpack-1.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-ratpack-1.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-ratpack-1.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-reactor-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-reactor-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-reactor-3.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-reactor-kafka-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-redisson-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-redisson-3.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-redisson-common-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-restlet-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-restlet-1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-restlet-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-restlet-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rocketmq-client-4.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rocketmq-client-4.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rocketmq-client-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rxjava-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rxjava-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rxjava-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rxjava-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rxjava-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-rxjava-3.1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rxjava-3.1.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-rxjava-common-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-servlet-2.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-servlet-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-servlet-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-servlet-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-servlet-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-servlet-common-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-servlet-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-servlet-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-servlet-common-javax",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-batch-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-boot-actuator-autoconfigure-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-boot-resources",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-cloud-aws-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-core-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-integration-4.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-integration-4.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-kafka-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-kafka-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-pulsar-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-rabbit-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-rmi-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-scheduling-3.1-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-scheduling-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-security-config-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-security-config-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-ws-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-zipkin-spring-boot-starter",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-struts-2.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-struts-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-tomcat-10.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-tomcat-7.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-tomcat-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-tomcat-jdbc",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-kafka-client-3.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-redis-client-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-rx-java-3.5",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-web-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-xxl-job-1.9.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-xxl-job-2.1.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-xxl-job-2.3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-xxl-job-common-1.9.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-zio-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-zio-http-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-annotations",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-cxf-3.2",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-jersey-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-resteasy-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-resteasy-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-2.0-resteasy-common-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-3.0-annotations",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-3.0-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-3.0-jersey-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-jaxrs-3.0-resteasy-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kafka-clients-0.11-bootstrap",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-kafka-clients-0.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-kafka-clients-2.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-kafka-clients-common-0.11",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-log4j-context-data-2.17",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-log4j-context-data-2.17-autoconfigure",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-log4j-context-data-2.7",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-mvc-2.4",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-mvc-2.6",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-ws-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-ws-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-ws-2.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-play-ws-common-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-reactor-netty-0.9",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-reactor-netty-1.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-cloud-gateway-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-cloud-gateway-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-cloud-gateway-webmvc-4.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-data-1.8",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-jms-2.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-jms-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-web-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-web-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-webflux-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-webflux-5.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-webmvc-3.1",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-webmvc-5.3",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-webmvc-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-spring-webmvc-6.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-spring-webmvc-common",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-http-client-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-http-client-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-http-client-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-http-client-common-3.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-sql-client-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-sql-client-5.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.javaagent.instrumentation",
+          "module": "opentelemetry-javaagent-vertx-sql-client-common-4.0",
+          "version": {
+            "requires": "2.28.1-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.semconv",
+          "module": "opentelemetry-semconv-incubating",
+          "version": {
+            "requires": "1.41.1-alpha"
+          }
+        }
+      ]
+    }
+  ]
+}
