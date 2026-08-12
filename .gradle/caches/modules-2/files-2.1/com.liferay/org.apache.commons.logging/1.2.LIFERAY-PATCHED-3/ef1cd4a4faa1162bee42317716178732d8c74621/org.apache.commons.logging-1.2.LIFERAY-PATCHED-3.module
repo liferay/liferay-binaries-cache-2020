@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.apache.commons.logging",
+    "version": "1.2.LIFERAY-PATCHED-3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-3.jar",
+          "url": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-3.jar",
+          "size": 62235,
+          "sha512": "ed81bc29f355ab81813929b14ce8fa1df929a0d99e70102fb58672e1ad3d0f97ff3db8675adf1cb5a95884a56c8d3423025df2f3d5ddb52c43053a684d40a66a",
+          "sha256": "4d5e3c769994521072d18f0753ad4c237644a1e77c429e0ca53a1fde0b3a9dd8",
+          "sha1": "fdd65d24efbf645937643319eb0b56886a5def64",
+          "md5": "53d36ace95076bb3b34754cef190bbf1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-3.jar",
+          "url": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-3.jar",
+          "size": 62235,
+          "sha512": "ed81bc29f355ab81813929b14ce8fa1df929a0d99e70102fb58672e1ad3d0f97ff3db8675adf1cb5a95884a56c8d3423025df2f3d5ddb52c43053a684d40a66a",
+          "sha256": "4d5e3c769994521072d18f0753ad4c237644a1e77c429e0ca53a1fde0b3a9dd8",
+          "sha1": "fdd65d24efbf645937643319eb0b56886a5def64",
+          "md5": "53d36ace95076bb3b34754cef190bbf1"
+        }
+      ]
+    }
+  ]
+}
