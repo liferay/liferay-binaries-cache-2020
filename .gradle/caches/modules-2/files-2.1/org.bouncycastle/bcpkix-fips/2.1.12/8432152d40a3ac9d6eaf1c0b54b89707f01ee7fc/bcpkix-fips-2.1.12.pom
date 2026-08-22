@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.bouncycastle</groupId>
+  <artifactId>bcpkix-fips</artifactId>
+  <packaging>jar</packaging>
+  <name>Bouncy Castle PKIX APIs (FIPS Distribution)</name>
+  <version>2.1.12</version>
+  <description>The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, S/MIME and certificate generation. The APIs are designed primarily to be used in conjunction with the BC FIPS provider. The APIs may also be used with other providers although if being used in a FIPS context it is the responsibility of the user to ensure that any other providers used are FIPS certified and used appropriately.</description>
+  <url>https://www.bouncycastle.org/download/bouncy-castle-java-fips</url>
+  <licenses>
+    <license>
+      <name>Bouncy Castle Licence</name>
+      <url>https://www.bouncycastle.org/licence.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>bcgit@git.bouncycastle.org:bc-fips-libs-2.1.X-java.git</url>
+  </scm>
+  <issueManagement>
+     <system>Support Contract</system>
+     <url>https://www.bouncycastle.org/support</url>
+  </issueManagement>
+  <developers>
+    <developer>
+      <id>feedback-crypto</id>
+      <name>The Legion of the Bouncy Castle Inc.</name>
+      <email>feedback-crypto@bouncycastle.org</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcutil-fips</artifactId>
+      <version>[2.1.7,2.2.0)</version>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+</project>

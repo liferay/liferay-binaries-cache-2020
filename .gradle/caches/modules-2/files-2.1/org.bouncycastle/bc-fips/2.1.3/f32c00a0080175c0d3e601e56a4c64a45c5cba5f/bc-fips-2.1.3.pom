@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.bouncycastle</groupId>
+  <artifactId>bc-fips</artifactId>
+  <packaging>jar</packaging>
+  <name>Bouncy Castle Provider (FIPS Distribution)</name>
+  <version>2.1.3</version>
+  <description>The BC-FJA 2.1.* series is a FIPS 140-3 certified Java implementation with additional Intel native hardware support for AES-NI and SHA-256 where supported. The package has been certified to FIPS 140-3 level 1. This jar contains JCE provider and low-level API for the BC-FJA version 2.1.3, a patched version of BC-FJA-2.1.2, interim FIPS Certificate #4943. Please see certificate for certified platform details.</description>
+  <url>https://www.bouncycastle.org/download/bouncy-castle-java-fips/</url>
+  <licenses>
+    <license>
+      <name>Bouncy Castle Licence</name>
+      <url>https://www.bouncycastle.org/licence.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>bcgit@git.bouncycastle.org:bc-fips-2.1.X-java.git</url>
+  </scm>
+  <issueManagement>
+     <system>Support Contract</system>
+     <url>https://www.bouncycastle.org/support</url>
+  </issueManagement>
+  <developers>
+    <developer>
+      <id>feedback-crypto</id>
+      <name>The Legion of the Bouncy Castle Inc.</name>
+      <email>feedback-crypto@bouncycastle.org</email>
+    </developer>
+  </developers>
+</project>

@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.elasticsearch",
+    "module": "elasticsearch-core",
+    "version": "8.19.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-core-8.19.20.jar",
+          "url": "elasticsearch-core-8.19.20.jar",
+          "size": 114489,
+          "sha512": "33584fef221d196fcc86a035f68b7010fccfdfafb36e5a8106be006f7f14f31636b1ede0454c5ebf66517ddb5bb37c3480834fbfce1cef8884713741796a5593",
+          "sha256": "6475fb5d3ad220bfa68e1e5b946a613ccbf6accea815d1b174993da2cad094c9",
+          "sha1": "14dd7eebd658c4f72938821b5e78d394e71e661e",
+          "md5": "99dcb8d3cedeea7113c03d304c6d0f04"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-core-8.19.20.jar",
+          "url": "elasticsearch-core-8.19.20.jar",
+          "size": 114489,
+          "sha512": "33584fef221d196fcc86a035f68b7010fccfdfafb36e5a8106be006f7f14f31636b1ede0454c5ebf66517ddb5bb37c3480834fbfce1cef8884713741796a5593",
+          "sha256": "6475fb5d3ad220bfa68e1e5b946a613ccbf6accea815d1b174993da2cad094c9",
+          "sha1": "14dd7eebd658c4f72938821b5e78d394e71e661e",
+          "md5": "99dcb8d3cedeea7113c03d304c6d0f04"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-core-8.19.20-javadoc.jar",
+          "url": "elasticsearch-core-8.19.20-javadoc.jar",
+          "size": 221114,
+          "sha512": "76d7f27d142d026843d59e244decbfd2053bef1949598f635156b48a86aff02672c3c21ba90c3cda4ec33f95e0004ea3bd3f79b6b24e5737177582077e266de9",
+          "sha256": "3d683bd06d0e6862979d367884de9e348172c7d4a7e44f5c7d29b0a80fad0614",
+          "sha1": "da2d5a1a10ad118e7f1a998f9a68bf097bdce003",
+          "md5": "8bcc9fc15f7cb41269028a52dd0f97c1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-core-8.19.20-sources.jar",
+          "url": "elasticsearch-core-8.19.20-sources.jar",
+          "size": 73541,
+          "sha512": "4ebd4bc184193ff00ce8cb7ab896e768a69db4ed0a3a5d3b7045a2826c1ff9fccb4d9ccd3e03ce9179c02dbaf26965bb456071cb9d16c6d80c828644bfa1728a",
+          "sha256": "b9213124be38eadbc243935038307b4b42f27ddad30da1c11bdcc30c176ddec8",
+          "sha1": "eb95607f9a94e5fee497da104200cabf582893e6",
+          "md5": "b61f053b1766d69b4481a64d2b0f77ac"
+        }
+      ]
+    }
+  ]
+}

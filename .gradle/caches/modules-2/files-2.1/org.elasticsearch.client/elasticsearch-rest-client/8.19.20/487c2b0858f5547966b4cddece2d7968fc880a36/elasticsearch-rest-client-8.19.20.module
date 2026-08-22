@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.elasticsearch.client",
+    "module": "elasticsearch-rest-client",
+    "version": "8.19.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.14"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.16"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpasyncclient",
+          "version": {
+            "requires": "4.1.5"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore-nio",
+          "version": {
+            "requires": "4.4.16"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticsearch-rest-client-8.19.20.jar",
+          "url": "elasticsearch-rest-client-8.19.20.jar",
+          "size": 74116,
+          "sha512": "bb838eff89d9c6e3b7d3879402ac721c2c61d062247cf47b828bb80c0874c482a841eb3fbd1fab092ad66bfeac0f58e41878d4f5d079a9d38a3a0023d5505bee",
+          "sha256": "cbb7408a2b8b7f0d4c31b4066ee00a3998f90e9a4bed37acc4cd70f3f52f9253",
+          "sha1": "f83bb3475e555108b0b9919a59c7fba262a56f70",
+          "md5": "e4cd782dc781f63202e066e6f2962962"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.14"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.16"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpasyncclient",
+          "version": {
+            "requires": "4.1.5"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore-nio",
+          "version": {
+            "requires": "4.4.16"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elasticsearch-rest-client-8.19.20.jar",
+          "url": "elasticsearch-rest-client-8.19.20.jar",
+          "size": 74116,
+          "sha512": "bb838eff89d9c6e3b7d3879402ac721c2c61d062247cf47b828bb80c0874c482a841eb3fbd1fab092ad66bfeac0f58e41878d4f5d079a9d38a3a0023d5505bee",
+          "sha256": "cbb7408a2b8b7f0d4c31b4066ee00a3998f90e9a4bed37acc4cd70f3f52f9253",
+          "sha1": "f83bb3475e555108b0b9919a59c7fba262a56f70",
+          "md5": "e4cd782dc781f63202e066e6f2962962"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-rest-client-8.19.20-javadoc.jar",
+          "url": "elasticsearch-rest-client-8.19.20-javadoc.jar",
+          "size": 175419,
+          "sha512": "16470a4688f974577952a7c5090f0b0762d271c1f3d978a71a2f7e66649106493a030011f9eaa93204c091cd3e7cd293395f22026c186d10da53183ffb9317fa",
+          "sha256": "52e5aab477c31f3d22900483035a1a4b6d8eabd23b5584cf7a7c95e3c80e7ca4",
+          "sha1": "4630fdb64737f251493e058266eac73f66fb6f0e",
+          "md5": "fdf651cc77e015719373bf8839ea0052"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elasticsearch-rest-client-8.19.20-sources.jar",
+          "url": "elasticsearch-rest-client-8.19.20-sources.jar",
+          "size": 52166,
+          "sha512": "6f923c514b8f7ee2cbb1e0b499437fb1935d49f74a15a608c59c3aa1e890fbcc047a5e55e32cf9b61039b985ea39f955441a68e92ae49daf7745c7f7e0293d94",
+          "sha256": "0b9b4b81466f71a4eb05dc705f9d4cd72fcb2615bc9293c5c1db0d63ae47b7cb",
+          "sha1": "32131e4f9e8dcd9008cdb2b25a4b91b750778e5e",
+          "md5": "10baecbfcf7739d1423a003ddc13dfdb"
+        }
+      ]
+    }
+  ]
+}
