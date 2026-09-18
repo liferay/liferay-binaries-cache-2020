@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ch.sbb.html5diff</groupId>
+    <artifactId>html5diff</artifactId>
+    <version>1.4.5</version>
+
+    <name>HTML5Diff</name>
+    <description>Visual comparison of HTML in Java. Fork of DaisyDiff/DaisyDiff</description>
+    <url>https://github.com/SchweizerischeBundesbahnen/html5diff</url>
+
+    <licenses>
+        <license>
+            <name>Apache License Version 2.0, January 2004</name>
+            <url>http://www.apache.org/licenses/</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>SBB Polarion Team</name>
+            <email>polarion-opensource@sbb.ch</email>
+            <organization>SBB AG</organization>
+            <organizationUrl>https://www.sbb.ch</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/SchweizerischeBundesbahnen/html5diff.git</connection>
+        <developerConnection>scm:git:ssh://github.com/SchweizerischeBundesbahnen/html5diff.git</developerConnection>
+        <url>https://github.com/SchweizerischeBundesbahnen/html5diff/tree/main</url>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/SchweizerischeBundesbahnen/html5diff/issues</url>
+    </issueManagement>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <maven-javadoc-plugin.version>3.11.3</maven-javadoc-plugin.version>
+        <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
+        <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
+
+        <!-- Sonar and JaCoCo -->
+        <jacoco.version>0.8.13</jacoco.version>
+        <sonar.projectKey>SchweizerischeBundesbahnen_${project.artifactId}</sonar.projectKey>
+        <sonar.organization>schweizerischebundesbahnen</sonar.organization>
+        <sonar.projectName>${project.artifactId}</sonar.projectName>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+        <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
+        <sonar.language>java</sonar.language>
+        <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+        <sonar.verbose>true</sonar.verbose>
+        <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
+
+        <central-publishing-maven-plugin.version>0.8.0</central-publishing-maven-plugin.version>
+        <central-publishing-maven-plugin.autoPublish>true</central-publishing-maven-plugin.autoPublish>
+    </properties>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>sonatype-central</id>
+            <url>https://central.sonatype.com/</url>
+        </snapshotRepository>
+        <repository>
+            <id>sonatype-central</id>
+            <url>https://central.sonatype.com/</url>
+        </repository>
+    </distributionManagement>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.htmlunit</groupId>
+                <artifactId>neko-htmlunit</artifactId>
+                <version>4.15.0</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.13.2</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.htmlunit</groupId>
+            <artifactId>neko-htmlunit</artifactId>
+        </dependency>
+
+        <!-- Test -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <profiles>
+        <profile>
+            <id>githubDeploy</id>
+            <distributionManagement>
+                <repository>
+                    <id>github</id>
+                    <name>Github package</name>
+                    <url>https://maven.pkg.github.com/SchweizerischeBundesbahnen/html5diff</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+
+        <profile>
+            <id>gpg-sign</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>central-publishing</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.sonatype.central</groupId>
+                        <artifactId>central-publishing-maven-plugin</artifactId>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.14.0</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>3.3.1</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.5.3</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.4.2</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <version>${maven-source-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <id>attach-sources</id>
+                            <goals>
+                                <goal>jar-no-fork</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.jacoco</groupId>
+                    <artifactId>jacoco-maven-plugin</artifactId>
+                    <version>${jacoco.version}</version>
+                    <configuration>
+                        <excludes>**/*.jar</excludes>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>prepare-agent</id>
+                            <goals>
+                                <goal>prepare-agent</goal>
+                            </goals>
+                        </execution>
+                        <execution>
+                            <id>report</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>report</goal>
+                            </goals>
+                            <configuration>
+                                <formats>
+                                    <format>XML</format>
+                                </formats>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>${maven-javadoc-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <id>attach-javadocs</id>
+                            <goals>
+                                <goal>jar</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <sourcepath>${basedir}/src/main/java</sourcepath>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-gpg-plugin</artifactId>
+                    <version>${maven-gpg-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <id>sign-artifacts</id>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>sign</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.sonatype.central</groupId>
+                    <artifactId>central-publishing-maven-plugin</artifactId>
+                    <version>${central-publishing-maven-plugin.version}</version>
+                    <extensions>true</extensions>
+                    <configuration>
+                        <publishingServerId>sonatype-central</publishingServerId>
+                        <autoPublish>${central-publishing-maven-plugin.autoPublish}</autoPublish>
+                        <waitUntil>published</waitUntil>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>allTests</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <skipTests>false</skipTests>
+                    <environmentVariables>
+                        <!-- use ${env.my_parameter} to access environment variables, if needed. Not sure whether they're passed automatically. -->
+                        <!-- <ONLY_TESTS>modify_and_append_row</ONLY_TESTS> -->
+                        <!--<CREATE_EXPECTED_RESULTS>true</CREATE_EXPECTED_RESULTS> -->
+                    </environmentVariables>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
