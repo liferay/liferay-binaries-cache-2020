@@ -1,0 +1,316 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.jenkins.results.parser",
+    "version": "1.0.1952",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-cloudtrail",
+          "version": {
+            "requires": "1.12.719"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-core",
+          "version": {
+            "requires": "1.12.719"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-ec2",
+          "version": {
+            "requires": "1.12.719"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-rds",
+          "version": {
+            "requires": "1.12.719"
+          }
+        },
+        {
+          "group": "com.atlassian.jira",
+          "module": "jira-rest-java-client-app",
+          "version": {
+            "requires": "5.2.4"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-storage",
+          "version": {
+            "requires": "2.48.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.poshi.core",
+          "version": {
+            "requires": "1.0.159"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "io.prometheus",
+          "module": "prometheus-metrics-exposition-textformats",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.14"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.26.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "org.dom4j",
+          "module": "dom4j",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "org.eclipse.angus",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20231013"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.jenkins.results.parser-1.0.1952.jar",
+          "url": "com.liferay.jenkins.results.parser-1.0.1952.jar",
+          "size": 2054094,
+          "sha512": "453ca4882b7d6e6ac483675e4e4268e2de75edccd0d9b3781e09c8827e6a1930381fbab13551bd8ee5a5b387c1c3c34ba9afc7b15c1ede86329ad13509ae57ca",
+          "sha256": "b499986afdcf80eea91126a77b4047e97b3244c7fa76ad69ba7af8ee9d5d072b",
+          "sha1": "bfb617d1409a110b91e422ad6a8f6aeace119e4a",
+          "md5": "fca4d10b554e852a83d91deda37a4f98"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-cloudtrail",
+          "version": {
+            "requires": "1.12.719"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-core",
+          "version": {
+            "requires": "1.12.719"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-ec2",
+          "version": {
+            "requires": "1.12.719"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-rds",
+          "version": {
+            "requires": "1.12.719"
+          }
+        },
+        {
+          "group": "com.atlassian.jira",
+          "module": "jira-rest-java-client-app",
+          "version": {
+            "requires": "5.2.4"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-storage",
+          "version": {
+            "requires": "2.48.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.poshi.core",
+          "version": {
+            "requires": "1.0.159"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "io.prometheus",
+          "module": "prometheus-metrics-exposition-textformats",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.14"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.26.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "org.dom4j",
+          "module": "dom4j",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "org.eclipse.angus",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20231013"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.jenkins.results.parser-1.0.1952.jar",
+          "url": "com.liferay.jenkins.results.parser-1.0.1952.jar",
+          "size": 2054094,
+          "sha512": "453ca4882b7d6e6ac483675e4e4268e2de75edccd0d9b3781e09c8827e6a1930381fbab13551bd8ee5a5b387c1c3c34ba9afc7b15c1ede86329ad13509ae57ca",
+          "sha256": "b499986afdcf80eea91126a77b4047e97b3244c7fa76ad69ba7af8ee9d5d072b",
+          "sha1": "bfb617d1409a110b91e422ad6a8f6aeace119e4a",
+          "md5": "fca4d10b554e852a83d91deda37a4f98"
+        }
+      ]
+    }
+  ]
+}
